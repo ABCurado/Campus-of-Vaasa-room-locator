@@ -9,7 +9,10 @@
 	<meta name="author" content="SitePoint">
 
 
-	
+	<!-- Your web-app is https, so your scripts need to be too -->
+    <script src="https://code.jquery.com/jquery-2.2.1.min.js"
+            integrity="sha256-gvQgAFzTH6trSrAWoH1iPo9Xc96QxSZ3feW6kem+O00="
+            crossorigin="anonymous"></script>
 	<!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
@@ -25,34 +28,54 @@
 </head>
 
 <body>
-<header>
-<h1>Room Locator - Admin Panel</h1>
-</header>
-<div class="container-fluid wrapper">
+<div class="container wrapper">
 	<div class="row">
 		<div class="col-sm-3">
-			<button>Manage Rooms</button><br>
-			<button>Manage Buildings</button><br>
-			<button>Manage Floorplans</button><br>
-			<button>About</button><br>
-			<button>Help</button><br>
+			<a href="#1">Manage Rooms</a><br>
+			<a href="#2">Manage Buildings</a><br>
+			<a href="#3">Manage Floorplans</a><br>
+			<a href="#4">Help</a><br>
+			<a href="#5">About</a><br>
 		</div>
+
 		<div class="col-sm-9">
 			<div class="panel add show">
-			<h2>Manage Rooms</h2>
-			<ul class="nav nav-pills">
-				<li class="active">
-					<a href="#1a" data-toggle="tab">Add room</a>
-				</li>
-				<li class="active">
-					<a href="#2a" data-toggle="tab">Modify room</a>
-				</li>
-				<li class="active">
-					<a href="#3a" data-toggle="tab">Delete room</a>
-				</li>
-			</ul>
+				<div class="container"><h2>Manage Rooms</h2></div>
+					<div id="exTab2" class="container">	
+						<ul class="tab">
+						  <li><a href="#" class="tablinks" onclick="openCity(event, 'addRoom')">Add Room</a></li>
+						  <li><a href="#" class="tablinks" onclick="openCity(event, 'modRoom')">Modify Room</a></li>
+						  <li><a href="#" class="tablinks" onclick="openCity(event, 'remRoom')">Remove Room</a></li>
+						</ul>
+
+						<div id="addRoom" class="tabcontent">
+							<h3>Add room</h3>
+								<form method="set" action="addRoom.php">
+									<input type="text" value="roomId"></input>
+									<div id="map">
+										<img id="mapp" src="img/vamk1.png" style="visibility: show;" />
+									</div>
+									<div>
+									<h3 id="percent"> Test </h3>
+									</div>
+									
+									<input type="submit"></input>
+								</form>
+						</div>
+
+						<div id="modRoom" class="tabcontent">
+						  <h3>Modify Room</h3>
+						  <p>Here you can modify room info</p> 
+						</div>
+
+						<div id="remRoom" class="tabcontent">
+						  <h3>Remove Room</h3>
+						  <p>Here you can remove room from use</p>
+						</div>
+					</div>
 			</div>
 			
+			<!--
 			<div class="panel edit hidden">
 			<h2>Manage Buildings</h2>
 			</div>
@@ -70,10 +93,14 @@
 			<h2>Help</h2>
 			<p>As an admin you can manage rooms, building and floorplans</p>
 			</div>
-			
+			-->
 		</div>
 	</div>
 </div>
+
+	
+
   <script src="js/scripts.js"></script>
+  <script src="js/coordinates.js"></script>
 </body>
 </html>
