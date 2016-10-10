@@ -1,0 +1,24 @@
+<!DOCTYPE dataset SYSTEM "dataset.dtd">
+<dataset>
+  <organization id="1"
+                name="VAMK" />
+  <area id="1"
+        name="Wolffintie A"
+        organization_id="1"
+        area_type_id="1" />
+
+  <area id="2"
+        name="Kerros 1"
+        parent_area_id="1"
+        organization_id="1"
+        base_image="wolffa1.png"
+        area_type_id="2" />
+
+  <area id="3"
+        name="C0083"
+        parent_area_id="2"
+        organization_id="1"
+        photo="wolffc0083.png"
+        area_type_id="3" />
+
+</dataset>

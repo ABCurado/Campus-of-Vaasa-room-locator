@@ -1,0 +1,4 @@
+server:
+  rootPath: /api/
+template: Hello, %s!
+defaultName: Stranger
