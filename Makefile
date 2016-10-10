@@ -1,5 +1,19 @@
 SHELL := /bin/bash
 
+windows_database_ip = $(shell docker-machine ip default)
+linux_database_ip = localhost
+
+ifeq (${OS},windows)
+  database_ip=$(windows_database_ip)
+else
+  database_ip=$(linux_database_ip)
+endif
+
+start:
+		mvn liquibase:dropAll -Ddatabase.ip=$(database_ip) -e
+		mvn liquibase:update -Ddatabase.ip=$(database_ip) -e
+		mvn package -Ddatabase.ip=$(database_ip) -e
+
 app:
 	mvn package -e
 
@@ -15,9 +29,3 @@ start-local-db:
 
 stop-local-db:
 	docker stop mapp-sql-database && docker rm mapp-sql-database
-
-start:
-	mvn liquibase:dropAll -e
-	mvn liquibase:update -e
-	mvn package -e
-	
