@@ -3,17 +3,22 @@ body, html{
 	min-height:100%;
 	margin: 0;
 	padding: 0;
+	overflow: hidden;
 }
 
-#map{
-	bbackground-image: url('file:///C:/Users/Antti/Desktop/Campus-of-Vaasa-room-locator-development/Campus-of-Vaasa-room-locator-Development/HTML/img/vamk1.png');
-}
+
+
 
 .panel{
 	padding: inherit;
 	min-height: 100%;
 	margin: inherit;
 }
+
+.row{
+	margin-bottom: 0;
+}
+
 
 div{
 	border-style: solid;
@@ -24,14 +29,17 @@ div{
 }
 
 
-.wrapper{
+#wrapper{
+	height: 100vh;
+	width: 100vw;
 	min-height: 100%;
 	margin: 0;
 	padding: 0;
 }
 
+
 /* Style the list */
-ul.tab {
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -41,7 +49,7 @@ ul.tab {
 }
 
 /* Float the list items side by side */
-ul.tab li {float: left;}
+ul.tab2 li {float: left;}
 
 /* Style the links inside the list items */
 ul.tab li a {
@@ -66,4 +74,39 @@ ul.tab li a:focus, .active {background-color: #ccc;}
     padding: 6px 12px;
     border: 1px solid #ccc;
     border-top: none;
+}
+
+#map1{
+	position: absolute;
+	height: auto;
+	width: 100%;
+}
+
+#mark{
+	position: relative;
+	width: 2%; 
+	height: 2%;
+}
+
+#map{
+	position: relative;
+	height: auto;
+	width: 100%;
+	margin-bottom: 0;
+}
+
+#menutab{
+	min-height: 100vh;
+}
+
+#managetab{
+	min-height: 100vh;
+}
+
+#content{
+	min-height: 100vh;
+}
+
+#addRoom{
+	min-height:360px;
 }

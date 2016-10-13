@@ -1,4 +1,4 @@
-function openCity(evt, cityName) {
+function openTab(evt, cityName) {
     // Declare all variables
     var i, tabcontent, tablinks;
 
@@ -17,4 +17,11 @@ function openCity(evt, cityName) {
     // Show the current tab, and add an "active" class to the link that opened the tab
     document.getElementById(cityName).style.display = "block";
     evt.currentTarget.className += " active";
+}
+
+function searchRoom(){
+	
+	var roomid = "A3010";
+	document.getElementById("searchfield").setAttribute("value", roomid);
+	
 }
