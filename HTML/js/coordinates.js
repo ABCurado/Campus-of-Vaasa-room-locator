@@ -24,7 +24,10 @@ $("#map1").click(function(e){
   document.getElementById("xcord1").innerHTML = "X: " + Xperc.toFixed(2);
   document.getElementById("ycord1").innerHTML = "Y: " + Yperc.toFixed(2);
   
-  document.getElementById("mark").setAttribute("left", Xperc +"%");
+  Xperc = Xperc * 100;
+  Yperc = Yperc * 100;
+  
+  document.getElementsById("mark").setAttribute("left", Xperc +"%");
   document.getElementById("mark").setAttribute("top", Yperc +"%");
   document.getElementById("mark").setAttribute("visibility", "show");
 });

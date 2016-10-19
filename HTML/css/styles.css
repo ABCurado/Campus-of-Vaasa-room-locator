@@ -76,23 +76,20 @@ ul.tab li a:focus, .active {background-color: #ccc;}
     border-top: none;
 }
 
-#map1{
+
+
+.map{
+position: relative;
+width: 75%;
+}
+
+.mark{
 	position: absolute;
-	height: auto;
-	width: 100%;
-}
-
-#mark{
-	position: relative;
-	width: 2%; 
+	width: 2%;
 	height: 2%;
-}
-
-#map{
-	position: relative;
-	height: auto;
-	width: 100%;
-	margin-bottom: 0;
+	
+	
+	transform: translate(-50%, -50%);
 }
 
 #menutab{
