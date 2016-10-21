@@ -6,116 +6,108 @@
 	<title>Admin Panel</title>
 	<meta name="description" content="The HTML5 Herald">
 	<meta name="author" content="SitePoint">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
+	<link rel="stylesheet" href="css/normalize.css">
+	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
 
 	<!-- Your web-app is https, so your scripts need to be too -->
     <script src="https://code.jquery.com/jquery-2.2.1.min.js"
             integrity="sha256-gvQgAFzTH6trSrAWoH1iPo9Xc96QxSZ3feW6kem+O00="
             crossorigin="anonymous"></script>
 	<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
-<!-- Optional theme -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
   <![endif]-->
+	
     <link rel="stylesheet" href="css/styles.css?v=1.0">
 </head>
 
 <body>
-<div id="wrapper" class="container">
+	<h1>Room Locator Admin-panel</h1>
 	<div class="row">
-		<div id="menutab" class="col-sm-2">
-			<div id="tab">
-				<ul class="tab">
-					<li><a href="#1">Manage Rooms</a></li><br>
-					<li><a href="#2">Manage Buildings</a></li><br>
-					<li><a href="#3">Manage Floorplans</a></li><br>
-					<li><a href="#4">Help</a></li><br>
-					<li><a href="#5">About</a></li><br>
-				</ul>
-			</div>
+		<div class="col col-sm-2">		
+				<ul class="left-tab tab">
+					<li><a href="#" class="mainlinks" onclick="openMainTab(event, 'openRooms')">Manage Rooms</a></li>
+					<li><a href="#" class="mainlinks" onclick="openMainTab(event, 'openHelp')">Help</a></li>
+					<li><a href="#" class="mainlinks" onclick="openMainTab(event, 'openAbout')">About</a></li>
+				</ul>		
 		</div>
 
-		<div id="managetab" class="col-sm-10">
-			<div class="panel add show">
+		<div id="managetab" class="col col-sm-10">
+			<!-- Right Panel Starts Here-->
+			<div id="openRooms" class="maintabs">
 				<div id="content">
-					<div id="tab">	
-						<ul class="tab tab2">
-						  <li><a href="#" class="tablinks" onclick="openTab(event, 'addRoom')">Add Room</a></li>
-						  <li><a href="#" class="tablinks" onclick="openTab(event, 'modRoom')">Modify Room</a></li>
-						  <li><a href="#" class="tablinks" onclick="openTab(event, 'remRoom')">Remove Room</a></li>
-						</ul>
-
-						<div id="addRoom" class="tabcontent">
-							<button id="emptyRoom" onclick="searchRoom()">Search Room</button><span>Search for first room which has no coordinates</span>
-								<form method="set" action="addRoom()">
-									<input id="searchfield"type="text" name="roomId" value="ROOM ID"></input>
-									<div class="map">
-										<img id="map1" class="img-responsive" src="img/vamk1.png"/>
-										<img id="mark" src="img/ball.png"/>
-									</div>
-									<h3 id="percent"> <span class="xcord1" id="xcord1"> </span> <span class="ycord1" id="ycord1"> </span> </h3>
-									
-									
-									<input type="submit"></input>
-								</form>
-						</div>
-
-						<div id="modRoom" class="tabcontent">
-						  <h3>Modify Room</h3>
-						  <form method="set" action="setRoom()">
-									<input type="text" value="roomId"></input>
-									<div class="map">
-										<img id="map2" src="img/vamk1.png" style="visibility: show; width: 75%; height: 75%;" />
-									</div>
-									<div>
-									<h3 id="percent"> <span class="xcord2" id="xcord2"> </span> <span class="ycord2" id="ycord2"> </span> </h3>
-									</div>
-									
-									<input type="submit"></input>
-								</form>
-						</div>
-
-						<div id="remRoom" class="tabcontent">
-						  <h3>Remove Room</h3>
-						  <form method="delete" action="deleteRoom()"><br>
-						 
-							<input type="text" value="roomId">
-							</input>
-							<input type="submit"></input>
-						  </form>
+					
+					<!-- Horizontal Menu -->
+					<ul class="right-tab tab">
+							  <li><a href="#" class="tablinks" onclick="openTab(event, 'addRoom')">Add Room</a></li>
+							  <li><a href="#" class="tablinks" onclick="openTab(event, 'remRoom')">Remove Room</a></li>
+					</ul>
+					
+					<!-- Menu Content -->
+					<div id="addRoom" class="right tabcontent">
+						<div class="content">
+							<p>Search for first room which has no coordinates</p>
+								<button id="emptyRoom" onclick="searchRoom()">Search Room</button>
+									<form method="set" action="addRoom()">
+										<input id="searchfield"type="text" name="roomId" placeholder="ROOM ID"></input>
+										<div class="plans">
+											<img id="map1" class="img-responsive" src="img/vamk1.png"/>
+											<img id="mark" src="img/ball.png"/>
+										</div>
+										<h3 id="percent"> <span class="xcord1" id="xcord1"> </span> <span class="ycord1" id="ycord1"> </span> </h3>		
+										<input type="submit"></input>
+									</form>
 						</div>
 					</div>
+					
+
+					<div id="remRoom" class="right tabcontent">
+							  <h3>Remove Room</h3>
+							  <form method="delete" action="deleteRoom()"><br>
+							 
+								<input type="text" placeholder="roomId">
+								</input>
+								<input type="submit"></input>
+							  </form>
+							</div>
+						
+					</div>
+				
+			</div>
+			
+			
+			<div id="openHelp" class="maintabs">
+					<ul class=" tab">
+								  <li><h2>Help</h2></li>
+					</ul>
+					<div class="content">
+						<h3>Helpful Content</h3>
+						<p>Lots of helpful text here.</p>
+					</div>
+				
+			</div>
+			
+			<div id="openAbout" class="maintabs">
+					<ul class=" tab">
+							  <li><h2>About</h2></li>
+					</ul>
+					<div class="content">
+						<h2>About here</h2>
 					</div>
 			</div>
 			
-			<!--
-			<div class="panel edit hidden">
-			<h2>Manage Buildings</h2>
-			</div>
 			
-			<div class="panel remove hidden">
-			<h2>Manage Floorplans</h2>
-			</div>
-			
-			<div class="panel about hidden">
-			<h2>About</h2>
-			<p>Room locator application</p>
-			</div>
-			
-			<div class="panel help hidden">
-			<h2>Help</h2>
-			<p>As an admin you can manage rooms, building and floorplans</p>
-			</div>
-			-->
 		</div>
 	</div>
-</div>
 
 	
 

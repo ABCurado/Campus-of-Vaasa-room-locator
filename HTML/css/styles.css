@@ -3,39 +3,21 @@ body, html{
 	min-height:100%;
 	margin: 0;
 	padding: 0;
-	overflow: hidden;
+	font-family: 'Oswald', sans-serif;
 }
 
-
-
-
-.panel{
-	padding: inherit;
-	min-height: 100%;
-	margin: inherit;
+.content{
+	padding: 6px;
 }
 
 .row{
-	margin-bottom: 0;
+	margin: 0;
 }
 
-
-div{
-	border-style: solid;
-	min-height: 100%;
-	margin: 0;
-	padding: 0;
-	
-}
-
-
-#wrapper{
-	height: 100vh;
-	width: 100vw;
-	min-height: 100%;
-	margin: 0;
+.col{
 	padding: 0;
 }
+
 
 
 /* Style the list */
@@ -49,7 +31,7 @@ ul {
 }
 
 /* Float the list items side by side */
-ul.tab2 li {float: left;}
+ul.right-tab li {float: left;}
 
 /* Style the links inside the list items */
 ul.tab li a {
@@ -60,6 +42,7 @@ ul.tab li a {
     text-decoration: none;
     transition: 0.3s;
     font-size: 17px;
+	width: 100%;
 }
 
 /* Change background color of links on hover */
@@ -69,41 +52,38 @@ ul.tab li a:hover {background-color: #ddd;}
 ul.tab li a:focus, .active {background-color: #ccc;}
 
 /* Style the tab content */
-.tabcontent {
+.maintabs {
     display: none;
-    padding: 6px 12px;
     border: 1px solid #ccc;
     border-top: none;
 }
 
-
-
-.map{
-position: relative;
-width: 75%;
+.tabcontent {
+    display: none;
+	padding: 6px;
+    border: 1px solid #ccc;
+    border-top: none;
 }
 
-.mark{
+.plans{
+	position: relative;
+}
+
+
+.map1{
+position: relative;
+width: 100%;
+}
+
+#mark{
+	visibility: hidden;
 	position: absolute;
-	width: 2%;
-	height: 2%;
-	
-	
+	width: 1vw;
+	height: 1vw;
 	transform: translate(-50%, -50%);
 }
 
-#menutab{
-	min-height: 100vh;
+h2{
+	margin-left: 10px;
 }
 
-#managetab{
-	min-height: 100vh;
-}
-
-#content{
-	min-height: 100vh;
-}
-
-#addRoom{
-	min-height:360px;
-}

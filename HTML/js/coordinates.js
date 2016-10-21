@@ -3,23 +3,29 @@
 $("#map1").click(function(e){
 
   var rect = this.getBoundingClientRect();
-  console.log(rect.top, rect.left);
+
   
-  var posX = e.pageX - Math.round(rect.left);
-  var posY = e.pageY - Math.round(rect.top);
   
-  console.log(posX, posY);
+  var scrollTop = window.pageYOffset;
+  var scrollLeft = window.pageXOffset;
+  
+  console.log("TOP:" + scrollTop + "LEFT:" +scrollLeft);
+  
+  var posX = e.pageX - Math.round(rect.left) - scrollLeft;
+  var posY = e.pageY - Math.round(rect.top) - scrollTop;
+  
+  console.log("TOpp:" + posY + "LEFtt:" +	posX);
+  
   
   
   
   var mapWidth = $(this).width();
   var mapHeight = $(this).height();
-  console.log(mapWidth, mapHeight);
+
   
   var Xperc = (posX / mapWidth);
   var Yperc = (posY / mapHeight);
   
-  console.log(Xperc, Yperc);
   
   document.getElementById("xcord1").innerHTML = "X: " + Xperc.toFixed(2);
   document.getElementById("ycord1").innerHTML = "Y: " + Yperc.toFixed(2);
@@ -27,9 +33,9 @@ $("#map1").click(function(e){
   Xperc = Xperc * 100;
   Yperc = Yperc * 100;
   
-  document.getElementsById("mark").setAttribute("left", Xperc +"%");
-  document.getElementById("mark").setAttribute("top", Yperc +"%");
-  document.getElementById("mark").setAttribute("visibility", "show");
+  document.getElementById("mark").style.left = Xperc +"%";
+  document.getElementById("mark").style.top = Yperc +"%";
+  document.getElementById("mark").style.visibility = "visible";
 });
 
 $("#map2").click(function(e){
