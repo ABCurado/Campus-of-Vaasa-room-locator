@@ -11,6 +11,7 @@ import java.util.Set;
 public class Area {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    //@Column(name = "id")
     private Long id;
 
     @Column(name = "name")
@@ -20,8 +21,11 @@ public class Area {
     @JoinColumn(name = "organization_id")
     private Organization organization;
 
-    @OneToMany(mappedBy = "areas")
-    @JoinColumn()
+    @ManyToOne
+    @JoinColumn(name = "parent_area_id")
+    private Area parentArea;
+
+    @OneToMany(mappedBy = "parentArea")
     private Set<Area> areas;
 
     @Column(name = "photo")
@@ -88,5 +92,13 @@ public class Area {
 
     public void setAreaType(AreaType areaType) {
         this.areaType = areaType;
+    }
+
+    public Area getParentArea() {
+        return parentArea;
+    }
+
+    public void setParentArea(Area parentArea) {
+        this.parentArea = parentArea;
     }
 }

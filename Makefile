@@ -16,6 +16,7 @@ start:
 
 app:
 	mvn package -e
+	java -jar target/roomlocator-1.0-SNAPSHOT.jar server conf.yml
 
 migrations:
 	mvn liquibase:update -e

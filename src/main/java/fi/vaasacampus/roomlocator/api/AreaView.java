@@ -45,7 +45,7 @@ public class AreaView {
         return new AreaView(
                 a.getId(),
                 a.getName(),
-                null,
+                OrganizationView.detailsOf(a.getOrganization()),
                 a.getAreas().stream().map(AreaView::summaryOf).collect(Collectors.toSet()),
                 a.getPhoto(),
                 a.getBaseImage(),
