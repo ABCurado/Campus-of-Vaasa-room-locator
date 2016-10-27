@@ -1,6 +1,4 @@
- 
-
-$("#map1").click(function(e){
+ $("#map").click(function(e){
 
   var rect = this.getBoundingClientRect();
 

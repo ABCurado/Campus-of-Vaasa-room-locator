@@ -34,13 +34,18 @@ top: 40%;
 display: block;
 }
 
-#logo {
+#title{
+	font-size: 2em;
+}
+
+#logo{
+
 vertical-align: middle;
 margin:auto;
 position:relative;
 display:block;
 top: 40%;
-width: 500px;;
+width: 500px;
 display: block;
 vertical-align: middle;
 }

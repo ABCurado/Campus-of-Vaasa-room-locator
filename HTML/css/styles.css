@@ -1,34 +1,162 @@
-body, html{
+*{
+	box-sizing: border-box;
+}
+
+html, body{
 	height: 100%;
+}
+
+body{
+	
+	width: 100%;
 	min-height:100%;
 	margin: 0;
 	padding: 0;
 	font-family: 'Oswald', sans-serif;
+	
+	/*background: #EB3349; /* fallback for old browsers */
+	/*background: -webkit-linear-gradient(to left, #EB3349 , #F45C43); /* Chrome 10-25, Safari 5.1-6 */
+	/*background: linear-gradient(to left, #EB3349 , #F45C43); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	
 }
 
+
+.container{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
 .content{
 	padding: 6px;
 }
 
-.row{
-	margin: 0;
-}
+
 
 .col{
 	padding: 0;
+	height: 100%;
 }
 
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+	
+	/* DIV CONTAINERS */
+	#dropdown{
+		width: 15vw;
+		height: 15vw;
+		float: left;
+	}
+	
+	#menu-search{
+		float: right;
+		width: 85vw;
+		height: 15vw;
+	}
+	
+	#menu-search form{
+		height: 100%;
+		width: 100%;
+	}
+	.btn-sx{
+		box-sizing: border-box;
+		width: 100%;
+		height: 100%;
+		font-size: 22px;
+		line-height: normal;
+		-webkit-border-radius: 8px;
+		-moz-border-radius: 8px;
+        border-radius: 8px;
+	}
+	
+	span.glyphicon-menu-hamburger{
+		font-size: 2.5em;
+	}
+	
+	
+	
+	.navbar{
+		position: relative;
+		margin: 0;
+		width: 100%;
+		border: 0;
+	}
+	
+	
+	
+	
+	
+	.dropdown-menu{
+		font-size: 4em;
+	}
+	
+	#dropdown-menu1{
+		
+		margin: 0;
+		font-size: 30px
+	}
+	
+	.menu-search input[type=text] {
+	
+	height: 100%;
+	width: 100%;	
+	box-sizing: border-box;
+	border: 2px solid #ccc;
+	border-radius: 5px;
+	padding-left: 15%;
+	background-color: white;
+	background-image: url('../img/searchicon.png');
+	background-position: 3vw 3.5vw; 
+	background-repeat: no-repeat;
+	background-size: 10%;
+	
+	-webkit-transition: width 0.4s ease-in-out;
+	transition: width 0.4s ease-in-out;
+	}
+	
+	.floors{
+		position:absolute;
+		width: 10vw;
+		right: 5%;
+		font-size: 4em;
+	}
+	
+	
+	.pagination li{
+		display: list-item;
+		
+	}
+	
+	.pagination li a{
+	display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+	width: 100%;
+	}
+	
+	#map-wrapper{
+		position:relative;
+	}
+
+	#header{
+		padding: 0;
+		margin: 0;
+	}
+	
 
 
 /* Style the list */
-ul {
+ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     border: 1px solid #ccc;
-    background-color: #f1f1f1;
+    /*background-color: #EB3349;*/
 }
+
 
 /* Float the list items side by side */
 ul.right-tab li {float: left;}
@@ -67,6 +195,7 @@ ul.tab li a:focus, .active {background-color: #ccc;}
 
 .plans{
 	position: relative;
+	display: inline-block;
 }
 
 
@@ -83,7 +212,42 @@ width: 100%;
 	transform: translate(-50%, -50%);
 }
 
+h1{
+	font-size: 3em;
+}
+
 h2{
 	margin-left: 10px;
 }
+input {
+display: block;
+}
 
+#search {
+position:relative;
+top: 40%;
+display: block;
+
+}
+
+
+#logo {
+width: 100vw;
+vertical-align: middle;
+text-align: center;
+margin:auto;
+position:absolute;
+display:block;
+top: 50%;
+left: 50%;
+display: block;
+transform: translate(-50%, -50%);
+
+}
+/*
+@media only screen and (min-width: 768px) {
+    h1{
+		font-size: 6em;
+	}
+}
+*/
