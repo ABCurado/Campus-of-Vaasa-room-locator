@@ -30,6 +30,11 @@
             <artifactId>mysql-connector-java</artifactId>
             <version>${mysql-version}</version>
         </dependency>
+        <dependency>
+            <groupId>io.dropwizard</groupId>
+            <artifactId>dropwizard-assets</artifactId>
+            <version>${dropwizard.version}</version>
+        </dependency>
     </dependencies>
 
     <build>
@@ -146,6 +151,29 @@
             </execution>
         </executions>
     </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-resources-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <id>copy static assets</id>
+                        <phase>test</phase>
+                        <goals>
+                            <goal>
+                                copy-resources
+                            </goal>
+                        </goals>
+                        <configuration>
+                            <outputDirectory>${project.basedir}/target/classes/static</outputDirectory>
+                            <resources>
+                                <resource>
+                                    <directory>HTML</directory>
+                                </resource>
+                            </resources>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
         </plugins>
     </build>
 

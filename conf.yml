@@ -6,5 +6,6 @@ database:
 
 server:
   rootPath: /api/
+  applicationContextPath: /
 template: Hello, %s!
 defaultName: Stranger

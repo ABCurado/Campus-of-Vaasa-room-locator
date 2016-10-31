@@ -7,6 +7,7 @@ import fi.vaasacampus.roomlocator.db.AreaDAO;
 import fi.vaasacampus.roomlocator.health.TemplateHealthCheck;
 import fi.vaasacampus.roomlocator.resources.AreaResource;
 import io.dropwizard.Application;
+import io.dropwizard.assets.AssetsBundle;
 import io.dropwizard.db.DataSourceFactory;
 import io.dropwizard.hibernate.HibernateBundle;
 import io.dropwizard.setup.Bootstrap;
@@ -30,6 +31,7 @@ public class RoomLocatorApplication extends Application<RoomLocatorConfiguration
     @Override
     public void initialize(Bootstrap<RoomLocatorConfiguration> bootstrap) {
         bootstrap.addBundle(hibernate);
+        bootstrap.addBundle(new AssetsBundle("/static/", "/", "index.html"));
     }
 
 
