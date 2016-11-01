@@ -25,10 +25,11 @@ public class FloorView extends AreaView {
             Long id,
             String name,
             OrganizationView organization,
+            Set<CoordinateView> coordinates,
             BuildingView building,
             Set<RoomView> rooms,
             String baseImage) {
-        super(id, name, organization);
+        super(id, name, organization, coordinates);
         this.building = building;
         this.rooms = rooms;
         this.baseImage = baseImage;
@@ -39,6 +40,7 @@ public class FloorView extends AreaView {
                 f.getId(),
                 f.getName(),
                 OrganizationView.detailsOf(f.getOrganization()),
+                f.getCoordinates().stream().map(CoordinateView::summaryOf).collect(Collectors.toSet()),
                 BuildingView.summaryOf(f.getBuilding()),
                 null,
                 f.getBaseImage()

@@ -1,6 +1,7 @@
 package fi.vaasacampus.roomlocator.core;
 
 import javax.persistence.*;
+import java.util.Set;
 
 /**
  * Created by niko on 10.10.2016.
@@ -21,6 +22,9 @@ public abstract class Area {
     @ManyToOne
     @JoinColumn(name = "organization_id")
     private Organization organization;
+
+    @OneToMany(mappedBy = "area")
+    private Set<Coordinate> coordinates;
 
     public Long getId() {
         return id;
@@ -44,5 +48,13 @@ public abstract class Area {
 
     public void setOrganization(Organization organization) {
         this.organization = organization;
+    }
+
+    public Set<Coordinate> getCoordinates() {
+        return coordinates;
+    }
+
+    public void setCoordinates(Set<Coordinate> coordinates) {
+        this.coordinates = coordinates;
     }
 }

@@ -24,7 +24,7 @@ public class RoomLocatorApplication extends Application<RoomLocatorConfiguration
         new RoomLocatorApplication().run(args);
     }
 
-    private final HibernateBundle<RoomLocatorConfiguration> hibernate = new HibernateBundle<RoomLocatorConfiguration>(Area.class, Room.class, Building.class, Floor.class, Organization.class) {
+    private final HibernateBundle<RoomLocatorConfiguration> hibernate = new HibernateBundle<RoomLocatorConfiguration>(Area.class, Room.class, Building.class, Floor.class, Organization.class, Coordinate.class) {
         @Override
         public DataSourceFactory getDataSourceFactory(RoomLocatorConfiguration configuration) {
             return configuration.getDataSourceFactory();

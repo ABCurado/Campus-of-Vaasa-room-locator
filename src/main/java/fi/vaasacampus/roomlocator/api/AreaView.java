@@ -7,6 +7,9 @@ import fi.vaasacampus.roomlocator.core.Building;
 import fi.vaasacampus.roomlocator.core.Floor;
 import fi.vaasacampus.roomlocator.core.Room;
 
+import java.util.Set;
+import java.util.stream.Collectors;
+
 /**
  * Created by niko on 10.10.2016.
  */
@@ -21,10 +24,14 @@ public class AreaView {
     @JsonProperty
     private OrganizationView organization;
 
-    public AreaView(Long id, String name, OrganizationView organization) {
+    @JsonProperty
+    private Set<CoordinateView> coordinates;
+
+    public AreaView(Long id, String name, OrganizationView organization, Set<CoordinateView> coordinates) {
         this.id = id;
         this.name = name;
         this.organization = organization;
+        this.coordinates = coordinates;
     }
 
     public static AreaView summaryOf (Area a) {
@@ -38,7 +45,8 @@ public class AreaView {
         return new AreaView(
                 a.getId(),
                 a.getName(),
-                OrganizationView.detailsOf(a.getOrganization())
+                OrganizationView.detailsOf(a.getOrganization()),
+                a.getCoordinates().stream().map(CoordinateView::summaryOf).collect(Collectors.toSet())
         );
     }
 }

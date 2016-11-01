@@ -3,6 +3,7 @@ package fi.vaasacampus.roomlocator.api;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import fi.vaasacampus.roomlocator.core.Building;
+import fi.vaasacampus.roomlocator.core.Coordinate;
 
 import java.util.Set;
 import java.util.stream.Collectors;
@@ -19,8 +20,9 @@ public class BuildingView extends AreaView {
             Long id,
             String name,
             OrganizationView organization,
+            Set<CoordinateView> coordinates,
             Set<FloorView> floors) {
-        super(id, name, organization);
+        super(id, name, organization, coordinates);
         this.floors = floors;
     }
 
@@ -29,6 +31,7 @@ public class BuildingView extends AreaView {
                 b.getId(),
                 b.getName(),
                 OrganizationView.detailsOf(b.getOrganization()),
+                b.getCoordinates().stream().map(CoordinateView::summaryOf).collect(Collectors.toSet()),
                 null
         );
     }

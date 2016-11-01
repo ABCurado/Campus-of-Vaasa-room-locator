@@ -4,6 +4,9 @@ import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import fi.vaasacampus.roomlocator.core.Room;
 
+import java.util.Set;
+import java.util.stream.Collectors;
+
 /**
  * Created by niko on 1.11.2016.
  */
@@ -15,8 +18,14 @@ public class RoomView extends AreaView{
     @JsonProperty
     private String photo;
 
-    public RoomView(Long id, String name, OrganizationView organization, FloorView floor, String photo) {
-        super(id, name, organization);
+    public RoomView(
+            Long id,
+            String name,
+            OrganizationView organization,
+            Set<CoordinateView> coordinates,
+            FloorView floor,
+            String photo) {
+        super(id, name, organization, coordinates);
         this.floor = floor;
         this.photo = photo;
     }
@@ -26,6 +35,7 @@ public class RoomView extends AreaView{
                 r.getId(),
                 r.getName(),
                 OrganizationView.detailsOf(r.getOrganization()),
+                r.getCoordinates().stream().map(CoordinateView::summaryOf).collect(Collectors.toSet()),
                 null,
                 r.getPhoto()
         );

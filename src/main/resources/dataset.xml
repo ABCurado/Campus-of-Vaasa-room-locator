@@ -21,4 +21,6 @@
         photo="wolffc0083.png"
         area_type_id="3" />
 
+  <coordinate id="1" latitude="0.50" longitude="0.50" area_id="3" />
+
 </dataset>
