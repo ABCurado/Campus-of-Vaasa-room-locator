@@ -1,11 +1,13 @@
 package fi.vaasacampus.roomlocator.api;
 
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import fi.vaasacampus.roomlocator.core.Organization;
 
 /**
  * Created by niko on 10.10.2016.
  */
+@JsonInclude(JsonInclude.Include.NON_NULL)
 public class OrganizationView {
     @JsonProperty
     private Long id;

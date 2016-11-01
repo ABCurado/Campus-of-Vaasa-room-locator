@@ -1,17 +1,18 @@
 package fi.vaasacampus.roomlocator.core;
 
 import javax.persistence.*;
-import java.util.Set;
 
 /**
  * Created by niko on 10.10.2016.
  */
 @Entity
-@Table(name = "area")
-public class Area {
+@Table(name="area")
+@Inheritance(strategy = InheritanceType.SINGLE_TABLE)
+@DiscriminatorColumn(name="area_type_id", discriminatorType = DiscriminatorType.INTEGER)
+@DiscriminatorValue("0")
+public abstract class Area {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    //@Column(name = "id")
     private Long id;
 
     @Column(name = "name")
@@ -20,23 +21,6 @@ public class Area {
     @ManyToOne
     @JoinColumn(name = "organization_id")
     private Organization organization;
-
-    @ManyToOne
-    @JoinColumn(name = "parent_area_id")
-    private Area parentArea;
-
-    @OneToMany(mappedBy = "parentArea")
-    private Set<Area> areas;
-
-    @Column(name = "photo")
-    private String photo;
-
-    @Column(name = "base_image")
-    private String baseImage;
-
-    @ManyToOne
-    @JoinColumn(name = "area_type_id")
-    private AreaType areaType;
 
     public Long getId() {
         return id;
@@ -60,45 +44,5 @@ public class Area {
 
     public void setOrganization(Organization organization) {
         this.organization = organization;
-    }
-
-    public Set<Area> getAreas() {
-        return areas;
-    }
-
-    public void setAreas(Set<Area> areas) {
-        this.areas = areas;
-    }
-
-    public String getPhoto() {
-        return photo;
-    }
-
-    public void setPhoto(String photo) {
-        this.photo = photo;
-    }
-
-    public String getBaseImage() {
-        return baseImage;
-    }
-
-    public void setBaseImage(String baseImage) {
-        this.baseImage = baseImage;
-    }
-
-    public AreaType getAreaType() {
-        return areaType;
-    }
-
-    public void setAreaType(AreaType areaType) {
-        this.areaType = areaType;
-    }
-
-    public Area getParentArea() {
-        return parentArea;
-    }
-
-    public void setParentArea(Area parentArea) {
-        this.parentArea = parentArea;
     }
 }
