@@ -35,7 +35,7 @@ public class RoomResource {
         if (roomName == null || organizationName == null) {
             throw new BadRequestException("Room name and organization name are needed.");
         }
-        
+
         Room room = roomDAO.findWithFilters(roomName, organizationName)
                 .orElseThrow(NotFoundException::new);
         return RoomView.detailsOf(room);

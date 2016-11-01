@@ -1,0 +1,12 @@
+{
+  "name": "vaasa_campus_room_locator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev-server": "json-proxy -c \".json-proxy.conf.json\""
+  },
+  "author": "",
+  "license": "UNLICENSED"
+}
