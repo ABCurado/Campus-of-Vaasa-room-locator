@@ -18,4 +18,14 @@ public class RoomDAO extends AbstractDAO<Room>{
     public Optional<Room> findById(Long id) {
         return Optional.ofNullable((Room) criteria().add(Restrictions.eq("id", id)).uniqueResult());
     }
+
+    public Optional<Room> findWithFilters(String roomName, String organizationName) {
+        return Optional.ofNullable(
+                (Room) criteria().createAlias("organization", "o")
+                    .add(Restrictions.and(
+                            Restrictions.eq("name", roomName),
+                            Restrictions.eq("o.name", organizationName)
+                    )).uniqueResult()
+        );
+    }
 }

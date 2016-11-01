@@ -24,6 +24,23 @@ public class RoomResource {
         this.roomDAO = roomDAO;
     }
 
+
+    @GET
+    @UnitOfWork
+    @ApiOperation(value = "Fetch a single room by room code and organization")
+    public RoomView findRoomWithFilters(
+            @QueryParam("roomName") String roomName,
+            @QueryParam("organization") String organizationName
+    ) {
+        if (roomName == null || organizationName == null) {
+            throw new BadRequestException("Room name and organization name are needed.");
+        }
+        
+        Room room = roomDAO.findWithFilters(roomName, organizationName)
+                .orElseThrow(NotFoundException::new);
+        return RoomView.detailsOf(room);
+    }
+
     @GET
     @Path("/{id}")
     @UnitOfWork
