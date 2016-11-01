@@ -8,5 +8,8 @@
     "dev-server": "json-proxy -c \".json-proxy.conf.json\""
   },
   "author": "",
-  "license": "UNLICENSED"
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "json-proxy": "^0.9.3"
+  }
 }
