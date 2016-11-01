@@ -47,57 +47,52 @@ HEADER ENDS & MAP STARTS
 			<img id="locator" class="img-responsive" src="img/f1.JPG"> </div>
     </div>
 
-		<script type="text/javascript">
-		$(document).ready(function() {
-			var response;
-			$.ajax({
-				url: '/api/rooms?roomName=c0083&organization=vamk',
-				type: 'get',
-				contentType: 'application/json; charset=UTF-8',
-				success: function(data) {
-					doTricksWithData(data)
-				},
-				error: function(error, textStatus, errorThrown) {
-					console.log(error)
-				}
-			})
+    <script type="text/javascript">
+    $(document).ready(function() {
+    	$.ajax({
+    		url: '/api/rooms?roomName=c0083&organization=vamk',
+    		type: 'get',
+    		contentType: 'application/json; charset=UTF-8',
+    		success: function(data) {
+    			doTricksWithData(data)
+    		},
+    		error: function(error, textStatus, errorThrown) {
+    			console.log(error)
+    		}
+    	})
 
-			function doTricksWithData(response) {
-				console.log('Response looks like this', response)
+    	function doTricksWithData(response) {
+    		console.log('Response looks like this', response)
 
-				//Logging property 'name' of response object
-				console.log('Room name', response.name)
+    		//Logging property 'name' of response object
+    		console.log('Room name', response.name)
 
-				//Making sure that response has property 'organization'
-				//Otherwise it would lead to errors if trying to read
-				// property of undefined
-				if (response.hasOwnProperty('organization')) {
-					console.log("Organization name", response.organization.name)
-				}
+    		//Making sure that response has property 'organization'
+    		//Otherwise it would lead to errors if trying to read
+    		// property of undefined
+    		if (response.hasOwnProperty('organization')) {
+    			console.log("Organization name", response.organization.name)
+    		}
 
-				if (response.hasOwnProperty('coordinates')) {
-					//Coordinates come in as an array, but index [0] is always valid
-					//Making sure that coordinates is type of Array and that it has data in it
-					if (response.coordinates.constructor === Array && response.coordinates.length > 0) {
-						console.log('Latitude', response.coordinates[0].latitude)
-						console.log('Longitude', response.coordinates[0].longitude)
-					}
-				}
+    		if (response.hasOwnProperty('coordinates')) {
+    			//Coordinates come in as an array, but index [0] is always valid
+    			//Making sure that coordinates is type of Array and that it has data in it
+    			if (response.coordinates.constructor === Array && response.coordinates.length > 0) {
+    				console.log('Latitude', response.coordinates[0].latitude)
+    				console.log('Longitude', response.coordinates[0].longitude)
+    			}
+    		}
 
-				if (response.hasOwnProperty('floor')) {
-					console.log('Floor name', response.floor.name)
-					console.log('Reference to floor base image:', response.floor.baseImage)
+    		if (response.hasOwnProperty('floor')) {
+    			console.log('Floor name', response.floor.name)
+    			console.log('Reference to floor base image:', response.floor.baseImage)
 
-					//Going even deeper
-					if (response.floor.hasOwnProperty('building')) {
-						console.log('Building name', response.floor.building.name)
-					}
-				}
-
-				console.log('Reference to room photo (maybe unnecessary)', response.photo)
-			}
-		})
-		</script>
+    			//Going even deeper
+    			if (response.floor.hasOwnProperty('building')) {
+    				console.log('Building name', response.floor.building.name)
+    			}
+    		})
+    </script>
 </body>
 
 </html>
