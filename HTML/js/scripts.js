@@ -47,3 +47,57 @@ function searchRoom(){
 	document.getElementById("searchfield").setAttribute("value", roomid);
 	
 }
+
+
+// GETS PARAMETER FROM URL
+// USE var roomid = GetURLParameter("roomid");
+// example.com?roomid=1234
+// returns "1234"
+function GetURLParameter(sParam)
+{
+    var sPageURL = window.location.search.substring(1);
+    var sURLVariables = sPageURL.split('&');
+    for (var i = 0; i < sURLVariables.length; i++) 
+    {
+        var sParameterName = sURLVariables[i].split('=');
+        if (sParameterName[0] == sParam) 
+        {
+            return sParameterName[1];
+        }
+    }
+}
+
+// SECOND PAGE INITIALIZING
+
+function init(){
+	var roomid = GetURLParameter("roomid");
+	document.getElementById("roomid").innerHTML = roomid;
+	
+	var xhttp = new XMLHttpRequest();
+	xhttp.onreadystatechange = function() 
+	{
+		if (this.readyState == 4 && this.status == 200) 
+			{
+				myFunction(this);
+			}
+	}
+	xhttp.open("GET", "roomdb.xml", true);
+	xhttp.send();
+	
+	function myFunction(xml)
+	{
+	var x, y, xlen, xmlDoc;
+    xmlDoc = xml.responseXML;
+    x = xmlDoc.getElementsByTagName("room")[0];
+	xlen = x.childNodes.length;
+	y = x.firstChild;
+	console.log(y);
+	
+	while(y.nodeName != "roomid"){
+		console.log("jeejee");
+		y = y.nextSibling;
+	}
+	
+	
+	}	
+}
