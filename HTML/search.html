@@ -1,15 +1,40 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="css/search.css">
+<link rel="stylesheet" type="text/css" href="styles/search.css">
 <meta name="viewport" content="width=device-width, initial-scale=0.5, maximum-scale=1.0, user-scalable=no" />
+<script>
+function showResult(str) {
+  if (str.length==0) {
+    document.getElementById("search").innerHTML="";
+    document.getElementById("search").style.border="0px";
+    return;
+  }
+  if (window.XMLHttpRequest) {
+    // code for IE7+, Firefox, Chrome, Opera, Safari
+    xmlhttp=new XMLHttpRequest();
+  } else {  // code for IE6, IE5
+    xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+  }
+  xmlhttp.onreadystatechange=function() {
+    if (this.readyState==4 && this.status==200) {
+      document.getElementById("search").innerHTML=this.responseText;
+      document.getElementById("search").style.border="1px solid #A5ACB2";
+    }
+  }
+  xmlhttp.open("GET","search.php?q="+str,true);
+  xmlhttp.send();
+}
+</script>
+
 </head>
 <body>
 
-<div id=logo><img src='img/logo.png'></img></div>
+<div id=logo><img src='images/logo.png'></img></div>
 
-<form id=search>
-  <input type="text" name="search" placeholder="Search by a room number (for example: A1078)">
+<form>
+  <input type="text" name="search" autocomplete="off" onkeyup="showResult(this.value)" placeholder="Search by a room number (for example: A1078)" />
+  <div id="search"></div>
 </form>
 
 
