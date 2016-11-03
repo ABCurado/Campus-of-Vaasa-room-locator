@@ -9,13 +9,13 @@ background: linear-gradient(to left, #EB3349 , #F45C43); /* W3C, IE 10+/ Edge, F
 }
 
 input[type=text] {
-width: 500px;
+width: 40%;
 box-sizing: border-box;
 border: 2px solid #ccc;
 border-radius: 5px;
 font-size: 16px;
 background-color: white;
-background-image: url('../img/searchicon.png');
+background-image: url('../images/searchicon.png');
 background-position: 10px 10px; 
 background-repeat: no-repeat;
 padding: 12px 20px 12px 40px;
@@ -34,18 +34,20 @@ top: 40%;
 display: block;
 }
 
-#title{
-	font-size: 2em;
-}
-
-#logo{
-
+#logo {
 vertical-align: middle;
 margin:auto;
 position:relative;
 display:block;
 top: 40%;
-width: 500px;
+width: 500px;;
 display: block;
 vertical-align: middle;
+}
+
+#search {
+display: block;
+margin: auto;
+width: 40%;
+font-size: 16px;	
 }
