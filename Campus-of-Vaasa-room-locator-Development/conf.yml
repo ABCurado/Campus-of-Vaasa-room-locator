@@ -1,0 +1,14 @@
+database:
+  driverClass: com.mysql.jdbc.Driver
+  user: mapp-database-user
+  password: mapp-database-passwd
+  url: jdbc:mysql://localhost:3306/mapp_sql_database
+
+server:
+  rootPath: /api/
+  applicationContextPath: /
+template: Hello, %s!
+defaultName: Stranger
+
+swagger:
+  resourcePackage: fi.vaasacampus.roomlocator.resources

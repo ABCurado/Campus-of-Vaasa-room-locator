@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+        <!ELEMENT dataset (
+                organization*,
+                area*,
+                coordinate*)>
+
+        <!ELEMENT organization EMPTY>
+        <!ATTLIST organization
+                id CDATA #IMPLIED
+                name CDATA #REQUIRED
+                >
+
+        <!ELEMENT area EMPTY>
+        <!ATTLIST area
+                id CDATA #IMPLIED
+                organization_id CDATA #REQUIRED
+                parent_area_id CDATA #IMPLIED
+                photo CDATA #IMPLIED
+                base_image CDATA #IMPLIED
+                name CDATA #REQUIRED
+                area_type_id CDATA #REQUIRED
+                >
+
+        <!ELEMENT coordinate EMPTY>
+        <!ATTLIST coordinate
+                id CDATA #IMPLIED
+                latitude CDATA #REQUIRED
+                longitude CDATA #REQUIRED
+                area_id CDATA #REQUIRED
+                >
+

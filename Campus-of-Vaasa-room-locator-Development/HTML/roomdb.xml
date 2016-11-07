@@ -1,0 +1,4364 @@
+<data>
+  <rooms>
+    <room>
+      <university>Novia</university>
+      <building>R</building>
+      <floor>2</floor>
+      <room >201</room >
+      <roomid>R201</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Novia</university>
+      <building>R</building>
+      <floor>2</floor>
+      <room >204</room >
+      <roomid>R204</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Novia</university>
+      <building>R</building>
+      <floor>2</floor>
+      <room >205</room >
+      <roomid>R205</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Novia</university>
+      <building>R</building>
+      <floor>2</floor>
+      <room >206</room >
+      <roomid>R206</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Novia</university>
+      <building>R</building>
+      <floor>2</floor>
+      <room >207</room >
+      <roomid>R207</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Novia</university>
+      <building>R</building>
+      <floor>2</floor>
+      <room >208</room >
+      <roomid>R208</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Novia</university>
+      <building>R</building>
+      <floor>2</floor>
+      <room >209</room >
+      <roomid>R209</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Novia</university>
+      <building>R</building>
+      <floor>2</floor>
+      <room >210</room >
+      <roomid>R210</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Novia</university>
+      <building>R</building>
+      <floor>2</floor>
+      <room >211</room >
+      <roomid>R211</roomid>
+      <extra>Invalid Toilet</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Novia</university>
+      <building>R</building>
+      <floor>2</floor>
+      <room >212</room >
+      <roomid>R212</roomid>
+      <extra>Toilet</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Novia</university>
+      <building>R</building>
+      <floor>2</floor>
+      <room >213</room >
+      <roomid>R213</roomid>
+      <extra>Toilet</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Novia</university>
+      <building>R</building>
+      <floor>2</floor>
+      <room >214</room >
+      <roomid>R214</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Novia</university>
+      <building>R</building>
+      <floor>2</floor>
+      <room >215</room >
+      <roomid>R215</roomid>
+      <extra>Toilet</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Novia</university>
+      <building>R</building>
+      <floor>2</floor>
+      <room >216</room >
+      <roomid>R216</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Novia</university>
+      <building>R</building>
+      <floor>2</floor>
+      <room >217</room >
+      <roomid>R217</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Novia</university>
+      <building>R</building>
+      <floor>2</floor>
+      <room >217.1</room >
+      <roomid>R217.1</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Novia</university>
+      <building>R</building>
+      <floor>2</floor>
+      <room >219</room >
+      <roomid>R219</roomid>
+      <extra>Toilet</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Novia</university>
+      <building>R</building>
+      <floor>2</floor>
+      <room >220</room >
+      <roomid>R220</roomid>
+      <extra>Toilet</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Novia</university>
+      <building>R</building>
+      <floor>2</floor>
+      <room >221</room >
+      <roomid>R221</roomid>
+      <extra>Toilet</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Novia</university>
+      <building>R</building>
+      <floor>2</floor>
+      <room >222</room >
+      <roomid>R222</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Novia</university>
+      <building>R</building>
+      <floor>2</floor>
+      <room >223</room >
+      <roomid>R223</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Novia</university>
+      <building>R</building>
+      <floor>2</floor>
+      <room >224</room >
+      <roomid>R224</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Novia</university>
+      <building>R</building>
+      <floor>2</floor>
+      <room >225</room >
+      <roomid>R225</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Novia</university>
+      <building>R</building>
+      <floor>2</floor>
+      <room >226</room >
+      <roomid>R226</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Novia</university>
+      <building>R</building>
+      <floor>2</floor>
+      <room >227</room >
+      <roomid>R227</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Novia</university>
+      <building>R</building>
+      <floor>2</floor>
+      <room >228</room >
+      <roomid>R228</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Novia</university>
+      <building>R</building>
+      <floor>2</floor>
+      <room >229</room >
+      <roomid>R229</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Novia</university>
+      <building>R</building>
+      <floor>2</floor>
+      <room >230</room >
+      <roomid>R230</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Novia</university>
+      <building>R</building>
+      <floor>2</floor>
+      <room >231</room >
+      <roomid>R231</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Novia</university>
+      <building>R</building>
+      <floor>2</floor>
+      <room >232</room >
+      <roomid>R232</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Novia</university>
+      <building>R</building>
+      <floor>2</floor>
+      <room >233</room >
+      <roomid>R233</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Novia</university>
+      <building>R</building>
+      <floor>2</floor>
+      <room >234</room >
+      <roomid>R234</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Novia</university>
+      <building>R</building>
+      <floor>3</floor>
+      <room >304</room >
+      <roomid>R304</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Novia</university>
+      <building>R</building>
+      <floor>3</floor>
+      <room >305</room >
+      <roomid>R305</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Novia</university>
+      <building>R</building>
+      <floor>3</floor>
+      <room >306</room >
+      <roomid>R306</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Novia</university>
+      <building>R</building>
+      <floor>3</floor>
+      <room >307</room >
+      <roomid>R307</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Novia</university>
+      <building>R</building>
+      <floor>3</floor>
+      <room >308</room >
+      <roomid>R308</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Novia</university>
+      <building>R</building>
+      <floor>3</floor>
+      <room >308.1</room >
+      <roomid>R308.1</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Novia</university>
+      <building>R</building>
+      <floor>3</floor>
+      <room >308.2</room >
+      <roomid>R308.2</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Novia</university>
+      <building>R</building>
+      <floor>3</floor>
+      <room >308.3</room >
+      <roomid>R308.3</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Novia</university>
+      <building>R</building>
+      <floor>3</floor>
+      <room >309</room >
+      <roomid>R309</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Novia</university>
+      <building>R</building>
+      <floor>3</floor>
+      <room >310</room >
+      <roomid>R310</roomid>
+      <extra>Invalid Toilet</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Novia</university>
+      <building>R</building>
+      <floor>3</floor>
+      <room >311</room >
+      <roomid>R311</roomid>
+      <extra>Toilet</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Novia</university>
+      <building>R</building>
+      <floor>3</floor>
+      <room >312</room >
+      <roomid>R312</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Novia</university>
+      <building>R</building>
+      <floor>3</floor>
+      <room >314.1</room >
+      <roomid>R314.1</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Novia</university>
+      <building>R</building>
+      <floor>3</floor>
+      <room >314.2</room >
+      <roomid>R314.2</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Novia</university>
+      <building>R</building>
+      <floor>3</floor>
+      <room >314.3</room >
+      <roomid>R314.3</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Novia</university>
+      <building>R</building>
+      <floor>3</floor>
+      <room >314.4</room >
+      <roomid>R314.4</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Novia</university>
+      <building>R</building>
+      <floor>3</floor>
+      <room >314.5</room >
+      <roomid>R314.5</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Novia</university>
+      <building>R</building>
+      <floor>3</floor>
+      <room >315.1</room >
+      <roomid>R315.1</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Novia</university>
+      <building>R</building>
+      <floor>3</floor>
+      <room >315.2</room >
+      <roomid>R315.2</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Novia</university>
+      <building>R</building>
+      <floor>3</floor>
+      <room >316</room >
+      <roomid>R316</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Novia</university>
+      <building>R</building>
+      <floor>3</floor>
+      <room >317</room >
+      <roomid>R317</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Novia</university>
+      <building>R</building>
+      <floor>3</floor>
+      <room >318</room >
+      <roomid>R318</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Novia</university>
+      <building>R</building>
+      <floor>3</floor>
+      <room >319</room >
+      <roomid>R319</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Novia</university>
+      <building>R</building>
+      <floor>3</floor>
+      <room >320</room >
+      <roomid>R320</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Technobotnia</university>
+      <building>EP</building>
+      <floor>1</floor>
+      <room >5</room >
+      <roomid>EP5</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Technobotnia</university>
+      <building>EP</building>
+      <floor>1</floor>
+      <room >7</room >
+      <roomid>EP7</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Technobotnia</university>
+      <building>EP</building>
+      <floor>1</floor>
+      <room >4</room >
+      <roomid>EP4</roomid>
+      <extra>Automaatio Vesiprosess</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Technobotnia</university>
+      <building>LEP</building>
+      <floor>1</floor>
+      <room >1 (-2)</room >
+      <roomid>LEP1 (-2)</roomid>
+      <extra>Sähkötekniikka</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Technobotnia</university>
+      <building>LEP</building>
+      <floor>1</floor>
+      <room >3</room >
+      <roomid>LEP3</roomid>
+      <extra>Sähkötekniikka</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Technobotnia</university>
+      <building>LEP</building>
+      <floor>1</floor>
+      <room >4</room >
+      <roomid>LEP4</roomid>
+      <extra>Sähkötekniikka</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Technobotnia</university>
+      <building>LEP</building>
+      <floor>1</floor>
+      <room >8</room >
+      <roomid>LEP8</roomid>
+      <extra>DEMVE</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Technobotnia</university>
+      <building>LEC</building>
+      <floor>1</floor>
+      <room >1 (-2)</room >
+      <roomid>LEC1 (-2)</roomid>
+      <extra>Tietotekniikka</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Technobotnia</university>
+      <building>LEC</building>
+      <floor>1</floor>
+      <room >3</room >
+      <roomid>LEC3</roomid>
+      <extra>Tietotekniikka</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Technobotnia</university>
+      <building>LEC</building>
+      <floor>1</floor>
+      <room >4</room >
+      <roomid>LEC4</roomid>
+      <extra>Tietotekniikka</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Technobotnia</university>
+      <building>LEC</building>
+      <floor>1</floor>
+      <room >5</room >
+      <roomid>LEC5</roomid>
+      <extra>Automaatio Vesiprosess</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Technobotnia</university>
+      <building>LEC</building>
+      <floor>1</floor>
+      <room >6</room >
+      <roomid>LEC6</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Technobotnia</university>
+      <building></building>
+      <floor>1</floor>
+      <room ></room >
+      <roomid></roomid>
+      <extra>IT-Robotlab</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Technobotnia</university>
+      <building></building>
+      <floor>1</floor>
+      <room ></room >
+      <roomid></roomid>
+      <extra>Ympäristötekniikan laboratorio</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Technobotnia</university>
+      <building></building>
+      <floor>1</floor>
+      <room ></room >
+      <roomid></roomid>
+      <extra>Työhuone</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Technobotnia</university>
+      <building></building>
+      <floor>1</floor>
+      <room ></room >
+      <roomid></roomid>
+      <extra>LMAA Robotiikka</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Technobotnia</university>
+      <building></building>
+      <floor>1</floor>
+      <room ></room >
+      <roomid></roomid>
+      <extra>LMAA Automaatio</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Technobotnia</university>
+      <building></building>
+      <floor>1</floor>
+      <room ></room >
+      <roomid></roomid>
+      <extra>Konetekniikka</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Technobotnia</university>
+      <building></building>
+      <floor>1</floor>
+      <room ></room >
+      <roomid></roomid>
+      <extra>LMRD Tutkimus ja kehitys</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Technobotnia</university>
+      <building></building>
+      <floor>1</floor>
+      <room ></room >
+      <roomid></roomid>
+      <extra>LMPH Pneumatiikka</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Technobotnia</university>
+      <building></building>
+      <floor>1</floor>
+      <room ></room >
+      <roomid></roomid>
+      <extra>LMCAE Ohjelmointi luokka</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Technobotnia</university>
+      <building></building>
+      <floor>1</floor>
+      <room ></room >
+      <roomid></roomid>
+      <extra>LMNC CAM/CNC</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Technobotnia</university>
+      <building>F</building>
+      <floor>1</floor>
+      <room >6141</room >
+      <roomid>F6141</roomid>
+      <extra>Fysiikanlaboraotrio</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Technobotnia</university>
+      <building></building>
+      <floor>1</floor>
+      <room ></room >
+      <roomid></roomid>
+      <extra>Geotekniikka</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Technobotnia</university>
+      <building></building>
+      <floor>1</floor>
+      <room ></room >
+      <roomid></roomid>
+      <extra>Rakennustek</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Technobotnia</university>
+      <building></building>
+      <floor>1</floor>
+      <room ></room >
+      <roomid></roomid>
+      <extra>LMMT Materiaalitekkniikka</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Technobotnia</university>
+      <building></building>
+      <floor>1</floor>
+      <room ></room >
+      <roomid></roomid>
+      <extra>LMDM 3d-tilostus</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Technobotnia</university>
+      <building></building>
+      <floor>1</floor>
+      <room ></room >
+      <roomid></roomid>
+      <extra>EMC</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Technobotnia</university>
+      <building></building>
+      <floor>1</floor>
+      <room ></room >
+      <roomid></roomid>
+      <extra>LMQC Laatutekniikka</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Technobotnia</university>
+      <building>F</building>
+      <floor>1</floor>
+      <room >4111</room >
+      <roomid>F4111</roomid>
+      <extra>Lukion Fysiikan laboratorio</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Technobotnia</university>
+      <building>F</building>
+      <floor>1</floor>
+      <room >4110</room >
+      <roomid>F4110</roomid>
+      <extra>Sähkön-ja automaation simulointi</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Technobotnia</university>
+      <building>F</building>
+      <floor>1</floor>
+      <room >4109</room >
+      <roomid>F4109</roomid>
+      <extra>Ohjelmistotekniikka</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Technobotnia</university>
+      <building>F</building>
+      <floor>1</floor>
+      <room >4108</room >
+      <roomid>F4108</roomid>
+      <extra>Työhuone</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Technobotnia</university>
+      <building>F</building>
+      <floor>1</floor>
+      <room >4107</room >
+      <roomid>F4107</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Technobotnia</university>
+      <building>F</building>
+      <floor>1</floor>
+      <room >4106</room >
+      <roomid>F4106</roomid>
+      <extra>Ohjelmistotekniikka</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Technobotnia</university>
+      <building>F</building>
+      <floor>1</floor>
+      <room >4105</room >
+      <roomid>F4105</roomid>
+      <extra>Multimedialuokka</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Technobotnia</university>
+      <building>F</building>
+      <floor>1</floor>
+      <room >4104</room >
+      <roomid>F4104</roomid>
+      <extra>Tietotekninen opetusluokka</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Technobotnia</university>
+      <building>F</building>
+      <floor>1</floor>
+      <room >4103</room >
+      <roomid>F4103</roomid>
+      <extra>Neuvötteluhuone</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Technobotnia</university>
+      <building>F</building>
+      <floor>1</floor>
+      <room >4102</room >
+      <roomid>F4102</roomid>
+      <extra>Automaatioluokka</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Technobotnia</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >4215</room >
+      <roomid>F4215</roomid>
+      <extra>PIIR.SALI</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Technobotnia</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >4229</room >
+      <roomid>F4229</roomid>
+      <extra>OPETTAJAINHUONE</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Technobotnia</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >4228</room >
+      <roomid>F4228</roomid>
+      <extra>TYÖHUONE</extra>
+      <xcord>2200x700</xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Technobotnia</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >4227</room >
+      <roomid>F4227</roomid>
+      <extra>TYÖHUONE</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Technobotnia</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >4226</room >
+      <roomid>F4226</roomid>
+      <extra>TYÖHUONE</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Technobotnia</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >4225</room >
+      <roomid>F4225</roomid>
+      <extra>TYÖHUONE</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Technobotnia</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >4224</room >
+      <roomid>F4224</roomid>
+      <extra>TYÖHUONE</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Technobotnia</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >4223</room >
+      <roomid>F4223</roomid>
+      <extra>TYÖHUONE</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Technobotnia</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >4222</room >
+      <roomid>F4222</roomid>
+      <extra>TYÖHUONE</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Technobotnia</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >4212</room >
+      <roomid>F4212</roomid>
+      <extra>LUOKKA</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Technobotnia</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >4221</room >
+      <roomid>F4221</roomid>
+      <extra>VARASTO</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Technobotnia</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >4230</room >
+      <roomid>F4230</roomid>
+      <extra>MONISTUS</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Technobotnia</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >4218</room >
+      <roomid>F4218</roomid>
+      <extra>VARASTO</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Technobotnia</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >4237</room >
+      <roomid>F4237</roomid>
+      <extra>KÄYTÄVÄ</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Technobotnia</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >4231</room >
+      <roomid>F4231</roomid>
+      <extra>WC/NOP</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Technobotnia</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >4232</room >
+      <roomid>F4232</roomid>
+      <extra>WC/NOP</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Technobotnia</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >4217</room >
+      <roomid>F4217</roomid>
+      <extra>SIIV</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Technobotnia</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >4233</room >
+      <roomid>F4233</roomid>
+      <extra>VARASTO</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Technobotnia</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >4234</room >
+      <roomid>F4234</roomid>
+      <extra>SÄHKÖ</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Technobotnia</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >4216</room >
+      <roomid>F4216</roomid>
+      <extra>TELE</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Technobotnia</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >4235b</room >
+      <roomid>F4235b</roomid>
+      <extra>KÄYTÄVÄ</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Technobotnia</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >4214</room >
+      <roomid>F4214</roomid>
+      <extra>TAUKOTILA</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Technobotnia</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >4235a</room >
+      <roomid>F4235a</roomid>
+      <extra>KÄYTÄVÄ</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Technobotnia</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >4211</room >
+      <roomid>F4211</roomid>
+      <extra>ATK-LUOKKA</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Technobotnia</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >4236</room >
+      <roomid>F4236</roomid>
+      <extra>SÄHKÖ</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Technobotnia</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >4220</room >
+      <roomid>F4220</roomid>
+      <extra>WC/NOP</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Technobotnia</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >4219</room >
+      <roomid>F4219</roomid>
+      <extra>WC/NOP</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Technobotnia</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >4201</room >
+      <roomid>F4201</roomid>
+      <extra>PRH</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Technobotnia</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >4202</room >
+      <roomid>F4202</roomid>
+      <extra>LUOKKA</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Technobotnia</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >4203</room >
+      <roomid>F4203</roomid>
+      <extra>LUOKKA</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Technobotnia</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >4204</room >
+      <roomid>F4204</roomid>
+      <extra>LUOKKA</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Technobotnia</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >4205</room >
+      <roomid>F4205</roomid>
+      <extra>LUOKKA</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Technobotnia</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >4235c</room >
+      <roomid>F4235c</roomid>
+      <extra>KÄYTÄVÄ</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Technobotnia</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >4213</room >
+      <roomid>F4213</roomid>
+      <extra>OPPILAIDEN TYÖTILAT</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Technobotnia</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >4210</room >
+      <roomid>F4210</roomid>
+      <extra>ATK-LUOKKA</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Technobotnia</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >4209</room >
+      <roomid>F4209</roomid>
+      <extra>LUOKKA</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Technobotnia</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >4208</room >
+      <roomid>F4208</roomid>
+      <extra>LUOKKA</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Technobotnia</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >4207</room >
+      <roomid>F4207</roomid>
+      <extra>LUOKKA</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Technobotnia</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >4206</room >
+      <roomid>F4206</roomid>
+      <extra>LUOKKA</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Technobotnia</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >5204</room >
+      <roomid>F5204</roomid>
+      <extra>VARASTO</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Technobotnia</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >5202</room >
+      <roomid>F5202</roomid>
+      <extra>LUOKKA</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Technobotnia</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >5201</room >
+      <roomid>F5201</roomid>
+      <extra>PRH</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Technobotnia</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >5205</room >
+      <roomid>F5205</roomid>
+      <extra>VARASTO</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Technobotnia</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >5203</room >
+      <roomid>F5203</roomid>
+      <extra>Työhuone</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Technobotnia</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >4314</room >
+      <roomid>F4314</roomid>
+      <extra>Työhuone</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Technobotnia</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >4313</room >
+      <roomid>F4313</roomid>
+      <extra>Työhuone</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Technobotnia</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >4312</room >
+      <roomid>F4312</roomid>
+      <extra>Työhuone</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Technobotnia</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >4311</room >
+      <roomid>F4311</roomid>
+      <extra>Työhuone</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Technobotnia</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >4310</room >
+      <roomid>F4310</roomid>
+      <extra>Työhuone</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Technobotnia</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >4307</room >
+      <roomid>F4307</roomid>
+      <extra>Työhuone</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Technobotnia</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >4315</room >
+      <roomid>F4315</roomid>
+      <extra>Työhuone</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Technobotnia</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >4324</room >
+      <roomid>F4324</roomid>
+      <extra>KÄYTÄVÄ</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Technobotnia</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >4316</room >
+      <roomid>F4316</roomid>
+      <extra>MONISTUS</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Technobotnia</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >4317</room >
+      <roomid>F4317</roomid>
+      <extra>WC/NOP</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Technobotnia</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >4318</room >
+      <roomid>F4318</roomid>
+      <extra>WC/NOP</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Technobotnia</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >4319</room >
+      <roomid>F4319</roomid>
+      <extra>VARASTO</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Technobotnia</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >4320</room >
+      <roomid>F4320</roomid>
+      <extra>SIIV</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Technobotnia</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >4323a</room >
+      <roomid>F4323a</roomid>
+      <extra>KÄYTÄVÄ</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Technobotnia</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >4306</room >
+      <roomid>F4306</roomid>
+      <extra>ATK-LUOKKA</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Technobotnia</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >4301</room >
+      <roomid>F4301</roomid>
+      <extra>PRH</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Technobotnia</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >4322</room >
+      <roomid>F4322</roomid>
+      <extra>WC/NOP</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Technobotnia</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >4321</room >
+      <roomid>F4321</roomid>
+      <extra>WC/NOP</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Technobotnia</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >4325</room >
+      <roomid>F4325</roomid>
+      <extra>SÄ</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Technobotnia</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >4308</room >
+      <roomid>F4308</roomid>
+      <extra>OPPILAIDEN TYÖTILAT</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Technobotnia</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >4323b</room >
+      <roomid>F4323b</roomid>
+      <extra>KÄYTÄVÄ</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Technobotnia</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >4305</room >
+      <roomid>F4305</roomid>
+      <extra>LUOKKA</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Technobotnia</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >4309</room >
+      <roomid>F4309</roomid>
+      <extra>PRH</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Technobotnia</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >4323c</room >
+      <roomid>F4323c</roomid>
+      <extra>KÄYTÄVÄ</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Technobotnia</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >4304</room >
+      <roomid>F4304</roomid>
+      <extra>LUOKKA</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Technobotnia</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >4302</room >
+      <roomid>F4302</roomid>
+      <extra>LUOKKA</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Technobotnia</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >4303</room >
+      <roomid>F4303</roomid>
+      <extra>LUOKKA</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Technobotnia</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >4323d</room >
+      <roomid>F4323d</roomid>
+      <extra>KÄYTÄVÄ</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Technobotnia</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >4323e</room >
+      <roomid>F4323e</roomid>
+      <extra>KÄYTÄVÄ</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Technobotnia</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >5301</room >
+      <roomid>F5301</roomid>
+      <extra>PRH</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Technobotnia</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >5302</room >
+      <roomid>F5302</roomid>
+      <extra>LUOKKA</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Technobotnia</university>
+      <building>F</building>
+      <floor>4</floor>
+      <room >4402</room >
+      <roomid>F4402</roomid>
+      <extra>IV-KONEHUONE</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Technobotnia</university>
+      <building>F</building>
+      <floor>4</floor>
+      <room >4401</room >
+      <roomid>F4401</roomid>
+      <extra>PRH</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>Technobotnia</university>
+      <building>F</building>
+      <floor>4</floor>
+      <room >5401</room >
+      <roomid>F5401</roomid>
+      <extra>KYLMÄ ULLAKKOTILA</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>1</floor>
+      <room >139</room >
+      <roomid>F139</roomid>
+      <extra>Jäyeh</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>1</floor>
+      <room >135</room >
+      <roomid>F135</roomid>
+      <extra>KÄYTÄVÄ</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>1</floor>
+      <room >130A</room >
+      <roomid>F130A</roomid>
+      <extra>KÄYTÄVÄ</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>1</floor>
+      <room >136</room >
+      <roomid>F136</roomid>
+      <extra>VAR.</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>1</floor>
+      <room >134A</room >
+      <roomid>F134A</roomid>
+      <extra>RAK. TEKN.</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>1</floor>
+      <room >138</room >
+      <roomid>F138</roomid>
+      <extra>Jäyeh</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>1</floor>
+      <room >134</room >
+      <roomid>F134</roomid>
+      <extra>VAR,</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>1</floor>
+      <room >137A</room >
+      <roomid>F137A</roomid>
+      <extra>WC</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>1</floor>
+      <room >137</room >
+      <roomid>F137</roomid>
+      <extra>Puku</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>1</floor>
+      <room >133A</room >
+      <roomid>F133A</roomid>
+      <extra>Tsto</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>1</floor>
+      <room >141</room >
+      <roomid>F141</roomid>
+      <extra>Luentosali</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>1</floor>
+      <room >132</room >
+      <roomid>F132</roomid>
+      <extra>Ruokala</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>1</floor>
+      <room >133</room >
+      <roomid>F133</roomid>
+      <extra>Keittiö</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>1</floor>
+      <room >130</room >
+      <roomid>F130</roomid>
+      <extra>KÄYTÄVÄ</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>1</floor>
+      <room >131</room >
+      <roomid>F131</roomid>
+      <extra>Ruokala</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>1</floor>
+      <room >140</room >
+      <roomid>F140</roomid>
+      <extra>Luentosali</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>1</floor>
+      <room >121</room >
+      <roomid>F121</roomid>
+      <extra>Et</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>1</floor>
+      <room >122B</room >
+      <roomid>F122B</roomid>
+      <extra>KÄYTÄVÄ</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>1</floor>
+      <room >123</room >
+      <roomid>F123</roomid>
+      <extra>Tsto</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>1</floor>
+      <room >120</room >
+      <roomid>F120</roomid>
+      <extra>ET</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>1</floor>
+      <room >122A</room >
+      <roomid>F122A</roomid>
+      <extra>KÄYTÄVÄ</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>1</floor>
+      <room >122</room >
+      <roomid>F122</roomid>
+      <extra>KÄYTÄVÄ</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>1</floor>
+      <room >124</room >
+      <roomid>F124</roomid>
+      <extra>WC</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>1</floor>
+      <room >125</room >
+      <roomid>F125</roomid>
+      <extra>SIIV</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>1</floor>
+      <room >126</room >
+      <roomid>F126</roomid>
+      <extra>WC</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>1</floor>
+      <room >127</room >
+      <roomid>F127</roomid>
+      <extra>WC</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>1</floor>
+      <room >119</room >
+      <roomid>F119</roomid>
+      <extra>Luentosali</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>1</floor>
+      <room >110</room >
+      <roomid>F110</roomid>
+      <extra>WC</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>1</floor>
+      <room >109</room >
+      <roomid>F109</roomid>
+      <extra>WC</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>1</floor>
+      <room >108</room >
+      <roomid>F108</roomid>
+      <extra>WC</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>1</floor>
+      <room >111</room >
+      <roomid>F111</roomid>
+      <extra>SIIV</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>1</floor>
+      <room >112</room >
+      <roomid>F112</roomid>
+      <extra>PUKU</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>1</floor>
+      <room >112A</room >
+      <roomid>F112A</roomid>
+      <extra>PESU</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>1</floor>
+      <room >100</room >
+      <roomid>F100</roomid>
+      <extra>ET</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>1</floor>
+      <room >101</room >
+      <roomid>F101</roomid>
+      <extra>KÄYTÄVÄ</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>1</floor>
+      <room >103</room >
+      <roomid>F103</roomid>
+      <extra>KÄYTÄVÄ</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>1</floor>
+      <room >106</room >
+      <roomid>F106</roomid>
+      <extra>Var</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>1</floor>
+      <room >105</room >
+      <roomid>F105</roomid>
+      <extra>Var</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>1</floor>
+      <room >118</room >
+      <roomid>F118</roomid>
+      <extra>Luentosali</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>1</floor>
+      <room >104</room >
+      <roomid>F104</roomid>
+      <extra>Luentosali</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>1</floor>
+      <room >117</room >
+      <roomid>F117</roomid>
+      <extra>WC</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>1</floor>
+      <room >116</room >
+      <roomid>F116</roomid>
+      <extra>Tsto</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>1</floor>
+      <room >114</room >
+      <roomid>F114</roomid>
+      <extra>KÄYTÄVÄ</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>1</floor>
+      <room >115</room >
+      <roomid>F115</roomid>
+      <extra>TAUKOTILA</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>1</floor>
+      <room >010B</room >
+      <roomid>F010B</roomid>
+      <extra>Porras</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>1</floor>
+      <room >102</room >
+      <roomid>F102</roomid>
+      <extra>Et</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >236</room >
+      <roomid>F236</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >235</room >
+      <roomid>F235</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >234</room >
+      <roomid>F234</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >233</room >
+      <roomid>F233</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >232</room >
+      <roomid>F232</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >231</room >
+      <roomid>F231</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >230</room >
+      <roomid>F230</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >229</room >
+      <roomid>F229</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >228</room >
+      <roomid>F228</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >227</room >
+      <roomid>F227</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >237</room >
+      <roomid>F237</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >238</room >
+      <roomid>F238</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >239</room >
+      <roomid>F239</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >240</room >
+      <roomid>F240</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >241</room >
+      <roomid>F241</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >242</room >
+      <roomid>F242</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >243</room >
+      <roomid>F243</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >244</room >
+      <roomid>F244</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >245</room >
+      <roomid>F245</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >203</room >
+      <roomid>F203</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >225A</room >
+      <roomid>F225A</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >225B</room >
+      <roomid>F225B</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >216</room >
+      <roomid>F216</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >217</room >
+      <roomid>F217</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >218</room >
+      <roomid>F218</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >219</room >
+      <roomid>F219</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >224</room >
+      <roomid>F224</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >220A</room >
+      <roomid>F220A</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >220B</room >
+      <roomid>F220B</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >220C</room >
+      <roomid>F220C</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >223</room >
+      <roomid>F223</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >222</room >
+      <roomid>F222</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >221</room >
+      <roomid>F221</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >202A</room >
+      <roomid>F202A</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >213</room >
+      <roomid>F213</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >214</room >
+      <roomid>F214</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >215</room >
+      <roomid>F215</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >212A</room >
+      <roomid>F212A</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >212B</room >
+      <roomid>F212B</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >212C</room >
+      <roomid>F212C</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >212D</room >
+      <roomid>F212D</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >200</room >
+      <roomid>F200</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >202</room >
+      <roomid>F202</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >208</room >
+      <roomid>F208</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >209</room >
+      <roomid>F209</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >210</room >
+      <roomid>F210</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >207</room >
+      <roomid>F207</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >207A</room >
+      <roomid>F207A</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >206</room >
+      <roomid>F206</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >203</room >
+      <roomid>F203</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >204A</room >
+      <roomid>F204A</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >204B</room >
+      <roomid>F204B</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >249</room >
+      <roomid>F249</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >250</room >
+      <roomid>F250</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >251</room >
+      <roomid>F251</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >260</room >
+      <roomid>F260</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >261</room >
+      <roomid>F261</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >262</room >
+      <roomid>F262</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >263</room >
+      <roomid>F263</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >264</room >
+      <roomid>F264</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >265</room >
+      <roomid>F265</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >266</room >
+      <roomid>F266</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >246</room >
+      <roomid>F246</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >268</room >
+      <roomid>F268</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >259</room >
+      <roomid>F259</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >258</room >
+      <roomid>F258</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >257</room >
+      <roomid>F257</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >256</room >
+      <roomid>F256</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >255</room >
+      <roomid>F255</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >253</room >
+      <roomid>F253</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >270</room >
+      <roomid>F270</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >274</room >
+      <roomid>F274</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >272</room >
+      <roomid>F272</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >273A</room >
+      <roomid>F273A</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >273B</room >
+      <roomid>F273B</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >273</room >
+      <roomid>F273</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >293</room >
+      <roomid>F293</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >276A</room >
+      <roomid>F276A</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >275</room >
+      <roomid>F275</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >279</room >
+      <roomid>F279</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >280</room >
+      <roomid>F280</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >281</room >
+      <roomid>F281</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >282</room >
+      <roomid>F282</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >283</room >
+      <roomid>F283</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >284</room >
+      <roomid>F284</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >285</room >
+      <roomid>F285</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >286</room >
+      <roomid>F286</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >287</room >
+      <roomid>F287</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >288</room >
+      <roomid>F288</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >289</room >
+      <roomid>F289</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >290</room >
+      <roomid>F290</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >291</room >
+      <roomid>F291</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>2</floor>
+      <room >276</room >
+      <roomid>F276</roomid>
+      <extra></extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >307</room >
+      <roomid>F307</roomid>
+      <extra>Tsto</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >308</room >
+      <roomid>F308</roomid>
+      <extra>Tsto</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >309</room >
+      <roomid>F309</roomid>
+      <extra>Luentosali</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >310</room >
+      <roomid>F310</roomid>
+      <extra>Tsto</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >311</room >
+      <roomid>F311</roomid>
+      <extra>Tsto</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >312</room >
+      <roomid>F312</roomid>
+      <extra>Tsto</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >313</room >
+      <roomid>F313</roomid>
+      <extra>TAUKOTILA</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >314</room >
+      <roomid>F314</roomid>
+      <extra>Tsto</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >315</room >
+      <roomid>F315</roomid>
+      <extra>WC</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >316</room >
+      <roomid>F316</roomid>
+      <extra>Tsto</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >317</room >
+      <roomid>F317</roomid>
+      <extra>Tsto</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >318</room >
+      <roomid>F318</roomid>
+      <extra>WC</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >319</room >
+      <roomid>F319</roomid>
+      <extra>Tsto</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >320</room >
+      <roomid>F320</roomid>
+      <extra>Tsto</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >321</room >
+      <roomid>F321</roomid>
+      <extra>Tsto</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >322</room >
+      <roomid>F322</roomid>
+      <extra>Tsto</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >323</room >
+      <roomid>F323</roomid>
+      <extra>PEsu</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >324</room >
+      <roomid>F324</roomid>
+      <extra>Tsto</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >325</room >
+      <roomid>F325</roomid>
+      <extra>Tsto</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >326</room >
+      <roomid>F326</roomid>
+      <extra>Luentosali</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >327</room >
+      <roomid>F327</roomid>
+      <extra>Tsto</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >328</room >
+      <roomid>F328</roomid>
+      <extra>Tsto</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >329</room >
+      <roomid>F329</roomid>
+      <extra>Tsto</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >330</room >
+      <roomid>F330</roomid>
+      <extra>Tsto</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >331</room >
+      <roomid>F331</roomid>
+      <extra>Tsto</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >332A</room >
+      <roomid>F332A</roomid>
+      <extra>KÄYTÄVÄ</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >333</room >
+      <roomid>F333</roomid>
+      <extra>Tsto</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >334</room >
+      <roomid>F334</roomid>
+      <extra>Tsto</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >335</room >
+      <roomid>F335</roomid>
+      <extra>Avotsto</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >336</room >
+      <roomid>F336</roomid>
+      <extra>Tsto</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >337</room >
+      <roomid>F337</roomid>
+      <extra>Luentosali</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >338</room >
+      <roomid>F338</roomid>
+      <extra>Tsto</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >339</room >
+      <roomid>F339</roomid>
+      <extra>Tsto</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >340</room >
+      <roomid>F340</roomid>
+      <extra>Tsto</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >341</room >
+      <roomid>F341</roomid>
+      <extra>Tsto</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >342</room >
+      <roomid>F342</roomid>
+      <extra>Luentosali</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >343</room >
+      <roomid>F343</roomid>
+      <extra>Tsto</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >344</room >
+      <roomid>F344</roomid>
+      <extra>Tsto</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >345</room >
+      <roomid>F345</roomid>
+      <extra>Luentosali</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >301A</room >
+      <roomid>F301A</roomid>
+      <extra>KÄYTÄVÄ</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >301B</room >
+      <roomid>F301B</roomid>
+      <extra>KÄYTÄVÄ</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >301C</room >
+      <roomid>F301C</roomid>
+      <extra>KÄYTÄVÄ</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >346</room >
+      <roomid>F346</roomid>
+      <extra>wc</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >347</room >
+      <roomid>F347</roomid>
+      <extra>wc</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >348</room >
+      <roomid>F348</roomid>
+      <extra>wc</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >303</room >
+      <roomid>F303</roomid>
+      <extra>Tsto</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >304</room >
+      <roomid>F304</roomid>
+      <extra>Tsto</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >302</room >
+      <roomid>F302</roomid>
+      <extra>Kopio</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >350</room >
+      <roomid>F350</roomid>
+      <extra>Avotsto</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >354</room >
+      <roomid>F354</roomid>
+      <extra>wc</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >355</room >
+      <roomid>F355</roomid>
+      <extra>wc</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >356</room >
+      <roomid>F356</roomid>
+      <extra>siiv</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >358</room >
+      <roomid>F358</roomid>
+      <extra>KÄYTÄVÄ</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >359</room >
+      <roomid>F359</roomid>
+      <extra>Var</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >359A</room >
+      <roomid>F359A</roomid>
+      <extra>Tekn. Aput.</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >366</room >
+      <roomid>F366</roomid>
+      <extra>Luentosali</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >361</room >
+      <roomid>F361</roomid>
+      <extra>Avotsto</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >351A</room >
+      <roomid>F351A</roomid>
+      <extra>ATK-LUOKKA</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >351B</room >
+      <roomid>F351B</roomid>
+      <extra>ATK-LUOKKA</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >360</room >
+      <roomid>F360</roomid>
+      <extra>KÄYTÄVÄ</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >362A</room >
+      <roomid>F362A</roomid>
+      <extra>Luentosali</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >362B</room >
+      <roomid>F362B</roomid>
+      <extra>Kokous</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >010B</room >
+      <roomid>F010B</roomid>
+      <extra>Porras</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >352A</room >
+      <roomid>F352A</roomid>
+      <extra>Tsto</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >363</room >
+      <roomid>F363</roomid>
+      <extra>Tsto</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >352B</room >
+      <roomid>F352B</roomid>
+      <extra>Tsto</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >363A</room >
+      <roomid>F363A</roomid>
+      <extra>Tsto</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >363B</room >
+      <roomid>F363B</roomid>
+      <extra>Tsto</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >363C</room >
+      <roomid>F363C</roomid>
+      <extra>Tsto</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >3411</room >
+      <roomid>F3411</roomid>
+      <extra>Var</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >3409</room >
+      <roomid>F3409</roomid>
+      <extra>siiv</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >3410</room >
+      <roomid>F3410</roomid>
+      <extra>RAK. TEKN.</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >3408</room >
+      <roomid>F3408</roomid>
+      <extra>WC</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >3414</room >
+      <roomid>F3414</roomid>
+      <extra>Tsto</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >3413</room >
+      <roomid>F3413</roomid>
+      <extra>Avotsto</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >3412b</room >
+      <roomid>F3412b</roomid>
+      <extra>Kopio</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >3412a</room >
+      <roomid>F3412a</roomid>
+      <extra>Kokous</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >3418</room >
+      <roomid>F3418</roomid>
+      <extra>KÄYTÄVÄ</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >3415</room >
+      <roomid>F3415</roomid>
+      <extra>Tsto</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >3416</room >
+      <roomid>F3416</roomid>
+      <extra>Tsto</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >3417</room >
+      <roomid>F3417</roomid>
+      <extra>Tsto</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >3419</room >
+      <roomid>F3419</roomid>
+      <extra>TAUKOH.</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >3420</room >
+      <roomid>F3420</roomid>
+      <extra>Tsto</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >3421</room >
+      <roomid>F3421</roomid>
+      <extra>Tsto</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >3422</room >
+      <roomid>F3422</roomid>
+      <extra>Tsto</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >3423</room >
+      <roomid>F3423</roomid>
+      <extra>Tsto</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >3424</room >
+      <roomid>F3424</roomid>
+      <extra>Tsto</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >3425</room >
+      <roomid>F3425</roomid>
+      <extra>Tsto</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >3426</room >
+      <roomid>F3426</roomid>
+      <extra>KÄYTÄVÄ</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >3401</room >
+      <roomid>F3401</roomid>
+      <extra>KÄYTÄVÄ</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >3429</room >
+      <roomid>F3429</roomid>
+      <extra>Kokous</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >3428b</room >
+      <roomid>F3428b</roomid>
+      <extra>Tsto</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >2428a</room >
+      <roomid>F2428a</roomid>
+      <extra>Tsto</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >3427</room >
+      <roomid>F3427</roomid>
+      <extra>Kokous</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >3406</room >
+      <roomid>F3406</roomid>
+      <extra>Avotsto</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >3405</room >
+      <roomid>F3405</roomid>
+      <extra>Tsto</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >3402</room >
+      <roomid>F3402</roomid>
+      <extra>wc</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >3403</room >
+      <roomid>F3403</roomid>
+      <extra>PEsu</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >3404</room >
+      <roomid>F3404</roomid>
+      <extra>Wc</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >369</room >
+      <roomid>F369</roomid>
+      <extra>KÄYTÄVÄ</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >395</room >
+      <roomid>F395</roomid>
+      <extra>TAUKOH.</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >370</room >
+      <roomid>F370</roomid>
+      <extra>wc</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >371</room >
+      <roomid>F371</roomid>
+      <extra>wc</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >372</room >
+      <roomid>F372</roomid>
+      <extra>KÄYTÄVÄ</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >373</room >
+      <roomid>F373</roomid>
+      <extra>Kopio</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >376</room >
+      <roomid>F376</roomid>
+      <extra>Tsto</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >394</room >
+      <roomid>F394</roomid>
+      <extra>Tsto</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >392</room >
+      <roomid>F392</roomid>
+      <extra>Kokous</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >377</room >
+      <roomid>F377</roomid>
+      <extra>Tsto</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >378</room >
+      <roomid>F378</roomid>
+      <extra>Tsto</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >379</room >
+      <roomid>F379</roomid>
+      <extra>Tsto</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >380</room >
+      <roomid>F380</roomid>
+      <extra>Tsto</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >381</room >
+      <roomid>F381</roomid>
+      <extra>Tsto</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >382</room >
+      <roomid>F382</roomid>
+      <extra>Tsto</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >383</room >
+      <roomid>F383</roomid>
+      <extra>Tsto</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >384</room >
+      <roomid>F384</roomid>
+      <extra>Tsto</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >385</room >
+      <roomid>F385</roomid>
+      <extra>Tsto</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >386</room >
+      <roomid>F386</roomid>
+      <extra>Tsto</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >387</room >
+      <roomid>F387</roomid>
+      <extra>Tsto</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >388</room >
+      <roomid>F388</roomid>
+      <extra>Tsto</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >389</room >
+      <roomid>F389</roomid>
+      <extra>Tsto</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >390</room >
+      <roomid>F390</roomid>
+      <extra>Tsto</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >391</room >
+      <roomid>F391</roomid>
+      <extra>Tsto</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+    <room>
+      <university>University of Vaasa</university>
+      <building>F</building>
+      <floor>3</floor>
+      <room >275</room >
+      <roomid>F275</roomid>
+      <extra>KÄYTÄVÄ</extra>
+      <xcord></xcord>
+      <ycord></ycord>
+    </room>
+  </rooms>
+</data>
