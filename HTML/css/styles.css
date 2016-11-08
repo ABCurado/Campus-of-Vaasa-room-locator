@@ -7,26 +7,33 @@ body {
     height: 100%;
 }
 
-body {
-    width: 100%;
-    min-height: 100%;
-    margin: 0;
-    padding: 0;
-    font-family: 'Oswald', sans-serif;
-    /*background: #EB3349; /* fallback for old browsers */
-    /*background: -webkit-linear-gradient(to left, #EB3349 , #F45C43); /* Chrome 10-25, Safari 5.1-6 */
-    /*background: linear-gradient(to left, #EB3349 , #F45C43); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+body{
+
+	width: 100%;
+	min-height:100%;
+	margin: 0;
+	padding: 0;
+	font-family: 'Oswald', sans-serif;
+
+	/*background: #EB3349; /* fallback for old browsers */
+	/*background: -webkit-linear-gradient(to left, #EB3349 , #F45C43); /* Chrome 10-25, Safari 5.1-6 */
+	/*background: linear-gradient(to left, #EB3349 , #F45C43); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
-.navbar-brand {
-    text-align: center;
-    width: 90%;
+.fixed{
+	position: fixed;
+	z-index: 999;
 }
 
-.container {
-    margin: 0;
-    padding: 0;
-    width: 100%;
+.floor-pagination{
+	left: 10%;
+}
+
+.container{
+	margin: 0;
+	padding: 0;
+	width: 100%;
 }
 
 .content {
@@ -44,86 +51,100 @@ body {
 
 /* No media query since this is the default in Bootstrap */
 
+	/* DIV CONTAINERS */
+	#dropdown{
+		width: 15vw;
+		height: 15vw;
+		float: left;
+	}
 
-/* DIV CONTAINERS */
+	#menu-search{
+		float: right;
+		width: 85vw;
+		height: 15vw;
+	}
 
-#dropdown {
-    width: 15vw;
-    height: 15vw;
-    float: left;
-}
+	#menu-search form{
+		height: 100%;
+		width: 100%;
+	}
+	.btn-sx{
+		box-sizing: border-box;
+		width: 100%;
+		height: 100%;
+		font-size: 22px;
+		line-height: normal;
+		-webkit-border-radius: 8px;
+		-moz-border-radius: 8px;
+        border-radius: 8px;
+	}
 
-#menu-search {
-    float: right;
-    width: 85vw;
-    height: 15vw;
-}
+	span.glyphicon-menu-hamburger{
+		font-size: 2.5em;
+	}
 
-#menu-search form {
-    height: 100%;
-    width: 100%;
-}
+	.navbar{
+		position: relative;
+		margin: 0;
+		width: 100%;
+		border: 0;
+	}
 
-.btn-sx {
-    box-sizing: border-box;
-    width: 100%;
-    height: 100%;
-    font-size: 22px;
-    line-height: normal;
-    -webkit-border-radius: 8px;
-    -moz-border-radius: 8px;
-    border-radius: 8px;
-}
+	.dropdown-menu{
+		font-size: 4em;
+	}
 
-span.glyphicon-menu-hamburger {
-    font-size: 2.5em;
-}
+	#dropdown-menu1{
+		margin: 0;
+		font-size: 30px
+	}
 
-#dropdown-menu1 {
-    margin: 0;
-    font-size: 30px
-}
+	.menu-search input[type=text] {
 
-.menu-search input[type=text] {
-    height: 100%;
-    width: 100%;
-    box-sizing: border-box;
-    border: 2px solid #ccc;
-    border-radius: 5px;
-    padding-left: 15%;
-    background-color: white;
-    background-image: url('../img/searchicon.png');
-    background-position: 3vw 3.5vw;
-    background-repeat: no-repeat;
-    background-size: 10%;
-    -webkit-transition: width 0.4s ease-in-out;
-    transition: width 0.4s ease-in-out;
-}
+	height: 100%;
+	width: 100%;
+	box-sizing: border-box;
+	border: 2px solid #ccc;
+	border-radius: 5px;
+	padding-left: 15%;
+	background-color: white;
+	background-image: url('../img/searchicon.png');
+	background-position: 3vw 3.5vw;
+	background-repeat: no-repeat;
+	background-size: 10%;
 
-.floors {
-    position: absolute;
-    width: 10vw;
-    right: 5%;
-    font-size: 4em;
-}
+	-webkit-transition: width 0.4s ease-in-out;
+	transition: width 0.4s ease-in-out;
+	}
 
-.pagination li {
-    display: list-item;
-}
+	.floors{
+		position:absolute;
+		width: 10vw;
+		right: 5%;
+		font-size: 4em;
+	}
 
-.pagination li a {
-    display: inline-block;
+
+	.pagination li{
+		display: list-item;
+
+	}
+
+	.pagination li a{
+	display: inline-block;
     color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     transition: 0.3s;
-    width: 100%;
-}
+	width: 100%;
+	}
 
-#map-wrapper {
-    position: relative;
-}
+
+	#header{
+		padding: 0;
+		margin: 0;
+	}
 
 #header {
     padding: 0;
@@ -131,52 +152,6 @@ span.glyphicon-menu-hamburger {
 }
 
 
-/* Style the list */
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    border: 1px solid #ccc;
-    /*background-color: #EB3349;*/
-}
-
-
-/* Float the list items side by side */
-
-ul.right-tab li {
-    float: left;
-}
-
-
-/* Style the links inside the list items */
-
-ul.tab li a {
-    display: inline-block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    transition: 0.3s;
-    font-size: 17px;
-    width: 100%;
-}
-
-
-/* Change background color of links on hover */
-
-ul.tab li a:hover {
-    background-color: #ddd;
-}
-
-
-/* Create an active/current tablink class */
-
-ul.tab li a:focus,
-.active {
-    background-color: #ccc;
-}
 
 
 /* Style the tab content */
@@ -194,35 +169,29 @@ ul.tab li a:focus,
     border-top: none;
 }
 
-.plans {
-    position: relative;
-    display: inline-block;
-}
 
-.map1 {
-    position: relative;
-    width: 100%;
-}
+	#map-wrapper{
+		overflow: hidden;
+		position:relative;
 
-#mark {
-    visibility: hidden;
-    position: absolute;
-    width: 1vw;
-    height: 1vw;
-    transform: translate(-50%, -50%);
-}
+	}
 
-h1 {
-    font-size: 3em;
-}
+	#map{
 
-h2 {
-    margin-left: 10px;
-}
 
-input {
-    display: block;
-}
+	}
+
+	#mark{
+		position: absolute;
+		width: 10vw;
+		height: 10vw;
+		transform: translate(0, -81%);
+	}
+
+	#roomid{
+		font-size: 3em;
+		top: 50%;
+	}
 
 #search {
     position: relative;

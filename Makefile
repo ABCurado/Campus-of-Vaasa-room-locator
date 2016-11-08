@@ -11,11 +11,10 @@ endif
 
 start:
 		mvn liquibase:dropAll -Ddatabase.ip=$(database_ip) -e
-		mvn liquibase:update -Ddatabase.ip=$(database_ip) -e
 		mvn package -Ddatabase.ip=$(database_ip) -e
+		java -jar target/roomlocator-1.0-SNAPSHOT.jar server conf.yml
 
 app:
-	mvn package -e
 	java -jar target/roomlocator-1.0-SNAPSHOT.jar server conf.yml
 
 migrations:
