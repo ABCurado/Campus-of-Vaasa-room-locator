@@ -18,7 +18,7 @@
     <script src="js/scripts.js"></script>
 </head>
 
-<body onload="init()">
+<body>
     <nav class="navbar navbar-default" role="navigation">
         <button class="btn btn-default navbar-btn dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span> </button>
         <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
@@ -43,23 +43,58 @@
 <!--
 HEADER ENDS & MAP STARTS
 -->
+
+<nav class="fixed floor-pagination" aria-label="Page navigation">
+  <ul class="pagination">
+    <li class="f1"><a href="#">1</a></li>
+    <li class="f2"><a href="#">2</a></li>
+  </ul>
+</nav>
     <div id="map-wrapper">
-			<img id="locator" class="img-responsive" src="img/f1.JPG"> </div>
+			<img id="mark" src="img/mark.PNG"/>
     </div>
 
     <script type="text/javascript">
     $(document).ready(function() {
+      var roomId = GetURLParameter('roomId')
+      var organizationName = GetURLParameter('organization')
     	$.ajax({
-    		url: '/api/rooms?roomName=c0083&organization=vamk',
+    		url: '/api/rooms?roomName=' + roomId + '&organization=' + organizationName,
     		type: 'get',
     		contentType: 'application/json; charset=UTF-8',
     		success: function(data) {
-    			doTricksWithData(data)
+    			renderMap(data)
     		},
     		error: function(error, textStatus, errorThrown) {
     			console.log(error)
     		}
     	})
+
+
+      function renderMap(response) {
+        var floorImage = document.createElement('img')
+        if (response.hasOwnProperty('floor')) {
+          floorImage.src = response.floor.baseImage
+        }
+        var mapWrapper = document.getElementById('map-wrapper')
+        mapWrapper.appendChild(floorImage)
+
+        $(floorImage)
+          .attr("src", $(floorImage).attr("src"))
+            .load(function() {
+              mapWrapper.style.width = this.width + 'px';
+              mapWrapper.style.height = this.height + 'px';
+
+              if (response.coordinates.constructor === Array && response.coordinates.length > 0) {
+                initMarker(response.coordinates[0].longitude, response.coordinates[0].latitude)
+        			}
+          });
+
+        console.log(floorImage.width)
+        console.log(floorImage.height)
+
+      }
+
     	function doTricksWithData(response) {
     		console.log('Response looks like this', response)
     		//Logging property 'name' of response object
