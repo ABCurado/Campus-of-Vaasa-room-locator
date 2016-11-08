@@ -7,33 +7,89 @@ body {
     height: 100%;
 }
 
-body{
-
-	width: 100%;
-	min-height:100%;
-	margin: 0;
-	padding: 0;
-	font-family: 'Oswald', sans-serif;
-
-	/*background: #EB3349; /* fallback for old browsers */
-	/*background: -webkit-linear-gradient(to left, #EB3349 , #F45C43); /* Chrome 10-25, Safari 5.1-6 */
-	/*background: linear-gradient(to left, #EB3349 , #F45C43); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+body {
+    width: 100%;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+    /*background: #EB3349; /* fallback for old browsers */
+    /*background: -webkit-linear-gradient(to left, #EB3349 , #F45C43); /* Chrome 10-25, Safari 5.1-6 */
+    /*background: linear-gradient(to left, #EB3349 , #F45C43); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.fixed{
-	position: fixed;
-	z-index: 999;
+.navbar {
+    padding: 0px;
+    border: 0px;
+    color: #333;
+    background: red;
+    /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#0072ff, #e0e0e0);
+    /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#0072ff, #e0e0e0);
+    /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#0072ff, #e0e0e0);
+    /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, #0072ff, #e0e0e0);
+    /* Standard syntax */
 }
 
-.floor-pagination{
-	left: 10%;
+.navbar-brand {
+    transform: translateX(-50%);
+    left: 50%;
+    position: absolute;
+    font-size: 6.5vh;
+    color: #333 !important;
+    padding: 20px 0px 0px 0px;
 }
 
-.container{
-	margin: 0;
-	padding: 0;
-	width: 100%;
+.navbar-form {
+    opacity: 0.97;
+}
+
+li:nth-child(odd) {
+    background: rgb(211, 211, 211);
+}
+
+li:nth-child(even) {
+    background: rgb(192, 192, 192);
+}
+
+.dropdown-menu {
+    width: 90%;
+    font-size: 7.5vh;
+    opacity: 0.97;
+    padding: 0;
+}
+
+#dropdownMenu1 {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+
+ul.navbar-right {
+    font-size: 3.5vh;
+    border-color: transparent;
+}
+
+ul.navbar-right li {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+#nav-search {
+    padding: 9px 0px 0px 30px;
+}
+
+#form-control {
+    width: 1
+}
+
+.container {
+    margin: 0;
+    padding: 0;
+    width: 100%;
 }
 
 .content {
@@ -45,113 +101,118 @@ body{
     height: 100%;
 }
 
+.fixed {
+    position: fixed;
+    z-index: 999;
+}
+
+.floor-pagination {
+    left: 10%;
+}
+
 
 /* Extra small devices (phones, less than 768px) */
 
 
 /* No media query since this is the default in Bootstrap */
 
-	/* DIV CONTAINERS */
-	#dropdown{
-		width: 15vw;
-		height: 15vw;
-		float: left;
-	}
 
-	#menu-search{
-		float: right;
-		width: 85vw;
-		height: 15vw;
-	}
+/* DIV CONTAINERS */
 
-	#menu-search form{
-		height: 100%;
-		width: 100%;
-	}
-	.btn-sx{
-		box-sizing: border-box;
-		width: 100%;
-		height: 100%;
-		font-size: 22px;
-		line-height: normal;
-		-webkit-border-radius: 8px;
-		-moz-border-radius: 8px;
-        border-radius: 8px;
-	}
+#dropdown {
+    width: 15vw;
+    height: 15vw;
+    float: left;
+}
 
-	span.glyphicon-menu-hamburger{
-		font-size: 2.5em;
-	}
+#menu-search {
+    float: right;
+    width: 85vw;
+    height: 15vw;
+}
 
-	.navbar{
-		position: relative;
-		margin: 0;
-		width: 100%;
-		border: 0;
-	}
+#menu-search form {
+    height: 100%;
+    width: 100%;
+}
 
-	.dropdown-menu{
-		font-size: 4em;
-	}
+.btn-sx {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    font-size: 22px;
+    line-height: normal;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+}
 
-	#dropdown-menu1{
-		margin: 0;
-		font-size: 30px
-	}
+span.glyphicon-menu-hamburger {
+    font-size: 2.5em;
+}
 
-	.menu-search input[type=text] {
+.navbar {
+    position: relative;
+    margin: 0;
+    width: 100%;
+    border: 0;
+}
 
-	height: 100%;
-	width: 100%;
-	box-sizing: border-box;
-	border: 2px solid #ccc;
-	border-radius: 5px;
-	padding-left: 15%;
-	background-color: white;
-	background-image: url('../img/searchicon.png');
-	background-position: 3vw 3.5vw;
-	background-repeat: no-repeat;
-	background-size: 10%;
+.dropdown-menu {
+    font-size: 4em;
+}
 
-	-webkit-transition: width 0.4s ease-in-out;
-	transition: width 0.4s ease-in-out;
-	}
+#dropdown-menu1 {
+    margin: 0;
+    font-size: 30px
+}
 
-	.floors{
-		position:absolute;
-		width: 10vw;
-		right: 5%;
-		font-size: 4em;
-	}
+.menu-search input[type=text] {
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding-left: 15%;
+    background-color: white;
+    background-image: url('../img/searchicon.png');
+    background-position: 3vw 3.5vw;
+    background-repeat: no-repeat;
+    background-size: 10%;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
 
+.floors {
+    position: absolute;
+    width: 10vw;
+    right: 5%;
+    font-size: 4em;
+}
 
-	.pagination li{
-		display: list-item;
+.pagination li {
+    display: list-item;
+}
 
-	}
-
-	.pagination li a{
-	display: inline-block;
+.pagination li a {
+    display: inline-block;
     color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     transition: 0.3s;
-	width: 100%;
-	}
-
-
-	#header{
-		padding: 0;
-		margin: 0;
-	}
+    width: 100%;
+}
 
 #header {
     padding: 0;
     margin: 0;
 }
 
-
+#header {
+    padding: 0;
+    margin: 0;
+}
 
 
 /* Style the tab content */
@@ -169,29 +230,23 @@ body{
     border-top: none;
 }
 
+#map-wrapper {
+    overflow: hidden;
+    position: relative;
+}
 
-	#map-wrapper{
-		overflow: hidden;
-		position:relative;
+#map {}
 
-	}
+#mark {
+    position: absolute;
+    width: 10vw;
+    height: 10vw;
+    transform: translate(0, -81%);
+}
 
-	#map{
-
-
-	}
-
-	#mark{
-		position: absolute;
-		width: 10vw;
-		height: 10vw;
-		transform: translate(0, -81%);
-	}
-
-	#roomid{
-		font-size: 3em;
-		top: 50%;
-	}
+#roomid {
+    font-size: 3em;
+}
 
 #search {
     position: relative;
