@@ -19,9 +19,10 @@
     <script src="js/scripts.js"></script>
 </head>
 
-<body>
+<body onload="init()">
     <nav class="navbar navbar-default" role="navigation">
-        <!-- Brand and toggle get grouped for better mobile display --><a class="navbar-brand" rel="home" id="roomid">AAAA</a>
+        <!-- Brand and toggle get grouped for better mobile display -->
+		<a class="navbar-brand" rel="home" id="roomid"></a>
         <div class="navbar-header"> &nbsp;
             <button class="btn btn-default navbar-btn dropdown-toggle " type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span> </button>
             <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
@@ -51,56 +52,21 @@
 HEADER ENDS & MAP STARTS
 -->
     <nav class="fixed floor-pagination" aria-label="Page navigation">
-        <ul class="pagination">
-            <li class="f1"><a href="#">1</a></li>
-            <li class="f2"><a href="#">2</a></li>
-        </ul>
-    </nav>
-    <div id="map-wrapper"> <img id="locator" class="img-responsive" src="img/f1.JPG"> <img id="mark" src="img/mark.png" /> </div>
-    <script type="text/javascript">
-        $(document).ready(function () {
-            $.ajax({
-                url: '/api/rooms?roomName=c0083&organization=vamk'
-                , type: 'get'
-                , contentType: 'application/json; charset=UTF-8'
-                , success: function (data) {
-                    doTricksWithData(data)
-                }
-                , error: function (error, textStatus, errorThrown) {
-                    console.log(error)
-                }
-            })
-
-            function doTricksWithData(response) {
-                console.log('Response looks like this', response)
-                    //Logging property 'name' of response object
-                console.log('Room name', response.name)
-                    //Making sure that response has property 'organization'
-                    //Otherwise it would lead to errors if trying to read
-                    // property of undefined
-                if (response.hasOwnProperty('organization')) {
-                    console.log("Organization name", response.organization.name)
-                }
-                if (response.hasOwnProperty('coordinates')) {
-                    //Coordinates come in as an array, but index [0] is always valid
-                    //Making sure that coordinates is type of Array and that it has data in it
-                    if (response.coordinates.constructor === Array && response.coordinates.length > 0) {
-                        console.log('Latitude', response.coordinates[0].latitude)
-                        console.log('Longitude', response.coordinates[0].longitude)
-                    }
-                }
-                if (response.hasOwnProperty('floor')) {
-                    console.log('Floor name', response.floor.name)
-                    console.log('Reference to floor base image:', response.floor.baseImage)
-                        //Going even deeper
-                    if (response.floor.hasOwnProperty('building')) {
-                        console.log('Building name', response.floor.building.name)
-                    }
-                }
-                console.log('Reference to room photo (maybe unnecessary)', response.photo)
-            }
-        })
-    </script>
+  <ul class="pagination">
+    <li class="floorpag f0"><a href="#" class="floorlinks" onclick="switchPlans(event, 'f0')">0</a></li>
+    <li class="floorpag f1"><a href="#" class="floorlinks" onclick="switchPlans(event, 'f1')">1</a></li>
+	<li class="floorpag f2"><a href="#" class="floorlinks" onclick="switchPlans(event, 'f2')">2</a></li>
+    <li class="floorpag f3"><a href="#" class="floorlinks" onclick="switchPlans(event, 'f3')">3</a></li>
+  </ul>
+</nav>
+    <div id="map-wrapper">
+			<img id="f0" class="plans img-responsive"  />
+			<img id="f1" class="plans img-responsive"  />
+			<img id="f2" class="plans img-responsive"  />
+			<img id="f3" class="plans img-responsive"  />
+			<img id="mark" src="img/mark.PNG" />
+    </div>
+   
 </body>
 
 </html>

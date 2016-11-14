@@ -70,15 +70,64 @@ function GetURLParameter(sParam)
 // SECOND PAGE INITIALIZING
 // SECOND PAGE INITIALIZING
 
-function initMarker(xPerc, yPerc){
+function init(){
 	var roomid = GetURLParameter("roomid");
 	document.getElementById("roomid").innerHTML = roomid;
+	
+	var Xperc = 50;
+	var Yperc = 50;
+	
+	document.getElementById("mark").style.left = Xperc +"%";
+	document.getElementById("mark").style.top = Yperc +"%";
+	
+	// Get all elements with class="plans" and hide them
+    var plans = document.getElementsByClassName("plans");
+    for (i = 0; i < plans.length; i++) {
+        plans[i].style.display = "none";
+    }
+	
+	// Get all elements with class="pagination" and hide them
+    var pagination = document.getElementsByClassName("floorpag");
+    for (i = 0; i < pagination.length; i++) {
+        pagination[i].style.display = "none";
+    }
+	
+	document.getElementById("f1").className += " active";
+	document.getElementById("f1").style.display = "block";
+	var floors = 2;
+	
+	if(floors == 0){
+		// set basement active
+	}
+	for(var i = 1; i<floors+1; i++){
+		var floor = "f" + i;
+		var imgsrc = "img/"+ floor + ".JPG";
+		
+		pagination[i].style.display = "block";
+		document.getElementById(floor).setAttribute("src", imgsrc);
+		console.log("img:" + imgsrc + " initialized");
+	}
+	
+	
+		
+}
 
-
-	document.getElementById("mark").style.left = xPerc +"%";
-	document.getElementById("mark").style.top = yPerc +"%";
-
-
-
-
+// plans pagiantion
+function switchPlans(evt, floor){
+	
+	// Get all elements with class="plans" and hide them
+    var plans = document.getElementsByClassName("plans");
+    for (i = 0; i < plans.length; i++) {
+        plans[i].style.display = "none";
+    }
+	
+	// Get all elements with class="floorlinks" and remove the class "active"
+    var floorlinks = document.getElementsByClassName("floorlinks");
+    for (i = 0; i < floorlinks.length; i++) {
+        floorlinks[i].className = floorlinks[i].className.replace(" active", "");
+    }
+	
+	// Show the current tab, and add an "active" class to the link that opened the tab
+    document.getElementById(floor).style.display = "block";
+    evt.currentTarget.className += " active";
 }

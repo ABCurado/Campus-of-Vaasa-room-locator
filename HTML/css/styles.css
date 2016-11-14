@@ -230,10 +230,12 @@ span.glyphicon-menu-hamburger {
     border-top: none;
 }
 
-#map-wrapper {
-    overflow: hidden;
-    position: relative;
-}
+#map-wrapper{
+		overflow: hidden;
+		position:relative;
+        max-width:850px ;
+		
+	}
 
 #map {}
 
