@@ -131,3 +131,35 @@ function switchPlans(evt, floor){
     document.getElementById(floor).style.display = "block";
     evt.currentTarget.className += " active";
 }
+
+// get room from xml
+function getRoom(roomid){
+var xhttp = new XMLHttpRequest();
+xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+	roomValues(this, roomid);
+    }
+};
+xhttp.open("GET", "roomdb.xml", true);
+xhttp.send();
+
+function roomValues(xml, roomid) {
+    var xmlDoc = xml.responseXML;
+    var room = "";
+
+	var i = 0;
+	var rooms = xmlDoc.getElementsByTagName("room");
+	
+	console.log(rooms);
+	
+	var room = rooms.childNodes;
+	/*
+	while(room != roomid){
+		room = rooms.textContent;
+		console.log(rooms);
+		i++;
+	}
+	*/
+}
+
+}
