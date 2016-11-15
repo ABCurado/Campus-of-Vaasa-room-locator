@@ -1,3 +1,76 @@
+	
+	
+
+/*
+* function takes xml file and roomid, looks for the room and returns:
+	xcord, ycord, floor, img, building and uni in this order from 0 to 5.
+	
+	var room = roomValues(xml, "roomid");
+	
+	var roomxcord = room[0];
+	
+	for img path:
+	var roomimg = room[3];
+*/
+
+function getRoom(xml, roomid) {
+    // ROOT DOCUMENT
+	var xmlDoc = xml.responseXML;
+	
+	//Define variables
+	var xcord, ycord, floor, room, rooms, building, uni;
+	//img as an array
+	var imgs = [];
+	
+	// get all the rooms as HTMLCollection
+	rooms = xmlDoc.getElementsByTagName("room");
+	
+	//Search for right room and get is as HTMLCollection
+	for(var i=0; i<rooms.length; i++){
+		
+		breaker = rooms[i].firstElementChild.innerHTML;
+		//break the loop and give coordinates and room as HTMLCollection
+		if(roomid == breaker){
+			room = rooms[i].children;
+			xcord = room[1].innerHTML;
+			ycord = room[2].innerHTML;
+			break;
+		}
+	}
+	
+	
+	//console.log(room);
+	uni = rooms["0"].parentElement.parentElement.parentElement.attributes[1].nodeValue
+	//console.log(rooms);
+	
+	floor = rooms[i].parentElement.parentElementSibling;
+	var x = rooms[i].parentElement.attributes[0].nodeValue;
+		//console.log(floor);
+
+	for(var i=0; i<x; i++){
+		//imgs.push(floor.previousElementSibling.attributes[1].nodeValue);
+	}
+	
+	//console.log(rooms[i].parentElement.previousSibling);
+	
+	
+	
+	
+	return {
+	xcord: xcord,
+	ycord: ycord,
+	floor: floor,
+	imgs: imgs,
+	building: building = rooms["0"].parentElement.parentElement.attributes["0"].nodeValue,
+	uni: uni
+	};
+	
+	
+}
+
+
+
+
 function openMainTab(evt, tabName) {
     // Declare all variables
     var i, tabcontent, tablinks;
@@ -61,67 +134,13 @@ function GetURLParameter(sParam)
 }
 
 // SECOND PAGE INITIALIZING
-// get room from xml
-function init(){
-	
-	// Get all elements with class="plans" and hide them
-    var plans = document.getElementsByClassName("plans");
-    for (i = 0; i < plans.length; i++) {
-        plans[i].style.display = "none";
-    }
-	// GET ROOM ID FROM URL AND SHOW IT ON PAGE
-	var roomid = GetURLParameter("roomid");
-	document.getElementById("roomid").innerHTML = roomid;
+// SECOND PAGE INITIALIZING
 
-	// variables
-	var values, Xperc, Yperc, floors;
-	
-	//start of xml request
-	var xhttp = new XMLHttpRequest();
-	xhttp.onreadystatechange = function() {
-		if (this.readyState == 4 && this.status == 200) {
-		// run method to get room info
-		values = roomValues(this, roomid);
-			
-		// give right values for variables
-		Xperc = values.xcord;
-		Yperc = values.ycord;
-		//give coordinates for the mark
-		document.getElementById("mark").style.left = Xperc +"%";
-		document.getElementById("mark").style.top = Yperc +"%";
-		
-		//get floor number
-		floors = values.floor;
-		
-		}
-	};
-	xhttp.open("GET", "roomdb.xml", true);
-	xhttp.send();
+function ini(){
 
 	
-	// Get all elements with class="pagination" and hide them
-	    var pagination = document.getElementsByClassName("floorpag");
-	    for (i = 0; i < pagination.length; i++) {
-		pagination[i].style.display = "none";
-	    }
 	
-	document.getElementById("f1").className += " active";
-	document.getElementById("f1").style.display = "block";
-	var floors = 2;
-	
-	if(floors == 0){
-		// set basement active
-	}
-	for(var i = 1; i<floors+1; i++){
-		var floor = "f" + i;
-		var imgsrc = "img/"+ floor + ".JPG";
 		
-		pagination[i].style.display = "block";
-		document.getElementById(floor).setAttribute("src", imgsrc);
-		console.log("img:" + imgsrc + " initialized");
-	}
-	
-	
 }
 
 // plans pagiantion
@@ -144,78 +163,64 @@ function switchPlans(evt, floor){
     evt.currentTarget.className += " active";
 }
 
-// get room from xml
-function getRoom(roomid){
-var xhttp = new XMLHttpRequest();
-xhttp.onreadystatechange = function() {
-    if (this.readyState == 4 && this.status == 200) {
-	roomValues(this, roomid);
+	// get room from xml
+function init(){
+	
+	// Get all elements with class="plans" and hide them
+    var plans = document.getElementsByClassName("plans");
+    for (i = 0; i < plans.length; i++) {
+        plans[i].style.display = "none";
     }
-};
-xhttp.open("GET", "roomdb.xml", true);
-xhttp.send();
+	
+	var roomid = GetURLParameter("roomid");
+	document.getElementById("roomid").innerHTML = roomid;
 
-function roomValues(xml, roomid) {
-    var xmlDoc = xml.responseXML;
-    var room = "";
+	var values, Xperc, Yperc, floors;	
+		
+	var xhttp = new XMLHttpRequest();
+	xhttp.onreadystatechange = function() {
+		if (this.readyState == 4 && this.status == 200) {
+		values = getRoom(this, roomid);
+		/* xcord, ycord, floor, img [array], building, uni */
+		Xperc = values.xcord;
+		Yperc = values.ycord;
+		document.getElementById("mark").style.left = Xperc +"%";
+		document.getElementById("mark").style.top = Yperc +"%";
 
-	var i = 0;
-	var rooms = xmlDoc.getElementsByTagName("room");
-	
-	console.log(rooms);
-	
-	var room = rooms.childNodes;
-	/*
-	while(room != roomid){
-		room = rooms.textContent;
-		console.log(rooms);
-		i++;
-	}
-	*/
-}
-
-}
-
-
-/*
-* function takes xml file and roomid, looks for the room and returns:
-	xcord, ycord, floor, img, building and uni in this order from 0 to 5.
-	
-	var room = roomValues(xml, "roomid");
-	
-	var roomxcord = room[0];
-	
-	for img path:
-	var roomimg = room[3];
-*/
-
-function roomValues(xml, roomid) {
-    // ROOT DOCUMENT
-	var xmlDoc = xml.responseXML;
-	
-	//Define variables
-	var xcord, ycord, img, floor, room, rooms, building, uni;
-	
-	// get all the rooms
-	rooms = xmlDoc.getElementsByTagName("room");
-	
-	for(var i=0; i<rooms.length; i++){
-		room = rooms[i].firstElementChild.innerHTML;
-		if(roomid == room){
-			break;
+		floors = values.floor;
+		
 		}
-	}
-
-
-	return {
-	xcord: xcord = rooms[i].childNodes[3].innerHTML,
-	ycord: ycord = rooms[i].childNodes[5].innerHTML,
-	floor: floor = rooms[i].parentElement.attributes[0].nodeValue,
-	img: img = rooms[i].parentElement.attributes[1].nodeValue,
-	building: building = rooms["0"].parentElement.parentElement.attributes["0"].nodeValue,
-	uni: uni = rooms["0"].parentElement.parentElement.parentElement.attributes[1].nodeValue,
 	};
+	xhttp.open("GET", "roomdb.xml", true);
+	xhttp.send();
+
+
+
+
+
+
+	
+	// Get all elements with class="pagination" and hide them
+    var pagination = document.getElementsByClassName("floorpag");
+    for (i = 0; i < pagination.length; i++) {
+        pagination[i].style.display = "none";
+    }
+	
+	document.getElementById("f1").className += " active";
+	document.getElementById("f1").style.display = "block";
+	var floors = 2;
+	
+	if(floors == 0){
+		// set basement active
+	}
+	for(var i = 1; i<floors+1; i++){
+		var floor = "f" + i;
+		var imgsrc = "img/"+ floor + ".JPG";
+		
+		pagination[i].style.display = "block";
+		document.getElementById(floor).setAttribute("src", imgsrc);
+		console.log("img:" + imgsrc + " initialized");
+	}
 	
 	
 }
-
