@@ -41,13 +41,6 @@ function openTab(evt, tabName) {
 }
 
 
-function searchRoom(){
-
-	var roomid = "A3010";
-	document.getElementById("searchfield").setAttribute("value", roomid);
-
-}
-
 
 // GETS PARAMETER FROM URL
 // USE var roomid = GetURLParameter("roomid");
@@ -68,9 +61,7 @@ function GetURLParameter(sParam)
 }
 
 // SECOND PAGE INITIALIZING
-// SECOND PAGE INITIALIZING
-
-	// get room from xml
+// get room from xml
 function init(){
 	
 	// Get all elements with class="plans" and hide them
@@ -78,21 +69,28 @@ function init(){
     for (i = 0; i < plans.length; i++) {
         plans[i].style.display = "none";
     }
-	
+	// GET ROOM ID FROM URL AND SHOW IT ON PAGE
 	var roomid = GetURLParameter("roomid");
 	document.getElementById("roomid").innerHTML = roomid;
 
-	var values, Xperc, Yperc, floors;	
-		
+	// variables
+	var values, Xperc, Yperc, floors;
+	
+	//start of xml request
 	var xhttp = new XMLHttpRequest();
 	xhttp.onreadystatechange = function() {
 		if (this.readyState == 4 && this.status == 200) {
+		// run method to get room info
 		values = roomValues(this, roomid);
+			
+		// give right values for variables
 		Xperc = values.xcord;
 		Yperc = values.ycord;
+		//give coordinates for the mark
 		document.getElementById("mark").style.left = Xperc +"%";
 		document.getElementById("mark").style.top = Yperc +"%";
-
+		
+		//get floor number
 		floors = values.floor;
 		
 		}
@@ -100,17 +98,12 @@ function init(){
 	xhttp.open("GET", "roomdb.xml", true);
 	xhttp.send();
 
-
-
-
-
-
 	
 	// Get all elements with class="pagination" and hide them
-    var pagination = document.getElementsByClassName("floorpag");
-    for (i = 0; i < pagination.length; i++) {
-        pagination[i].style.display = "none";
-    }
+	    var pagination = document.getElementsByClassName("floorpag");
+	    for (i = 0; i < pagination.length; i++) {
+		pagination[i].style.display = "none";
+	    }
 	
 	document.getElementById("f1").className += " active";
 	document.getElementById("f1").style.display = "block";
