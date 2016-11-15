@@ -70,21 +70,41 @@ function GetURLParameter(sParam)
 // SECOND PAGE INITIALIZING
 // SECOND PAGE INITIALIZING
 
+	// get room from xml
 function init(){
-	var roomid = GetURLParameter("roomid");
-	document.getElementById("roomid").innerHTML = roomid;
-	
-	var Xperc = 50;
-	var Yperc = 50;
-	
-	document.getElementById("mark").style.left = Xperc +"%";
-	document.getElementById("mark").style.top = Yperc +"%";
 	
 	// Get all elements with class="plans" and hide them
     var plans = document.getElementsByClassName("plans");
     for (i = 0; i < plans.length; i++) {
         plans[i].style.display = "none";
     }
+	
+	var roomid = GetURLParameter("roomid");
+	document.getElementById("roomid").innerHTML = roomid;
+
+	var values, Xperc, Yperc, floors;	
+		
+	var xhttp = new XMLHttpRequest();
+	xhttp.onreadystatechange = function() {
+		if (this.readyState == 4 && this.status == 200) {
+		values = roomValues(this, roomid);
+		Xperc = values.xcord;
+		Yperc = values.ycord;
+		document.getElementById("mark").style.left = Xperc +"%";
+		document.getElementById("mark").style.top = Yperc +"%";
+
+		floors = values.floor;
+		
+		}
+	};
+	xhttp.open("GET", "roomdb.xml", true);
+	xhttp.send();
+
+
+
+
+
+
 	
 	// Get all elements with class="pagination" and hide them
     var pagination = document.getElementsByClassName("floorpag");
@@ -109,7 +129,6 @@ function init(){
 	}
 	
 	
-		
 }
 
 // plans pagiantion
@@ -163,3 +182,47 @@ function roomValues(xml, roomid) {
 }
 
 }
+
+
+/*
+* function takes xml file and roomid, looks for the room and returns:
+	xcord, ycord, floor, img, building and uni in this order from 0 to 5.
+	
+	var room = roomValues(xml, "roomid");
+	
+	var roomxcord = room[0];
+	
+	for img path:
+	var roomimg = room[3];
+*/
+
+function roomValues(xml, roomid) {
+    // ROOT DOCUMENT
+	var xmlDoc = xml.responseXML;
+	
+	//Define variables
+	var xcord, ycord, img, floor, room, rooms, building, uni;
+	
+	// get all the rooms
+	rooms = xmlDoc.getElementsByTagName("room");
+	
+	for(var i=0; i<rooms.length; i++){
+		room = rooms[i].firstElementChild.innerHTML;
+		if(roomid == room){
+			break;
+		}
+	}
+
+
+	return {
+	xcord: xcord = rooms[i].childNodes[3].innerHTML,
+	ycord: ycord = rooms[i].childNodes[5].innerHTML,
+	floor: floor = rooms[i].parentElement.attributes[0].nodeValue,
+	img: img = rooms[i].parentElement.attributes[1].nodeValue,
+	building: building = rooms["0"].parentElement.parentElement.attributes["0"].nodeValue,
+	uni: uni = rooms["0"].parentElement.parentElement.parentElement.attributes[1].nodeValue,
+	};
+	
+	
+}
+
