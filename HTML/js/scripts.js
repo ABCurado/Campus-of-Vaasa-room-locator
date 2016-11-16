@@ -22,7 +22,12 @@ function getRoom(xml, roomid) {
 	// get all the rooms as HTMLCollection
 	rooms = xmlDoc.getElementsByTagName("room");
 	console.log(rooms);
-	//Search for right room and get is as HTMLCollection
+	
+	
+	/*	Search for right room and get is as HTMLCollection
+	*	Get right coordinates and return them in the end
+	*	Coordinates are ready after this
+	*/
 	for(var i=0; i<rooms.length; i++){
 		
 		var breaker = rooms[i].firstElementChild.innerHTML;
@@ -36,10 +41,28 @@ function getRoom(xml, roomid) {
 		}
 	}
 	
+	// Get all floors and use floor number to choose right floor
+	var floorno = rooms[i].parentElement.attributes[0].nodeValue;
 	
-	//console.log(room);
-	uni = rooms["0"].parentElement.parentElement.parentElement.attributes[1].nodeValue
-	//console.log(rooms);
+	// set return variable
+	var returnFloorno = floorno;
+	floors = xmlDoc.getElementsByTagName("floor");
+	//console.log(floors[floorno-1]);
+	
+	/*
+	*	In for loop floor plan images are set and added in imgs[] array
+	*
+	*/
+	var h = floorno;
+	
+	for(var b=0; b<=floorno-1; b++){
+		
+		imgs[b] = floors[h-1].attributes[1].nodeValue;
+		console.log(b);
+		console.log(imgs[b]);
+		h--;
+	}
+	
 	
 	floor = rooms[i].parentElement.parentElementSibling;
 	var x = rooms[i].parentElement.attributes[0].nodeValue;
@@ -49,15 +72,15 @@ function getRoom(xml, roomid) {
 		//imgs.push(floor.previousElementSibling.attributes[1].nodeValue);
 	}
 	
-	//console.log(rooms[i].parentElement.previousSibling);
 	
 	
+	uni="Novia";
 	
 	
 	return {
 	xcord: xcord,
 	ycord: ycord,
-	floor: floor,
+	floor: returnFloorno,
 	imgs: imgs,
 	building: building = rooms["0"].parentElement.parentElement.attributes["0"].nodeValue,
 	uni: uni
@@ -156,35 +179,67 @@ function switchPlans(evt, floor){
 	// get room from xml
 function init(){
 	
+	// Get all elements with class="pagination" and hide them
+    var pagination = document.getElementsByClassName("floorpag");
+    for (i = 0; i < pagination.length; i++) {
+        pagination[i].style.display = "none";
+    }
+	
+	
+	
 	// Get all elements with class="plans" and hide them
     var plans = document.getElementsByClassName("plans");
     for (i = 0; i < plans.length; i++) {
         plans[i].style.display = "none";
     }
+	
+	document.getElementById("f1").className += " active";
+	document.getElementById("f1").style.display = "block";
+	
 	// get roomid from URL and put it in header
 	var roomid = GetURLParameter("roomid");
 	document.getElementById("roomid").innerHTML = roomid;
 
 	//initialise variables
-	var values, Xperc, Yperc, floors;	
+	var values, Xperc, Yperc, floors, imgs;	
 		
 	var xhttp = new XMLHttpRequest();
 	xhttp.onreadystatechange = function() {
 		if (this.readyState == 4 && this.status == 200) {
 		values = getRoom(this, roomid);
-		console.log("test");
+		
+		console.log(values);
 		/* xcord, ycord, floor, img [array], building, uni */
+		
+		var uni = values.uni;
 		
 		//get x and y coordinates
 		Xperc = values.xcord;
 		Yperc = values.ycord;
+		
+
+		floors = values.floor-1;
+		
+		// get imgs array to variable and ge tpictures
+		imgs = values.imgs;
+		
+		for(var i=1; i<imgs.length+1; i++){
+			//console.log(i);
+			//console.log("f"+i);
+			document.getElementById("f"+i).setAttribute("src", imgs[floors]);
+			pagination[i].style.display = "block";
+			//console.log("img:" + imgs[floors] + " initialized");
+			floors--;
+		}
 		//set mark on spot
 		document.getElementById("mark").style.left = Xperc +"%";
 		document.getElementById("mark").style.top = Yperc +"%";
-
-		floors = values.floor;
-		
+		//set university name
+		document.getElementById("schoolname").innerHTML = uni;
 		}
+		
+				
+
 	};
 	xhttp.open("GET", "roomdb.xml", true);
 	xhttp.send();
@@ -195,26 +250,19 @@ function init(){
 
 
 	
-	// Get all elements with class="pagination" and hide them
-    var pagination = document.getElementsByClassName("floorpag");
-    for (i = 0; i < pagination.length; i++) {
-        pagination[i].style.display = "none";
-    }
 	
-	document.getElementById("f1").className += " active";
-	document.getElementById("f1").style.display = "block";
-	var floors = 2;
 	
-	if(floors == 0){
-		// set basement active
-	}
+	
+	
+	
+	
 	for(var i = 1; i<floors+1; i++){
 		var floor = "f" + i;
 		var imgsrc = "img/"+ floor + ".JPG";
 		
-		pagination[i].style.display = "block";
+		
 		document.getElementById(floor).setAttribute("src", imgsrc);
-		console.log("img:" + imgsrc + " initialized");
+		
 	}
 	
 	
