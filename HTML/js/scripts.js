@@ -7,10 +7,7 @@
 	
 	var room = roomValues(xml, "roomid");
 	
-	var roomxcord = room[0];
-	
-	for img path:
-	var roomimg = room[3];
+	var x = room.xcord;
 */
 
 function getRoom(xml, roomid) {
@@ -24,14 +21,15 @@ function getRoom(xml, roomid) {
 	
 	// get all the rooms as HTMLCollection
 	rooms = xmlDoc.getElementsByTagName("room");
-	
+	console.log(rooms);
 	//Search for right room and get is as HTMLCollection
 	for(var i=0; i<rooms.length; i++){
 		
-		breaker = rooms[i].firstElementChild.innerHTML;
+		var breaker = rooms[i].firstElementChild.innerHTML;
 		//break the loop and give coordinates and room as HTMLCollection
 		if(roomid == breaker){
 			room = rooms[i].children;
+			console.log(room);
 			xcord = room[1].innerHTML;
 			ycord = room[2].innerHTML;
 			break;
@@ -133,15 +131,7 @@ function GetURLParameter(sParam)
     }
 }
 
-// SECOND PAGE INITIALIZING
-// SECOND PAGE INITIALIZING
 
-function ini(){
-
-	
-	
-		
-}
 
 // plans pagiantion
 function switchPlans(evt, floor){
@@ -171,19 +161,24 @@ function init(){
     for (i = 0; i < plans.length; i++) {
         plans[i].style.display = "none";
     }
-	
+	// get roomid from URL and put it in header
 	var roomid = GetURLParameter("roomid");
 	document.getElementById("roomid").innerHTML = roomid;
 
+	//initialise variables
 	var values, Xperc, Yperc, floors;	
 		
 	var xhttp = new XMLHttpRequest();
 	xhttp.onreadystatechange = function() {
 		if (this.readyState == 4 && this.status == 200) {
 		values = getRoom(this, roomid);
+		console.log("test");
 		/* xcord, ycord, floor, img [array], building, uni */
+		
+		//get x and y coordinates
 		Xperc = values.xcord;
 		Yperc = values.ycord;
+		//set mark on spot
 		document.getElementById("mark").style.left = Xperc +"%";
 		document.getElementById("mark").style.top = Yperc +"%";
 
