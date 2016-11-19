@@ -24,6 +24,7 @@ function getRoom(xml, roomid) {
 	console.log(rooms);
 	
 	
+	
 	/*	Search for right room and get is as HTMLCollection
 	*	Get right coordinates and return them in the end
 	*	Coordinates are ready after this
@@ -252,18 +253,9 @@ function init(){
 	xhttp.open("GET", "roomdb.xml", true);
 	xhttp.send();
 
-
-
-
-
-
-	
-	
-	
-	
-	
-	
-	
+		/*
+				Set images
+		*/
 	for(var i = 1; i<floors+1; i++){
 		var floor = "f" + i;
 		var imgsrc = "img/"+ floor + ".JPG";
@@ -272,6 +264,15 @@ function init(){
 		document.getElementById(floor).setAttribute("src", imgsrc);
 		
 	}
+	
+	
+}
+
+function redirect(){
+	var value=document.getElementById("input1").value;
+	console.log(value);
+	
+	location.href='map.html?roomid='+value;
 	
 	
 }
