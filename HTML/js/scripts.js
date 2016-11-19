@@ -217,20 +217,28 @@ function init(){
 		Xperc = values.xcord;
 		Yperc = values.ycord;
 		
-
-		floors = values.floor-1;
+		var floor = values.floor;
+		floors = floor-1;
 		
 		// get imgs array to variable and ge tpictures
 		imgs = values.imgs;
 		
 		for(var i=1; i<imgs.length+1; i++){
 			//console.log(i);
-			//console.log("f"+i);
-			document.getElementById("f"+i).setAttribute("src", imgs[floors]);
+			console.log(document.getElementById("f"+i).children);
+			document.getElementById("f"+i).children[0].setAttribute("src", imgs[floors]);
 			pagination[i].style.display = "block";
 			//console.log("img:" + imgs[floors] + " initialized");
 			floors--;
 		}
+		
+		var elem = document.createElement("img");
+		
+		elem.setAttribute("src", "img/mark.PNG");
+		elem.setAttribute("id", "mark");
+		
+		document.getElementById("f"+floor).appendChild(elem);
+		
 		//set mark on spot
 		document.getElementById("mark").style.left = Xperc +"%";
 		document.getElementById("mark").style.top = Yperc +"%";
