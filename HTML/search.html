@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <link rel="stylesheet" type="text/css" href="styles/search.css">
+    
     <meta name="viewport" content="width=device-width, initial-scale=0.5, maximum-scale=1.0, user-scalable=no" />
     <script src="https://code.jquery.com/jquery-2.2.1.min.js" integrity="sha256-gvQgAFzTH6trSrAWoH1iPo9Xc96QxSZ3feW6kem+O00=" crossorigin="anonymous"></script>
     <!-- Latest compiled and minified CSS -->
@@ -10,6 +10,8 @@
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <script src="search.php"></script>
+	    <script src="js/scripts.js"></script>
+
     <link rel="stylesheet" type="text/css" href="css/search.css">
     <script>
         function showResult(str) {
@@ -39,8 +41,8 @@
 
 <body>
     <div id=logo><img src="img/logo.png"></div>
-    <form>
-        <input type="text" name="search" autocomplete="off" onkeyup="showResult(this.value)" placeholder="Search by a room number (for example: A1078)" />
+    <form action="javascript:redirect();">
+        <input id="input1" type="text" name="roomid" autocomplete="off" onkeyup="showResult(this.value)" placeholder="Search by a room number (for example: A1078)" />
         <div id="search"></div>
     </form>
 </body>
