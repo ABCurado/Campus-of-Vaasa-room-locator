@@ -1,4 +1,37 @@
+/* ADMIN PAGE INIT */
+
+function initAdmin(){
 	
+	var xhttp = new XMLHttpRequest();
+	
+	xhttp.onreadystatechange = function() {
+		if (this.readyState == 4 && this.status == 200) {
+			
+			getPlans(this);
+			}
+		}
+	
+	xhttp.open("GET", "roomdb.xml", true);
+	xhttp.send();
+	
+	function getPlans(xml) {
+				
+				var xmlDoc = xml.responseXML;
+				var imgs = [];
+				
+				var floors = xmlDoc.getElementsByTagName("floor");
+				console.log(floors);
+				
+				for(var i = 0; i<=floors.length-1; i++){
+					imgs[i] = floors[i].attributes[1].nodeValue;
+					console.log(imgs[i]);
+				}
+				
+				
+				
+	}
+		
+}	
 	
 
 /*
