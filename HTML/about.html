@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--<link rel="stylesheet" href="css/normalize.css">-->
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <!-- Your web-app is https, so your scripts need to be too -->
+    <script src="https://code.jquery.com/jquery-2.2.1.min.js" integrity="sha256-gvQgAFzTH6trSrAWoH1iPo9Xc96QxSZ3feW6kem+O00=" crossorigin="anonymous"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <script src="js/scripts.js"></script>
+</head>
+
+<body onload="init()">
+    <nav class="navbar navbar-default" role="navigation">
+        <!-- Brand and toggle get grouped for better mobile display -->
+		<a class="navbar-brand" rel="home" id="roomid"></a>
+        <div class="navbar-header"> &nbsp;
+            <button class="btn btn-default navbar-btn dropdown-toggle " type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span> </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                <li><a href="#"><i class="glyphicon glyphicon-question-sign"></i>  Home</a></li>
+                <li> <a href="#"><i class="glyphicon glyphicon-question-sign"></i> Cafeterias</a></li>
+                <li> <a href="#"><i class="glyphicon glyphicon-question-sign"></i> Rooms</a></li>
+                <li> <a href="#"><i class="glyphicon glyphicon-question-sign"></i> How to use</a></li>
+                <li> <a href="#"><i class="glyphicon glyphicon-question-sign"></i> Others</a></li>
+                <li> <a href="#"><i class="glyphicon glyphicon-question-sign"></i> Contact</a></li>
+            </ul>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="navbar-collapse-1">
+            <form class="navbar-form navbar-left" role="search" id="nav-search">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Search"> </div>
+                <button type="submit" class="btn btn-default"><i class="glyphicon glyphicon-search"></i></button>
+            </form>
+            <ul class="nav navbar-nav navbar-right" id="side-options">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </nav>
+    <!--
+HEADER ENDS & MAP STARTS
+-->
+    <div id="content-wrapper">
+		<h1>About</h1>
+		<p>About content, lots of about content here. Go to map.html?roomid=R221 this works really it works, "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</p>
+	</div>
+   
+</body>
+
+</html>
