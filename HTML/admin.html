@@ -59,8 +59,8 @@
 									<form method="POST" action="addRoom.php">
 										<input id="searchfield"type="text" name="roomid" placeholder="ROOM ID"></input>
 										<div class="plans">
-											<img id="map" class="img-responsive" src="img/novia/f1.JPG"/>
-											<img id="mark" src="img/ball.png"/>
+											<img id="map" class="img-responsive" src="img/novia/f1.JPG"></img>
+											<img id="mark" src="img/ball.png"></img>
 										</div>
 										<input type="text" name="x" id="xcord" readonly="true"> </input>
 										<input type="text" name="y" id="ycord" readonly="true"> </input>	
@@ -72,9 +72,9 @@
 
 					<div id="remRoom" class="right tabcontent">
 							  <h3>Remove Room</h3>
-							  <form method="delete" action="deleteRoom()"><br>
+							  <form method="POST" action="removeRoom.php"><br>
 							 
-								<input type="text" placeholder="roomId">
+								<input type="text" name="roomid" placeholder="roomId">
 								</input>
 								<input type="submit"></input>
 							  </form>
