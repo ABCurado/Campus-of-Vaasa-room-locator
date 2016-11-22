@@ -22,9 +22,10 @@
   var Xperc = (posX / mapWidth);
   var Yperc = (posY / mapHeight);
   
+  
   // display coordinates
-  document.getElementById("xcord1").innerHTML = "X: " + Xperc.toFixed(2);
-  document.getElementById("ycord1").innerHTML = "Y: " + Yperc.toFixed(2);
+  document.getElementById("xcord").value = "X: " + Xperc.toFixed(2);
+  document.getElementById("ycord").value = "Y: " + Yperc.toFixed(2);
   
   // convert from 0-1 to 0-100
   Xperc = Xperc * 100;
