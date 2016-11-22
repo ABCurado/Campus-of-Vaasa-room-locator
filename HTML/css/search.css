@@ -1,26 +1,37 @@
+body {
+overflow:hidden;
+}
+
+a:link, a:visited, a:hover, a:active {
+text-decoration:none;
+color:black;
+}
+
 html, body {
 position:absolute;
 width: 100%;
 height: 100%;
 margin: 0px;
 background: #EB3349; /* fallback for old browsers */
-background: -webkit-linear-gradient(#0072ff, #e0e0e0); /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(#0072ff, #e0e0e0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: -webkit-linear-gradient(to left, #EB3349 , #F45C43); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #EB3349 , #F45C43); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 input[type=text] {
-width: 40%;
+width: 80%;
 box-sizing: border-box;
 border: 2px solid #ccc;
 border-radius: 5px;
-font-size: 16px;
+font-size: 24px;
 background-color: white;
 background-image: url('../images/searchicon.png');
-background-position: 10px 10px; 
+background-position: 15px 50%; 
 background-repeat: no-repeat;
 padding: 12px 20px 12px 40px;
 -webkit-transition: width 0.4s ease-in-out;
 transition: width 0.4s ease-in-out;
+height:100px;
+text-align: center;
 }
 
 input {
@@ -30,7 +41,7 @@ margin: auto;
 
 form {
 position:relative;
-top: 40%;
+top: 20%;
 display: block;
 }
 
@@ -39,15 +50,47 @@ vertical-align: middle;
 margin:auto;
 position:relative;
 display:block;
-top: 40%;
+top: 20%;
 width: 500px;;
 display: block;
 vertical-align: middle;
 }
 
-#search {
+#search  {
 display: block;
 margin: auto;
-width: 40%;
-font-size: 16px;	
+font-size: 16px;
+}
+
+#search .background {
+display:block
+background-color:white;
+opacity:0.5;
+width:40%;
+}
+
+ul {
+-moz-column-count: 4;
+-moz-column-gap: 20px;
+-webkit-column-count: 4;
+-webkit-column-gap: 20px;
+column-count: 4;
+column-gap: 20px;
+list-style-type: none;
+}
+
+input { 
+    text-transform: uppercase;
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+    text-transform: none;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    text-transform: none;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    text-transform: none;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    text-transform: none;
 }
