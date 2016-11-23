@@ -2,8 +2,17 @@
 
 	$xml = new DOMDocument("1.0","UTF-8");
 	$xml->load("roomdb.xml");
-
-	$floor = $xml -> getElementsByTagName("floor")->item(0);
+	
+	//$floorno = $_POST["floor"]-1;
+	
+	//$floor = $xml -> getElementsByTagName("floor")->item($floorno);
+	
+	
+	
+	//$university = $_POST["university"];
+	
+	
+	
 	
 	$elem = $xml->createElement("room");
 	
@@ -14,6 +23,9 @@
 	$elem->appendChild($roomid);
 	$elem->appendChild($xcord);
 	$elem->appendChild($ycord);
+	
+	//$unipath = $xml -> getElementById("novia") -> textContent;
+	//$floorpath = $unipath -> getElementsByTagName("floor")->item($floorno);
 	
 	$floor->appendChild($elem);
 	
