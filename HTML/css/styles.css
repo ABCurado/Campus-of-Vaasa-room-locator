@@ -67,7 +67,6 @@ li:nth-child(even) {
     border-color: transparent;
 }
 
-
 ul.navbar-right {
     font-size: 3.5vh;
     border-color: transparent;
@@ -230,12 +229,10 @@ span.glyphicon-menu-hamburger {
     border-top: none;
 }
 
-#map-wrapper{
-		overflow: hidden;
-		position:relative;
-        max-width:850px ;
-		
-	}
+#map-wrapper {
+    overflow: hidden;
+    position: relative;
+}
 
 #map {}
 
