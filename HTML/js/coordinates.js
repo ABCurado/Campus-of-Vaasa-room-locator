@@ -21,15 +21,15 @@
   // convert position in img to percents
   var Xperc = (posX / mapWidth);
   var Yperc = (posY / mapHeight);
-  
-  
-  // display coordinates
-  document.getElementById("xcord").value = "X: " + Xperc.toFixed(2);
-  document.getElementById("ycord").value = "Y: " + Yperc.toFixed(2);
-  
-  // convert from 0-1 to 0-100
+    // convert from 0-1 to 0-100
   Xperc = Xperc * 100;
   Yperc = Yperc * 100;
+  
+  // display coordinates
+  document.getElementById("xcord").value = Xperc.toFixed(2);
+  document.getElementById("ycord").value = Yperc.toFixed(2);
+  
+
   
   // make mark visible and give position
   document.getElementById("mark").style.left = Xperc +"%";
