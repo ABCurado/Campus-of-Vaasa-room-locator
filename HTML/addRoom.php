@@ -3,9 +3,9 @@
 	$xml = new DOMDocument("1.0","UTF-8");
 	$xml->load("roomdb.xml");
 	
-	//$floorno = $_POST["floor"]-1;
+	$floorno = $_POST["floor"]-1;
 	
-	//$floor = $xml -> getElementsByTagName("floor")->item($floorno);
+	$floor = $xml -> getElementsByTagName("floor")->item($floorno);
 	
 	
 	
