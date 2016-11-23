@@ -1,35 +1,47 @@
+/* change floorplans in add room panel */
+function changePlans(){
+	
+	var select = document.getElementById("fselect").value;
+	
+	
+	var xhttp = new XMLHttpRequest();
+	var imgs;
+	
+	xhttp.onreadystatechange = function() {
+		if (this.readyState == 4 && this.status == 200) {
+			
+			imgs = getImgs(this);
+			console.log(imgs);
+			document.getElementById("map").setAttribute("src", imgs[select]);
+			}
+		}
+	
+	xhttp.open("GET", "roomdb.xml", true);
+	xhttp.send();
+
+}
+
+
 /* ADMIN PAGE INIT */
 
 function initAdmin(){
 	
 	var xhttp = new XMLHttpRequest();
+	var imgs;
 	
 	xhttp.onreadystatechange = function() {
 		if (this.readyState == 4 && this.status == 200) {
 			
-			getPlans(this);
+			imgs = getImgs(this);
+			console.log(imgs);
+			
 			}
 		}
 	
 	xhttp.open("GET", "roomdb.xml", true);
 	xhttp.send();
 	
-	function getPlans(xml) {
-				
-				var xmlDoc = xml.responseXML;
-				var imgs = [];
-				
-				var floors = xmlDoc.getElementsByTagName("floor");
-				console.log(floors);
-				
-				for(var i = 0; i<=floors.length-1; i++){
-					imgs[i] = floors[i].attributes[1].nodeValue;
-					console.log(imgs[i]);
-				}
-				
-				
-				
-	}
+	
 		
 }	
 	
@@ -309,3 +321,20 @@ function redirect(){
 	
 	
 }
+/* GET IMAGE PATHS IN ARRAY*/
+function getImgs(xml) {
+				
+				var xmlDoc = xml.responseXML;
+				var imgs = [];
+				
+				var floors = xmlDoc.getElementsByTagName("floor");
+				console.log(floors);
+				
+				for(var i = 0; i<=floors.length-1; i++){
+					imgs[i] = floors[i].attributes[1].nodeValue;
+					console.log(imgs[i]);
+				}
+				return imgs;
+				
+				
+	}

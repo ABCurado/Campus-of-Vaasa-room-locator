@@ -30,7 +30,7 @@
     <link rel="stylesheet" href="css/adminstyles.css?v=1.0">
 </head>
 
-<body>
+<body onload="initAdmin()">
 	<h1>Room Locator Admin-panel</h1>
 	<div class="row">
 		<div class="col col-sm-2">		
@@ -57,10 +57,13 @@
 						<div class="content">
 							
 									<form method="POST" action="addRoom.php">
-										Floor: 
-											<input type="radio" name="floor" value="1">1
-											<input type="radio" name="floor" value="2">2
-											<input type="radio" name="floor" value="3">3
+										
+										Floor
+										<select id="fselect" name="floor" onchange="changePlans()">
+											<option value="0" selected>f1</option>
+											<option value="1">f2</option>
+											<option value="2">f3</option>
+										</select>
 										
 										<input id="searchfield"type="text" name="roomid" placeholder="ROOM ID"></input>
 										
@@ -78,8 +81,7 @@
 
 					<div id="remRoom" class="right tabcontent">
 							  <h3>Remove Room</h3>
-							  <form method="POST" action="removeRoom.php"><br>
-							 
+							  <form method="POST" action="remove.php"><br>
 								<input type="text" name="roomid" placeholder="roomId">
 								</input>
 								<input type="submit"></input>
