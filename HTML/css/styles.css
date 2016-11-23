@@ -24,13 +24,13 @@ body {
     color: #333;
     background: red;
     /* For browsers that do not support gradients */
-    background: -webkit-linear-gradient(#0072ff, #e0e0e0);
+    background: -webkit-linear-gradient(#279bfd, #e0e0e0);
     /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(#0072ff, #e0e0e0);
+    background: -o-linear-gradient(#279bfd, #e0e0e0);
     /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(#0072ff, #e0e0e0);
+    background: -moz-linear-gradient(#279bfd, #e0e0e0);
     /* For Firefox 3.6 to 15 */
-    background: linear-gradient(to bottom right, #0072ff, #e0e0e0);
+    background: linear-gradient(to bottom right, #279bfd, #e0e0e0);
     /* Standard syntax */
 }
 

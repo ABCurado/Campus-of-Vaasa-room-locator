@@ -94,20 +94,8 @@ input[type=text] {
 #dropdown-div-uni {
     margin-bottom: 10px;
     margin-top: 10px;
-    width: 80%;
     box-sizing: border-box;
-    border: 2px solid #ccc;
     border-radius: 5px;
-    font-size: 24px;
-    background-color: white;
-    background-image: url('../images/searchicon.png');
-    background-position: 15px 50%;
-    background-repeat: no-repeat;
-    padding: 12px 20px 12px 40px;
-    -webkit-transition: width 0.4s ease-in-out;
-    transition: width 0.4s ease-in-out;
-    height: 100px;
-    text-align: center;
 }
 
 input {
