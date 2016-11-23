@@ -3,13 +3,19 @@
 	$xml = new DOMDocument("1.0","UTF-8");
 	$xml->load("roomdb.xml");
 
-	 $roomid = $_POST["roomid"];
-	 $xcord = $_POST["x"];
-	 $ycord = $_POST["y"];
-	  
-	$roomids = $xml -> getElementsByTagName("roomid");
+	$floor = $xml -> getElementsByTagName("floor")->item(0);
 	
-	print_r($roomid);
-	print_r($xcord);
-	print_r($ycord);
+	$elem = $xml->createElement("room");
+	
+	$roomid = $xml->createElement("roomid",$_POST["roomid"]);
+	$xcord = $xml->createElement("xcord",$_POST["x"]);
+	$ycord = $xml->createElement("ycord",$_POST["y"]);
+	
+	$elem->appendChild($roomid);
+	$elem->appendChild($xcord);
+	$elem->appendChild($ycord);
+	
+	$floor->appendChild($elem);
+	
+	$xml->save("roomdb.xml");
 ?>
