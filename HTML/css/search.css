@@ -126,16 +126,6 @@ input {
     margin-bottom: 3vh;
 }
 
-#logo {
-    vertical-align: middle;
-    margin: auto;
-    position: relative;
-    display: block;
-    top: 20%;
-    width: 500px;
-    display: block;
-    vertical-align: middle;
-}
 #search .background {
     display: block background-color: white;
     opacity: 0.5;
