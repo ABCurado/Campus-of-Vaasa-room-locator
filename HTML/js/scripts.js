@@ -66,7 +66,7 @@ function getRoom(xml, roomid) {
 	
 	// get all the rooms as HTMLCollection
 	rooms = xmlDoc.getElementsByTagName("room");
-	console.log(rooms);
+	//console.log(rooms);
 	
 	
 	
@@ -80,7 +80,7 @@ function getRoom(xml, roomid) {
 		//break the loop and give coordinates and room as HTMLCollection
 		if(roomid == breaker){
 			room = rooms[i].children;
-			console.log(room);
+			//console.log(room);
 			xcord = room[1].innerHTML;
 			ycord = room[2].innerHTML;
 			break;
@@ -104,23 +104,17 @@ function getRoom(xml, roomid) {
 	for(var b=0; b<=floorno-1; b++){
 		
 		imgs[b] = floors[h-1].attributes[1].nodeValue;
-		console.log(b);
-		console.log(imgs[b]);
+		//console.log(b);
+		//console.log(imgs[b]);
 		h--;
 	}
 	
 	
-	floor = rooms[i].parentElement.parentElementSibling;
-	var x = rooms[i].parentElement.attributes[0].nodeValue;
-		//console.log(floor);
-
-	for(var i=0; i<x; i++){
-		//imgs.push(floor.previousElementSibling.attributes[1].nodeValue);
-	}
 	
 	
 	
-	uni="Novia";
+	
+	uni=rooms[i].children["0"].parentNode.parentElement.parentElement.parentElement.attributes[1].nodeValue;
 	
 	
 	return {
@@ -254,7 +248,7 @@ function init(){
 		if (this.readyState == 4 && this.status == 200) {
 		values = getRoom(this, roomid);
 		
-		console.log(values);
+		//console.log(values);
 		/* xcord, ycord, floor, img [array], building, uni */
 		
 		var uni = values.uni;
