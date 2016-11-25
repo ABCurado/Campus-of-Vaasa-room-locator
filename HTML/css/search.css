@@ -125,12 +125,7 @@ input {
     display: block;
     margin-bottom: 3vh;
 }
-form {
-position:relative;
-top: 20%;
-display: block;
 
-}
 #logo {
     vertical-align: middle;
     margin: auto;
@@ -138,7 +133,6 @@ display: block;
     display: block;
     top: 20%;
     width: 500px;
-    ;
     display: block;
     vertical-align: middle;
 }
