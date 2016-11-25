@@ -107,7 +107,7 @@ ul.navbar-right li {
 
 .floor-pagination {
     right: 10%;
-	top: 20%;
+    top: 20%;
 }
 
 
@@ -232,9 +232,8 @@ span.glyphicon-menu-hamburger {
 #map-wrapper {
     overflow: hidden;
     position: relative;
-	 transform: rotate(90deg);
-	 top:20%;
-    width: 100%;
+    transform: rotate(90deg);
+    top: 20%;
 }
 
 #mark {
@@ -270,9 +269,10 @@ span.glyphicon-menu-hamburger {
 .plans .img-responsive {
     margin: 0 auto;
 }
-#schoolname{
-	font-size: 3em;
-	text-align: center;
+
+#schoolname {
+    font-size: 3em;
+    text-align: center;
 }
 
 

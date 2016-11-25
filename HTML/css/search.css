@@ -9,7 +9,7 @@ body {
     background: #279bfd;
     font-family: 'Oswald', sans-serif;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(#279bfd,  #FFFFFF);
+    background: -webkit-linear-gradient(#279bfd, #FFFFFF);
     /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(#279bfd, #FFFFFF);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -78,7 +78,6 @@ span.glyphicon-menu-hamburger {
 }
 
 
-
 /* nav bar styling */
 
 input[type=text] {
@@ -97,8 +96,6 @@ transition: width 0.4s ease-in-out;
 height:100px;
 text-align: center;
 }
-
-
 
 input {
     display: block;
@@ -135,27 +132,29 @@ input {
     width: 40%;
 }
 
+
 /* More details on issue #2 */
+
 input {
     text-transform: uppercase;
 }
+
 ::-webkit-input-placeholder {
     /* WebKit browsers */
-    
     text-transform: none;
 }
+
 :-moz-placeholder {
     /* Mozilla Firefox 4 to 18 */
-    
     text-transform: none;
 }
+
 ::-moz-placeholder {
     /* Mozilla Firefox 19+ */
-    
     text-transform: none;
 }
+
 :-ms-input-placeholder {
     /* Internet Explorer 10+ */
-    
     text-transform: none;
 }
