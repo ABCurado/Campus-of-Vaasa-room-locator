@@ -106,7 +106,8 @@ ul.navbar-right li {
 }
 
 .floor-pagination {
-    left: 10%;
+    right: 10%;
+	top: 20%;
 }
 
 
@@ -232,6 +233,8 @@ span.glyphicon-menu-hamburger {
 #map-wrapper {
     overflow: hidden;
     position: relative;
+	 transform: rotate(90deg);
+	 top:20%;
 }
 
 #map {}
@@ -266,6 +269,10 @@ span.glyphicon-menu-hamburger {
     transform: translate(-50%, -50%);
 }
 
+#schoolname{
+	font-size: 3em;
+	text-align: center;
+}
 
 /*
 @media only screen and (min-width: 768px) {
