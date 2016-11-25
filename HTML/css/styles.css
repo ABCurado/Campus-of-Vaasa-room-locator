@@ -106,7 +106,7 @@ ul.navbar-right li {
 }
 
 .floor-pagination {
-    left: 10%;
+    right: 10%;
 }
 
 
@@ -174,7 +174,6 @@ span.glyphicon-menu-hamburger {
     border-radius: 5px;
     padding-left: 15%;
     background-color: white;
-   
     background-position: 3vw 3.5vw;
     background-repeat: no-repeat;
     background-size: 10%;
@@ -232,9 +231,8 @@ span.glyphicon-menu-hamburger {
 #map-wrapper {
     overflow: hidden;
     position: relative;
+    width: 100%;
 }
-
-#map {}
 
 #mark {
     position: absolute;
@@ -264,6 +262,10 @@ span.glyphicon-menu-hamburger {
     left: 50%;
     display: block;
     transform: translate(-50%, -50%);
+}
+
+.plans .img-responsive {
+    margin: 0 auto;
 }
 
 

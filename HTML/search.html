@@ -45,27 +45,24 @@
             <button class="btn btn-default navbar-btn dropdown-toggle " type="button" id="dropdownBtnHeader" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span> </button>
             <ul class="dropdown-menu" id="dropdown-btn-header">
                 <li><a href="search.html"><i class="glyphicon glyphicon glyphicon-search"></i>  Home</a></li>
-                <li> <a href="#"><i class="glyphicon glyphicon-question-sign"></i> How to use</a></li>
+                <li><a href="#"><i class="glyphicon glyphicon-question-sign"></i> How to use</a></li>
+                <li><a href="about.html"><i class="glyphicon glyphicon-cog"></i> About</a></li>
+                <li><a href="help.html"><i class="glyphicon glyphicon-info-sign"></i> Help</a></li>                <li><a href="search.html"><i class="glyphicon glyphicon glyphicon-search"></i>  Home</a></li>
+                <li><a href="#"><i class="glyphicon glyphicon-question-sign"></i> How to use</a></li>
+                <li><a href="about.html"><i class="glyphicon glyphicon-cog"></i> About</a></li>
+                <li><a href="help.html"><i class="glyphicon glyphicon-info-sign"></i> Help</a></li>                <li><a href="search.html"><i class="glyphicon glyphicon glyphicon-search"></i>  Home</a></li>
+                <li><a href="#"><i class="glyphicon glyphicon-question-sign"></i> How to use</a></li>
                 <li><a href="about.html"><i class="glyphicon glyphicon-cog"></i> About</a></li>
                 <li><a href="help.html"><i class="glyphicon glyphicon-info-sign"></i> Help</a></li>
             </ul>
         </div>
     </nav>
     <div id=logo><img class="img-responsive" src="img/logo.png"></div> <img class="img-responsive" src="img/logomark.png" id=img-logo>
-    <div class="dropdown" id="dropdown-div-uni">
-        <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown" id="dropdown-btn">All Univerities <span class="caret"></span></button>
-        <ul class="dropdown-menu" id="dropdown-uni">
-            <li>All Univerities</li>
-            <li>VAMK</li>
-            <li>University of Vaasa</li>
-            <li>Helsinki University</li>
-            <li>Hanken</li>
-            <li>Novia</li>
-            <li>Abo Akademi</li>
-            <li>Tritonia</li>
-            <li>Technobotnia</li>
-            <li>Mednobotnia</li>
-        </ul>
+    <div  id="dropdown-div-uni">
+        <select id="dropdown-uni">
+            <option value="">All Universities</option>
+            <option value="">Novia</option>
+        </select>
     </div>
     <form action="map.html">
         <input type="text" name="roomid" autocomplete="off" onkeyup="showResult(this.value)" placeholder="Search by a room number (for example: A1078)" />
