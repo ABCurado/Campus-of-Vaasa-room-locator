@@ -1,6 +1,6 @@
 <?php
-
 	$xml = new DOMDocument("1.0","UTF-8");
+	$xml->preserveWhiteSpace = false;
 	$xml->load("roomdb.xml");
 	
 	$floorno = $_POST["floor"];
@@ -10,7 +10,7 @@
 	$roomids = $xml -> getElementsByTagName("roomid") ->item(0);
 	print_r($roomids);
 	
-	/*
+	
 	//$university = $_POST["university"];
 	
 	
@@ -30,7 +30,7 @@
 	//$floorpath = $unipath -> getElementsByTagName("floor")->item($floorno);
 	
 	$floor->appendChild($elem);
-	
+	$xml->formatOutput = true;
 	$xml->save("roomdb.xml");
-	*/
+	
 ?>
