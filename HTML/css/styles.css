@@ -232,7 +232,7 @@ span.glyphicon-menu-hamburger {
 #map-wrapper {
     overflow: hidden;
     position: relative;
-    transform: rotate(90deg);
+    /*transform: rotate(90deg);*/
     top: 20%;
 }
 
