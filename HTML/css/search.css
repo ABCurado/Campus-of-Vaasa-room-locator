@@ -68,13 +68,6 @@ li:nth-child(even) {
     border-radius: 5px;
 }
 
-select {
-width:100%;
-text-align:center;
-text-align-last:center;
-}
-
-
 #dropdownBtnHeader {
     background-color: transparent;
     border-color: transparent;
@@ -124,7 +117,18 @@ input {
 #img-logo {
     height: auto;
     width: auto;
-    max-width: 200px;
+    max-width: 150px;
+   /*max-height: 150px;*/
+    vertical-align: middle;
+    margin: auto;
+    position: relative;
+    display: block;
+    margin-bottom: 3vh;
+}
+#title{
+	height: auto;
+    width: auto;
+    max-width: 225px;
     max-height: 200px;
     vertical-align: middle;
     margin: auto;
