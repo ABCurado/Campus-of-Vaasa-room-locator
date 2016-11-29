@@ -68,6 +68,13 @@ li:nth-child(even) {
     border-radius: 5px;
 }
 
+select {
+width:100%;
+text-align:center;
+text-align-last:center;
+}
+
+
 #dropdownBtnHeader {
     background-color: transparent;
     border-color: transparent;
