@@ -255,6 +255,13 @@ function init(){
 			//document.getElementById("f"+i).children[0].setAttribute("src", imgs[i]);
 			
 		}
+			
+		// Get all elements with class="plans" and hide them
+		    var plans = document.getElementsByClassName("plans");
+		    for (i = 0; i < plans.length; i++) {
+			plans[i].style.display = "none";
+		    }
+			
 		document.getElementById("f"+floor).className += " active";
 		document.getElementById("f"+floor).style.display = "block";
 		
