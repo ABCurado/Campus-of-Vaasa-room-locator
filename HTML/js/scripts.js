@@ -7,7 +7,7 @@ function changePlans(){
 	var xhttp = new XMLHttpRequest();
 	xhttp.onreadystatechange = function() {
 		if (this.readyState == 4 && this.status == 200) {
-			imgs = getImgs(this);
+			imgs = getImgs(this, "novia");
 			document.getElementById("map").setAttribute("src", imgs[select]);
 			}
 		}
@@ -25,7 +25,7 @@ function initAdmin(){
 	
 	xhttp.onreadystatechange = function() {
 		if (this.readyState == 4 && this.status == 200) {
-			imgs = getImgs(this);
+			imgs = getImgs(this, "novia");
 			console.log(imgs);
 			}
 		}	
