@@ -224,18 +224,39 @@ function init(){
 		
 		var floor = values.floor -1;
 		//console.log(floor);
-		document.getElementById("f"+floor).className += " active";
-		document.getElementById("f"+floor).style.display = "block";
+		
 		
 		// get imgs array to variable and ge tpictures
 		imgs = values.imgs;
 		//console.log(imgs[0]);
 		
 		for(var i=0; i<imgs.length; i++){
+			var newLi = document.createElement("li");
+			var newA = document.createElement("a");
 			
-			document.getElementById("f"+i).children[0].setAttribute("src", imgs[i]);
+			newLi.setAttribute("class", "floorpag f"+i);
+			document.getElementById("pagination").appendChild(newLi);
+			
+			newA.setAttribute("class", "floorlinks");
+			newA.setAttribute("onclick", "switchPlans(event, 'f"+i+"')");
+			newA.innerHTML = i+1;
+			document.getElementById("pagination").children[i].appendChild(newA);
+			
+			var newDiv = document.createElement("div");
+			newDiv.setAttribute("id", "f"+i);
+			newDiv.setAttribute("class", "img-wrapper plans");
+			document.getElementById("map-wrapper").appendChild(newDiv);
+			
+			var newImg = document.createElement("img");
+			newImg.setAttribute("class", "img-responsive");
+			newImg.setAttribute("src", imgs[i]);
+			document.getElementById("f"+i).appendChild(newImg);
+			
+			//document.getElementById("f"+i).children[0].setAttribute("src", imgs[i]);
 			
 		}
+		document.getElementById("f"+floor).className += " active";
+		document.getElementById("f"+floor).style.display = "block";
 		
 		var elem = document.createElement("img");
 		
