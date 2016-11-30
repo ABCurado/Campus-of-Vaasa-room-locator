@@ -232,7 +232,7 @@ span.glyphicon-menu-hamburger {
 #map-wrapper {
     overflow: hidden;
     position: relative;
-    transform: rotate(90deg);
+    /*transform: rotate(90deg);*/
     top: 20%;
 }
 
@@ -240,7 +240,7 @@ span.glyphicon-menu-hamburger {
     position: absolute;
     width: 10vw;
     height: 10vw;
-    transform: translate(0, -81%);
+    transform: translate(-45%, -75%);
 }
 
 #roomid {
@@ -275,7 +275,9 @@ span.glyphicon-menu-hamburger {
     text-align: center;
 }
 
-
+.floorlinks{
+	white-space: nowrap;
+}
 /*
 @media only screen and (min-width: 768px) {
     h1{

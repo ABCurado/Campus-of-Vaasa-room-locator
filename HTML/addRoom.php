@@ -1,21 +1,16 @@
 <?php
-
 	$xml = new DOMDocument("1.0","UTF-8");
+	$xml->preserveWhiteSpace = false;
 	$xml->load("roomdb.xml");
 	
 	$floorno = $_POST["floor"];
 	$roomid = $_POST["roomid"];
 	
 	$floor = $xml -> getElementsByTagName("floor")->item($floorno);
-	$roomids = $xml -> getElementsByTagName("roomid") ->item(0);
-	print_r($roomids);
+	$roomids = $xml -> getElementsByTagName("roomid");
 	
-	/*
-	//$university = $_POST["university"];
-	
-	
-	
-	
+	print_r("WHAT!");
+	// new node
 	$elem = $xml->createElement("room");
 	
 	$child0 = $xml->createElement("roomid",$roomid);
@@ -26,11 +21,27 @@
 	$elem->appendChild($child1);
 	$elem->appendChild($child2);
 	
-	//$unipath = $xml -> getElementById("novia") -> textContent;
-	//$floorpath = $unipath -> getElementsByTagName("floor")->item($floorno);
+	$i = 0;
 	
-	$floor->appendChild($elem);
-	
+	for($i=0; $i < $roomids -> length; $i++){
+		
+		if($roomid == $roomids -> item($i) -> textContent){
+			$nodeToReplace = $roomids -> item($i) -> parentNode;
+		
+			//now remove
+			if($nodeToReplace != null){
+			$nodeToReplace -> parentNode -> replaceChild($elem, $nodeToReplace);
+			print_r("Replaced");
+			}
+			else{
+			$floor->appendChild($elem);
+			print_r("Added");
+			}
+			
+			$xml->save("roomdb.xml");
+			}
+		}
+	$xml->formatOutput = true;
 	$xml->save("roomdb.xml");
-	*/
+	
 ?>

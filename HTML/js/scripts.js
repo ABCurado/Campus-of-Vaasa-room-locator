@@ -2,20 +2,15 @@
 function changePlans(){
 	
 	var select = document.getElementById("fselect").value;
-	
-	
-	var xhttp = new XMLHttpRequest();
 	var imgs;
 	
+	var xhttp = new XMLHttpRequest();
 	xhttp.onreadystatechange = function() {
 		if (this.readyState == 4 && this.status == 200) {
-			
-			imgs = getImgs(this);
-			console.log(imgs);
+			imgs = getImgs(this, "novia");
 			document.getElementById("map").setAttribute("src", imgs[select]);
 			}
 		}
-	
 	xhttp.open("GET", "roomdb.xml", true);
 	xhttp.send();
 
@@ -23,7 +18,6 @@ function changePlans(){
 
 
 /* ADMIN PAGE INIT */
-
 function initAdmin(){
 	
 	var xhttp = new XMLHttpRequest();
@@ -31,23 +25,17 @@ function initAdmin(){
 	
 	xhttp.onreadystatechange = function() {
 		if (this.readyState == 4 && this.status == 200) {
-			
-			imgs = getImgs(this);
+			imgs = getImgs(this, "novia");
 			console.log(imgs);
-			
 			}
-		}
-	
+		}	
 	xhttp.open("GET", "roomdb.xml", true);
-	xhttp.send();
-	
-	
-		
+	xhttp.send();		
 }	
 	
 
 /*
-* function takes xml file and roomid, looks for the room and returns:
+	function takes xml file and roomid, looks for the room and returns:
 	xcord, ycord, floor, img, building and uni in this order from 0 to 5.
 	
 	var room = roomValues(xml, "roomid");
@@ -61,19 +49,16 @@ function getRoom(xml, roomid) {
 	
 	//Define variables
 	var xcord, ycord, floor, room, rooms, building, uni;
-	//img as an array
-	var imgs = [];
 	
 	// get all the rooms as HTMLCollection
 	rooms = xmlDoc.getElementsByTagName("room");
 	//console.log(rooms);
 	
-	
-	
 	/*	Search for right room and get is as HTMLCollection
 	*	Get right coordinates and return them in the end
 	*	Coordinates are ready after this
 	*/
+	
 	for(var i=0; i<rooms.length; i++){
 		
 		var breaker = rooms[i].firstElementChild.innerHTML;
@@ -97,25 +82,14 @@ function getRoom(xml, roomid) {
 	
 	/*
 	*	In for loop floor plan images are set and added in imgs[] array
-	*
 	*/
 	var h = floorno;
 	
-	for(var b=0; b<=floorno-1; b++){
-		
-		imgs[b] = floors[h-1].attributes[1].nodeValue;
-		//console.log(b);
-		//console.log(imgs[b]);
-		h--;
-	}
+	// define uni
+	uni=rooms[i].children["0"].parentNode.parentElement.parentElement.parentElement.attributes[0].nodeValue;
 	
-	
-	
-	
-	
-	
-	uni=rooms[i].children["0"].parentNode.parentElement.parentElement.parentElement.attributes[1].nodeValue;
-	
+	//img as an array
+	var imgs = getImgs(xml, uni);
 	
 	return {
 	xcord: xcord,
@@ -123,7 +97,7 @@ function getRoom(xml, roomid) {
 	floor: returnFloorno,
 	imgs: imgs,
 	building: building = rooms["0"].parentElement.parentElement.attributes["0"].nodeValue,
-	uni: uni
+	uni: rooms[i].children["0"].parentNode.parentElement.parentElement.parentElement.attributes[1].nodeValue
 	};
 	
 	
@@ -218,23 +192,14 @@ function switchPlans(evt, floor){
 
 	// get room from xml
 function init(){
-	
-	// Get all elements with class="pagination" and hide them
-    var pagination = document.getElementsByClassName("floorpag");
-    for (i = 0; i < pagination.length; i++) {
-        pagination[i].style.display = "none";
-    }
-	
-	
-	
+
 	// Get all elements with class="plans" and hide them
     var plans = document.getElementsByClassName("plans");
     for (i = 0; i < plans.length; i++) {
         plans[i].style.display = "none";
     }
 	
-	document.getElementById("f1").className += " active";
-	document.getElementById("f1").style.display = "block";
+	
 	
 	// get roomid from URL and put it in header
 	var roomid = GetURLParameter("roomid");
@@ -257,20 +222,48 @@ function init(){
 		Xperc = values.xcord;
 		Yperc = values.ycord;
 		
-		var floor = values.floor;
-		floors = floor-1;
+		var floor = values.floor -1;
+		//console.log(floor);
+		
 		
 		// get imgs array to variable and ge tpictures
 		imgs = values.imgs;
+		//console.log(imgs[0]);
 		
-		for(var i=1; i<imgs.length+1; i++){
-			//console.log(i);
-			console.log(document.getElementById("f"+i).children);
-			document.getElementById("f"+i).children[0].setAttribute("src", imgs[floors]);
-			pagination[i].style.display = "block";
-			//console.log("img:" + imgs[floors] + " initialized");
-			floors--;
+		for(var i=0; i<imgs.length; i++){
+			var newLi = document.createElement("li");
+			var newA = document.createElement("a");
+			
+			newLi.setAttribute("class", "floorpag f"+i);
+			document.getElementById("pagination").appendChild(newLi);
+			
+			newA.setAttribute("class", "floorlinks");
+			newA.setAttribute("onclick", "switchPlans(event, 'f"+i+"')");
+			newA.innerHTML = i+1;
+			document.getElementById("pagination").children[i].appendChild(newA);
+			
+			var newDiv = document.createElement("div");
+			newDiv.setAttribute("id", "f"+i);
+			newDiv.setAttribute("class", "img-wrapper plans");
+			document.getElementById("map-wrapper").appendChild(newDiv);
+			
+			var newImg = document.createElement("img");
+			newImg.setAttribute("class", "img-responsive");
+			newImg.setAttribute("src", imgs[i]);
+			document.getElementById("f"+i).appendChild(newImg);
+			
+			//document.getElementById("f"+i).children[0].setAttribute("src", imgs[i]);
+			
 		}
+			
+		// Get all elements with class="plans" and hide them
+		    var plans = document.getElementsByClassName("plans");
+		    for (i = 0; i < plans.length; i++) {
+			plans[i].style.display = "none";
+		    }
+			
+		document.getElementById("f"+floor).className += " active";
+		document.getElementById("f"+floor).style.display = "block";
 		
 		var elem = document.createElement("img");
 		
@@ -307,26 +300,19 @@ function init(){
 	
 }
 
-function redirect(){
-	var value=document.getElementById("input1").value;
-	console.log(value);
-	
-	location.href='map.html?roomid='+value;
-	
-	
-}
 /* GET IMAGE PATHS IN ARRAY*/
-function getImgs(xml) {
+function getImgs(xml, university) {
 				
 				var xmlDoc = xml.responseXML;
 				var imgs = [];
 				
-				var floors = xmlDoc.getElementsByTagName("floor");
-				console.log(floors);
+				var uni = xmlDoc.getElementById(university);
+				//console.log(university);
+				var floors = uni.getElementsByTagName("floor");
 				
 				for(var i = 0; i<=floors.length-1; i++){
 					imgs[i] = floors[i].attributes[1].nodeValue;
-					console.log(imgs[i]);
+					//console.log(imgs[i]);
 				}
 				return imgs;
 				

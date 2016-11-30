@@ -117,7 +117,18 @@ input {
 #img-logo {
     height: auto;
     width: auto;
-    max-width: 200px;
+    max-width: 150px;
+   /*max-height: 150px;*/
+    vertical-align: middle;
+    margin: auto;
+    position: relative;
+    display: block;
+    margin-bottom: 3vh;
+}
+#title{
+	height: auto;
+    width: auto;
+    max-width: 225px;
     max-height: 200px;
     vertical-align: middle;
     margin: auto;
