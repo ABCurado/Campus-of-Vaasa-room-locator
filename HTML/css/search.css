@@ -95,8 +95,18 @@ padding: 12px 20px 12px 40px;
 transition: width 0.4s ease-in-out;
 height:100px;
 text-align: center;
-}
 
+
+}
+#search {
+	position:relative;
+	left:10%;
+    display: block;
+	background-color: white;
+    opacity: 0.5;
+    width: 80%;
+	
+}
 input {
     display: block;
     margin: auto;
@@ -137,11 +147,7 @@ input {
     margin-bottom: 3vh;
 }
 
-#search .background {
-    display: block background-color: white;
-    opacity: 0.5;
-    width: 40%;
-}
+
 
 
 /* More details on issue #2 */
