@@ -100,13 +100,13 @@ ul.navbar-right li {
     height: 100%;
 }
 
-.fixed {
-    position: fixed;
+.abs {
+    position: absolute;
     z-index: 999;
 }
 
 .floor-pagination {
-    right: 10%;
+    left: 10%;
     top: 20%;
 }
 
