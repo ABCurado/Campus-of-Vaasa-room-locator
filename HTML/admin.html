@@ -28,6 +28,17 @@
   <![endif]-->
 	
     <link rel="stylesheet" href="css/adminstyles.css?v=1.0">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("button").click(function(){
+        $("#toggle").toggle();
+    });
+});
+
+
+
+</script>
 </head>
 
 <body onload="initAdmin()">
@@ -64,6 +75,54 @@
 											<option value="1">f2</option>
 											<option value="2">f3</option>
 										</select>
+										<h2>List all rooms in roomdb.xml database:</h2>
+
+<button type="button" onclick="loadXMLDoc()">
+Double-click to show all rooms</button>
+
+<div id="toggle"><p id="demo">
+
+</p></div>
+
+<script>
+function loadXMLDoc() {
+  var xmlhttp = new XMLHttpRequest();
+  xmlhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      myFunction(this);
+    }
+  };
+  xmlhttp.open("GET", "roomdb.xml", true);
+  xmlhttp.send();
+}
+
+function myFunction(xml) {
+  var roomid, floor, y, i, xmlDoc, txt, table1, table2;
+  xmlDoc = xml.responseXML;
+  table1='<table style="font-family: sans-serif">';
+  table2="</table>";
+  txt = "";
+  floor =   roomid = xmlDoc.getElementsByTagName('floor');
+  roomid = xmlDoc.getElementsByTagName("roomid");
+  xcord = xmlDoc.getElementsByTagName("xcord");
+  ycord = xmlDoc.getElementsByTagName("ycord");
+ 
+  for (i = 0; i< roomid.length; i++) {
+    txt += '<tr><th style="width: 100px">' + roomid[i].childNodes[0].nodeValue 
+	+ '</th><th style="width: 100px"> ' 
+	 + xcord[i].childNodes[0].nodeValue + '</th><th style="width: 100px; font: ariel">'  
+	+ ycord[i].childNodes[0].nodeValue + '</th></tr>';
+  }
+
+  document.getElementById("demo").innerHTML = table1 + txt + table2;
+
+}
+
+
+
+
+
+</script>
 										
 										
 										<input id="searchfield"type="text" name="roomid" placeholder="ROOM ID"></input>
@@ -77,7 +136,11 @@
 										</div>
 										
 									</form>
+									
+									
 						</div>
+						
+						
 					</div>
 					
 
