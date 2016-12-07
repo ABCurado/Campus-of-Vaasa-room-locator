@@ -9,7 +9,6 @@
 	$floor = $xml -> getElementsByTagName("floor")->item($floorno);
 	$roomids = $xml -> getElementsByTagName("roomid");
 	
-	print_r("WHAT!");
 	// new node
 	$elem = $xml->createElement("room");
 	
@@ -22,25 +21,29 @@
 	$elem->appendChild($child2);
 	
 	$i = 0;
-	
+	$flag = false;
 	for($i=0; $i < $roomids -> length; $i++){
 		
 		if($roomid == $roomids -> item($i) -> textContent){
+			$flag=true;
+			
 			$nodeToReplace = $roomids -> item($i) -> parentNode;
 		
 			//now remove
-			if($nodeToReplace != null){
+			
 			$nodeToReplace -> parentNode -> replaceChild($elem, $nodeToReplace);
 			print_r("Replaced");
-			}
-			else{
-			$floor->appendChild($elem);
-			print_r("Added");
-			}
 			
 			$xml->save("roomdb.xml");
-			}
 		}
+		
+	}
+	
+	if($flag == false){
+		$floor -> appendChild($elem);
+		print_r("Added");
+	}
+	
 	$xml->formatOutput = true;
 	$xml->save("roomdb.xml");
 	
