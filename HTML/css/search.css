@@ -57,7 +57,7 @@ li:nth-child(even) {
     transition: width 0.4s ease-in-out;
     display: block;
     margin: 0 auto;
-    text-align:center;
+    text-align: center;
 }
 
 #dropdown-div-uni {
@@ -81,32 +81,31 @@ span.glyphicon-menu-hamburger {
 /* nav bar styling */
 
 input[type=text] {
-width: 80%;
-box-sizing: border-box;
-border: 2px solid #ccc;
-border-radius: 5px;
-font-size: 24px;
-background-color: white;
-background-image: url('../img/searchicon.png');
-background-position: 15px 50%; 
-background-repeat: no-repeat;
-padding: 12px 20px 12px 40px;
--webkit-transition: width 0.4s ease-in-out;
-transition: width 0.4s ease-in-out;
-height:100px;
-text-align: center;
-
-
+    width: 80%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 24px;
+    background-color: white;
+    background-image: url('../img/searchicon.png');
+    background-position: 15px 50%;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    height: 100px;
+    text-align: center;
 }
+
 #search {
-	position:relative;
-	left:10%;
+    position: relative;
+    left: 10%;
     display: block;
-	background-color: white;
+    background-color: white;
     opacity: 0.5;
     width: 80%;
-	
 }
+
 input {
     display: block;
     margin: auto;
@@ -128,26 +127,23 @@ input {
     height: auto;
     width: auto;
     max-width: 150px;
-   /*max-height: 150px;*/
+    /*max-height: 150px;*/
     vertical-align: middle;
     margin: auto;
     position: relative;
     display: block;
     margin-bottom: 3vh;
 }
-#title{
-	height: auto;
-    width: auto;
-    max-width: 225px;
+
+#title {
+    text-align: center;
     max-height: 200px;
     vertical-align: middle;
     margin: auto;
     position: relative;
-    display: block;
     margin-bottom: 3vh;
+    font-size: 40px;
 }
-
-
 
 
 /* More details on issue #2 */
