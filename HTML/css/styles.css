@@ -100,14 +100,14 @@ ul.navbar-right li {
     height: 100%;
 }
 
-.fixed {
-    position: fixed;
+.abs {
+    position: absolute;
     z-index: 999;
 }
 
 .floor-pagination {
-    right: 10%;
-    top: 20%;
+    left: 10%;
+    top: 10%;
 }
 
 
@@ -208,10 +208,6 @@ span.glyphicon-menu-hamburger {
     margin: 0;
 }
 
-#header {
-    padding: 0;
-    margin: 0;
-}
 
 
 /* Style the tab content */
@@ -233,7 +229,7 @@ span.glyphicon-menu-hamburger {
     overflow: hidden;
     position: relative;
     /*transform: rotate(90deg);*/
-    top: 20%;
+ 
 }
 
 #mark {
@@ -271,6 +267,7 @@ span.glyphicon-menu-hamburger {
 }
 
 #schoolname {
+	margin: 0;
     font-size: 3em;
     text-align: center;
 }

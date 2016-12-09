@@ -10,7 +10,7 @@ $q=$_GET["q"];
 //lookup all links from the xml file if length of q>0
 if (strlen($q)>0) {
   $hint="";
-  for($i=0; $i<($x->length); $i++) {
+  for($i=0; $i<10; $i++) {
 	$y=$x->item($i)->getElementsByTagName('roomid');
 	//$z=$x->item($i)->getElementsByTagName('organization');
     if ($y->item(0)->nodeType==1) {
