@@ -202,7 +202,7 @@ function init(){
 	
 	
 	// get roomid from URL and put it in header
-	var roomid = GetURLParameter("roomid")toUpperCase();
+	var roomid = GetURLParameter("roomid").toUpperCase();
 	document.getElementById("roomid").innerHTML = roomid;
 
 	//initialise variables
