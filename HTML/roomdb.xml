@@ -2,13 +2,13 @@
 <data>
   <university id="novia" name="Novia">
     <building name="R">
-		<floor no="0" img="img/novia/f0.png">
-			<room>
-				<roomid>R000</roomid>
-				<xcord>50</xcord>
-				<ycord>50</ycord>
-			</room>
-		</floor>
+      <floor no="0" img="img/novia/f0.png">
+        <room>
+          <roomid>R000</roomid>
+          <xcord>50</xcord>
+          <ycord>50</ycord>
+        </room>
+      </floor>
       <floor no="1" img="img/novia/f1.png">
         <room>
           <roomid>R110</roomid>
@@ -306,8 +306,8 @@
         </room>
         <room>
           <roomid>R316</roomid>
-          <xcord>66</xcord>
-          <ycord>24</ycord>
+          <xcord>81.43</xcord>
+          <ycord>36.56</ycord>
         </room>
         <room>
           <roomid>R317</roomid>
@@ -330,13 +330,13 @@
           <ycord>77</ycord>
         </room>
       </floor>
-	  <floor no="4" img="img/novia/f4.png">
-			<room>
-				<roomid>R400</roomid>
-				<xcord>50</xcord>
-				<ycord>50</ycord>
-			</room>
-		</floor>
+      <floor no="4" img="img/novia/f4.png">
+        <room>
+          <roomid>R400</roomid>
+          <xcord>50</xcord>
+          <ycord>50</ycord>
+        </room>
+      </floor>
     </building>
   </university>
   <university id="vamk" name="VAMK">
