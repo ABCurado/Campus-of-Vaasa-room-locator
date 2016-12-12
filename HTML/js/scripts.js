@@ -73,6 +73,8 @@ function getRoom(xml, roomid) {
 	}
 	
 	// Get all floors and use floor number to choose right floor
+	
+	console.log(rooms[i]);
 	var floorno = rooms[i].parentElement.attributes[0].nodeValue;
 	
 	// set return variable
@@ -237,6 +239,7 @@ function init(){
 			newLi.setAttribute("class", "floorpag f"+i);
 			document.getElementById("pagination").appendChild(newLi);
 			
+			newA.setAttribute("id", "pagf"+i);
 			newA.setAttribute("class", "floorlinks");
 			newA.setAttribute("onclick", "switchPlans(event, 'f"+i+"')");
 			newA.innerHTML = i;
@@ -277,6 +280,8 @@ function init(){
 		document.getElementById("mark").style.top = Yperc +"%";
 		//set university name
 		document.getElementById("schoolname").innerHTML = uni;
+		
+		document.getElementById("pagf"+floor).className += " bordered";
 		}
 		
 				

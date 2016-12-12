@@ -22,7 +22,7 @@ body {
     padding: 0px;
     border: 0px;
     color: #333;
-    background: red;
+   
     /* For browsers that do not support gradients */
     background: -webkit-linear-gradient(#279bfd, #e0e0e0);
     /* For Safari 5.1 to 6.0 */
@@ -228,6 +228,7 @@ span.glyphicon-menu-hamburger {
 #map-wrapper {
     overflow: hidden;
     position: relative;
+	top: 20%;
     /*transform: rotate(90deg);*/
  
 }
@@ -275,6 +276,17 @@ span.glyphicon-menu-hamburger {
 .floorlinks{
 	white-space: nowrap;
 }
+.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover {
+    z-index: 2;
+    color: #23527c;
+    background-color: rgb(39, 155, 253);
+  
+}
+.floorlinks.bordered{
+	border-color: black;
+}
+
+
 /*
 @media only screen and (min-width: 768px) {
     h1{

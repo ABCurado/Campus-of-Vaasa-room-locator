@@ -8,6 +8,11 @@
           <xcord>50</xcord>
           <ycord>50</ycord>
         </room>
+        <room>
+          <roomid>R011</roomid>
+          <xcord>34.87</xcord>
+          <ycord>71.22</ycord>
+        </room>
       </floor>
       <floor no="1" img="img/novia/f1.png">
         <room>
@@ -335,6 +340,11 @@
           <roomid>R400</roomid>
           <xcord>50</xcord>
           <ycord>50</ycord>
+        </room>
+        <room>
+          <roomid>R410</roomid>
+          <xcord>84.02</xcord>
+          <ycord>75.44</ycord>
         </room>
       </floor>
     </building>

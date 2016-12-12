@@ -123,7 +123,7 @@ input[type=text] {
     padding: 12px 20px 12px 40px;
     -webkit-transition: width 0.4s ease-in-out;
     transition: width 0.4s ease-in-out;
-    height: 100px;
+    height: 80px;
     text-align: center;
 }
 
@@ -134,6 +134,7 @@ input[type=text] {
     background-color: white;
     opacity: 0.5;
     width: 80%;
+	font-size: 2.5em;
 }
 
 input {
