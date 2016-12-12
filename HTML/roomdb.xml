@@ -330,6 +330,13 @@
           <ycord>77</ycord>
         </room>
       </floor>
+	  <floor no="4" img="img/novia/f4.png">
+			<room>
+				<roomid>R400</roomid>
+				<xcord>50</xcord>
+				<ycord>50</ycord>
+			</room>
+		</floor>
     </building>
   </university>
   <university id="vamk" name="VAMK">
