@@ -222,7 +222,7 @@ function init(){
 		Xperc = values.xcord;
 		Yperc = values.ycord;
 		
-		var floor = values.floor -1;
+		var floor = values.floor;
 		//console.log(floor);
 		
 		
@@ -239,7 +239,7 @@ function init(){
 			
 			newA.setAttribute("class", "floorlinks");
 			newA.setAttribute("onclick", "switchPlans(event, 'f"+i+"')");
-			newA.innerHTML = i+1;
+			newA.innerHTML = i;
 			document.getElementById("pagination").children[i].appendChild(newA);
 			
 			var newDiv = document.createElement("div");
@@ -288,7 +288,7 @@ function init(){
 		/*
 				Set images
 		*/
-	for(var i = 1; i<floors+1; i++){
+	for(var i = 0; i<floors; i++){
 		var floor = "f" + i;
 		var imgsrc = "img/"+ floor + ".JPG";
 		
