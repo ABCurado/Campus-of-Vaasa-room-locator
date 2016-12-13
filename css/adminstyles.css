@@ -20,6 +20,9 @@ body{
 	
 }
 
+.row{
+	margin: 0;
+}
 
 .container{
 	margin: 0;
@@ -28,6 +31,7 @@ body{
 }
 .content{
 	padding: 6px;
+	min-height:900px;
 }
 
 
@@ -86,16 +90,10 @@ ul.tab li a:focus, .active {background-color: #ccc;}
 }
 
 .plans{
-	position: relative;
-	display: inline-block;
+	position: absolute;
+	width: 70%;
+	right: 5%;
 }
-
-
-.map1{
-position: relative;
-width: 100%;
-}
-
 
 
 #mark{
@@ -122,5 +120,4 @@ position:relative;
 top: 40%;
 display: block;
 }
-
 

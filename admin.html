@@ -29,16 +29,7 @@
 	
     <link rel="stylesheet" href="css/adminstyles.css?v=1.0">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<script>
-$(document).ready(function(){
-    $("button").click(function(){
-        $("#toggle").toggle();
-    });
-});
 
-
-
-</script>
 </head>
 
 <body onload="initAdmin()">
@@ -66,9 +57,28 @@ $(document).ready(function(){
 					<!-- Menu Content -->
 					<div id="addRoom" class="right tabcontent">
 						<div class="content">
+							<div class="plans">
+										<img id="map" class="img-responsive" src="img/novia/f1.png"></img>
+										<img id="mark" src="img/ball.png"></img>
+							</div>	
 							
-									<form method="POST" action="addRoom.php">
+							<form>
 										
+										University
+										<select id="uselect" name="university">
+											<option value="0">Novia</option>
+											<option value="1">VAMK</option>
+											<option value="2">uwasa</option>
+											<option value="3">Technobotnia</option>
+											<option value="4">Åbo Akademy</option>
+										</select>
+										<br>
+										Building
+										<select id="bselect" name="building">
+											<option value="0">b1</option>
+											<option value="1">b2</option>
+										</select>
+										<br>
 										Floor
 										<select id="fselect" name="floor" onchange="changePlans()">
 											<option value="0">f0</option>
@@ -76,77 +86,21 @@ $(document).ready(function(){
 											<option value="2">f2</option>
 											<option value="3">f3</option>
 											<option value="4">f4</option>
-										</select>
-										<h2>List all rooms in roomdb.xml database:</h2>
-
-<button type="button" onclick="loadXMLDoc()">
-Double-click to show all rooms</button>
-
-<div id="toggle"><p id="demo">
-
-</p></div>
-
-<script>
-function loadXMLDoc() {
-  var xmlhttp = new XMLHttpRequest();
-  xmlhttp.onreadystatechange = function() {
-    if (this.readyState == 4 && this.status == 200) {
-      myFunction(this);
-    }
-  };
-  xmlhttp.open("GET", "roomdb.xml", true);
-  xmlhttp.send();
-}
-
-function myFunction(xml) {
-  var roomid, floor, y, i, xmlDoc, txt, table1, table2;
-  xmlDoc = xml.responseXML;
-  table1='<table style="font-family: sans-serif">';
-  table2="</table>";
-  txt = "";
-  floor =   roomid = xmlDoc.getElementsByTagName('floor');
-  roomid = xmlDoc.getElementsByTagName("roomid");
-  xcord = xmlDoc.getElementsByTagName("xcord");
-  ycord = xmlDoc.getElementsByTagName("ycord");
- 
-  for (i = 0; i< roomid.length; i++) {
-    txt += '<tr><th style="width: 100px">' + roomid[i].childNodes[0].nodeValue 
-	+ '</th><th style="width: 100px"> ' 
-	 + xcord[i].childNodes[0].nodeValue + '</th><th style="width: 100px; font: ariel">'  
-	+ ycord[i].childNodes[0].nodeValue + '</th></tr>';
-  }
-
-  document.getElementById("demo").innerHTML = table1 + txt + table2;
-
-}
-
-
-
-
-
-</script>
+										</select>								
 										
-										
-										<input id="searchfield"type="text" name="roomid" placeholder="ROOM ID"></input>
+										<input id="roomid"type="text" name="roomid" placeholder="ROOM ID"></input>
 											
-										<input type="submit" value="Submit" onclick="window.location='/admin.html';"></input>
+										<input id=submit type="submit" value="Submit"></input>
 										<h4>x coordinate</h4><input type="text" name="x" id="xcord" readonly="true"> </input>
 										<h4>y coordinate</h4><input type="text" name="y" id="ycord" readonly="true"> </input>
-										<div class="plans">
-											<img id="map" class="img-responsive" src="img/novia/f1.png"></img>
-											<img id="mark" src="img/ball.png"></img>
-										</div>
-										
-									</form>
+							</form>
 									
-									
+							
 						</div>
-						
-						
 					</div>
 					
 
-					<div id="remRoom" class="right tabcontent">
+							<div id="remRoom" class="right tabcontent">
 							  <h3>Remove Room</h3>
 							  <form method="POST" action="remove.php"><br>
 								<input type="text" name="roomid" placeholder="roomId">
@@ -187,6 +141,7 @@ function myFunction(xml) {
 	
 
   <script src="js/scripts.js"></script>
+  <script src="js/ajax.js"></script>
   <script src="js/coordinates.js"></script>
 </body>
 </html>

@@ -1,14 +1,19 @@
+
+
 /* change floorplans in add room panel */
 function changePlans(){
 	
-	var select = document.getElementById("fselect").value;
+	var uselect = document.getElementById("uselect").value;
+	var fselect = document.getElementById("fselect").value;
 	var imgs;
+	
+	console.log(uselect);
 	
 	var xhttp = new XMLHttpRequest();
 	xhttp.onreadystatechange = function() {
 		if (this.readyState == 4 && this.status == 200) {
-			imgs = getImgs(this, "novia");
-			document.getElementById("map").setAttribute("src", imgs[select]);
+			imgs = getImgs(this, uselect);
+			document.getElementById("map").setAttribute("src", imgs[fselect]);
 			}
 		}
 	xhttp.open("GET", "roomdb.xml", true);
@@ -25,8 +30,7 @@ function initAdmin(){
 	
 	xhttp.onreadystatechange = function() {
 		if (this.readyState == 4 && this.status == 200) {
-			imgs = getImgs(this, "novia");
-			console.log(imgs);
+			
 			}
 		}	
 	xhttp.open("GET", "roomdb.xml", true);
@@ -76,7 +80,7 @@ function getRoom(xml, roomid) {
 	
 	console.log(rooms[i]);
 	var floorno = rooms[i].parentElement.attributes[0].nodeValue;
-	
+	console.log(floorno);
 	// set return variable
 	var returnFloorno = floorno;
 	floors = xmlDoc.getElementsByTagName("floor");
@@ -265,6 +269,7 @@ function init(){
 			plans[i].style.display = "none";
 		    }
 			
+		console.log(floor);
 		document.getElementById("f"+floor).className += " active";
 		document.getElementById("f"+floor).style.display = "block";
 		
@@ -311,13 +316,13 @@ function getImgs(xml, university) {
 				var xmlDoc = xml.responseXML;
 				var imgs = [];
 				
-				var uni = xmlDoc.getElementById(university);
+				var uni = xmlDoc.getElementsByTagName("university")[university];
 				//console.log(university);
 				var floors = uni.getElementsByTagName("floor");
 				
 				for(var i = 0; i<=floors.length-1; i++){
 					imgs[i] = floors[i].attributes[1].nodeValue;
-					//console.log(imgs[i]);
+					console.log(imgs[i]);
 				}
 				return imgs;
 				

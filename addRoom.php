@@ -3,18 +3,25 @@
 	$xml->preserveWhiteSpace = false;
 	$xml->load("roomdb.xml");
 	
+	$universityno = $_POST["university"];
+	$building = $_POST["building"];
 	$floorno = $_POST["floor"];
 	$roomid = $_POST["roomid"];
 	
-	$floor = $xml -> getElementsByTagName("floor")->item($floorno);
-	$roomids = $xml -> getElementsByTagName("roomid");
+	$university = $xml -> getElementsByTagName("university")->item($universityno);
+	 
+	$building = $university -> getElementsByTagName("building") -> item($building);
+	
+	$floor = $building -> getElementsByTagName("floor")->item($floorno);
+
+	$roomids = $floor -> getElementsByTagName("roomid");
 	
 	// new node
 	$elem = $xml->createElement("room");
 	
 	$child0 = $xml->createElement("roomid",$roomid);
-	$child1 = $xml->createElement("xcord",$_POST["x"]);
-	$child2 = $xml->createElement("ycord",$_POST["y"]);
+	$child1 = $xml->createElement("xcord",$_POST["xcord"]);
+	$child2 = $xml->createElement("ycord",$_POST["ycord"]);
 	
 	$elem->appendChild($child0);
 	$elem->appendChild($child1);
