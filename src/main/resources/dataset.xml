@@ -1,0 +1,57 @@
+<!DOCTYPE dataset SYSTEM "dataset.dtd">
+<dataset>
+  <organization id="1"
+                name="Novia" />
+  <area id="1"
+        name="Novia building 1"
+        organization_id="1"
+        area_type_id="1" />
+
+  <area id="2"
+        name="Floor 1"
+        parent_area_id="1"
+        organization_id="1"
+        base_image="img/f1.JPG"
+        area_type_id="2" />
+
+  <area id="3"
+        name="C0083"
+        parent_area_id="2"
+        organization_id="1"
+        photo="novia1291.png"
+        area_type_id="3" />
+
+  <area id="4"
+        name="C0084"
+        parent_area_id="2"
+        organization_id="1"
+        photo="novia18290.png"
+        area_type_id="3" />
+
+  <area id="5"
+        name="Floor 2"
+        parent_area_id="1"
+        organization_id="1"
+        base_image="img/f2.JPG"
+        area_type_id="2" />
+
+  <area id="6"
+        name="C0085"
+        parent_area_id="5"
+        organization_id="1"
+        photo="novia3891.png"
+        area_type_id="3" />
+
+  <area id="7"
+        name="C0086"
+        parent_area_id="5"
+        organization_id="1"
+        photo="novia2789.png"
+        area_type_id="3" />
+
+  <coordinate id="1" latitude="50" longitude="60" area_id="3" />
+  <coordinate id="2" latitude="20" longitude="45" area_id="4" />
+  <coordinate id="3" latitude="38" longitude="76" area_id="6" />
+  <coordinate id="4" latitude="18" longitude="33" area_id="7" />
+
+</dataset>

@@ -1,0 +1,8 @@
+.idea
+Campus-of-Vaasa-room-locator.iml
+dependency-reduced-pom.xml
+roomlocator.iml
+todo
+target
+HTML/node_modules/
+HTML/npm-debug.log
