@@ -91,6 +91,15 @@ ul.navbar-right li {
     width: 100%;
 }
 
+#content-wrapper{
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+br{
+	margin-bottom: 1.5em;
+}
+
 .content {
     padding: 6px;
 }
@@ -286,6 +295,12 @@ span.glyphicon-menu-hamburger {
 	border-color: black;
 }
 
+#apptitle{
+	margin-left: 18%;
+	margin-top: 1%;
+	font-size: 1.5em;
+	width: 100%;
+}
 
 /*
 @media only screen and (min-width: 768px) {
