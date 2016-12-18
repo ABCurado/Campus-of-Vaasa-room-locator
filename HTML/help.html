@@ -26,10 +26,10 @@
         <div class="navbar-header"> &nbsp;
             <button class="btn btn-default navbar-btn dropdown-toggle " type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span> </button>
             <ul class="dropdown-menu" id="dropdown-btn-header">
-                <li><a href="search.html"><i class="glyphicon glyphicon glyphicon-search"></i>  Home</a></li>
-                <li> <a href="manual.html"><i class="glyphicon glyphicon-question-sign"></i> How to use</a></li>
-                <li><a href="about.html"><i class="glyphicon glyphicon-cog"></i> About</a></li>
-                <li><a href="help.html"><i class="glyphicon glyphicon-info-sign"></i> Help</a></li>
+              <li id="homeListElement"><a href="search.html"><i class="glyphicon glyphicon glyphicon-search"></i>  Home</a></li>
+              <li id="manualListElement"> <a href="manual.html"><i class="glyphicon glyphicon-question-sign"></i> How to use</a></li>
+              <li id="aboutListElement"><a href="about.html"><i class="glyphicon glyphicon-cog"></i> About</a></li>
+              <li id="helpListElement"><a href="help.html"><i class="glyphicon glyphicon-info-sign"></i> Help</a></li>
             </ul>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -55,24 +55,24 @@ HEADER ENDS & MAP STARTS
         <?php
   //if "email" variable is filled out, send email
   if (isset($_REQUEST['email']))  {
-  
+
   //Email information
   $admin_email = "vaasalocator16@gmail.com";
   $email = $_REQUEST['email'];
   $subject = $_REQUEST['subject'];
   $comment = $_REQUEST['comment'];
-  
+
   //send email
   mail($admin_email, "$subject", $comment, "From:" . $email);
-  
+
   //Email response
   echo "Thank you for contacting us!";
   }
-  
+
   //if "email" variable is not filled out, display the form
   else  {
 ?>
-            <form method="post"> Email:
+            <form id="contact-form" method="post"> Email:
                 <input name="email" type="text" />
                 <br /> Subject:
                 <input name="subject" type="text" />

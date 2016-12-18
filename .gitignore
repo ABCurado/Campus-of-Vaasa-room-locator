@@ -6,3 +6,4 @@ todo
 target
 HTML/node_modules/
 HTML/npm-debug.log
+tests/chromedriver.linux
